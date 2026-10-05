@@ -1,9 +1,9 @@
-# Si Perkasa — Peminjaman Kendaraan Dinas
+# SIPERKASA — Peminjaman Kendaraan Dinas
 
 Aplikasi web untuk **Dinas Kesehatan PPKB Kabupaten Purbalingga**: pegawai melihat ketersediaan armada, mengajukan
 peminjaman kendaraan dinas, dan memantau statusnya. Dibangun dengan Laravel 12 (monolith, Blade + Tailwind CSS v4).
 
-> **Status:** **role User (Pegawai)** dan **role Admin** (Beranda, Manajemen Kendaraan, Verifikasi Peminjaman, Manajemen Pegawai, Manajemen Admin) selesai; 148 test lulus. Panel admin di `/admin` (masuk dengan NIP + kata sandi; tidak ada halaman pendaftaran). Akun demo dev: NIP `199001012015011001` / `Admin@12345` (hanya untuk lokal, ganti sebelum produksi).
+> **Status:** **role User (Pegawai)** dan **role Admin** (Beranda, Manajemen Kendaraan, Verifikasi Peminjaman, Manajemen Pegawai, Manajemen Admin) selesai; 150 test lulus. Panel admin di `/admin` (masuk dengan NIP + kata sandi; tidak ada halaman pendaftaran). Akun demo dev: NIP `199001012015011001` / `Admin@12345` (hanya untuk lokal, ganti sebelum produksi).
 > Dokumen requirement: [`docs/SRS.md`](docs/SRS.md) · Status pengerjaan: [`docs/RTM.md`](docs/RTM.md)
 
 ## Fitur (role User)

@@ -108,7 +108,7 @@ BRD formal terpisah (misal stakeholder banyak/butuh sign-off resmi), user akan b
 > Isi bagian ini sesuai proyek. Contoh default di dalam kurung `()` — hapus/ganti sesuai kebutuhan.
 
 ```yaml
-project_name: "Si Perkasa — Peminjaman Kendaraan Dinas"
+project_name: "SIPERKASA — Peminjaman Kendaraan Dinas"
 client_type: "Instansi pemerintah daerah (Dinkes PPKB Kab. Purbalingga)"
 
 frontend:
@@ -160,7 +160,7 @@ non_functional_requirements:
 ## 6. KONTEKS PROYEK (isi manual per proyek)
 
 ```
-Nama Proyek       : Si Perkasa — Peminjaman Kendaraan Dinas
+Nama Proyek       : SIPERKASA — Peminjaman Kendaraan Dinas
 Client            : Dinas Kesehatan PPKB Kabupaten Purbalingga
 Deadline          : [Konfirmasi]
 Tujuan Bisnis Utama: Jadwal armada transparan, pengajuan peminjaman terstandar untuk pegawai terdaftar,
@@ -169,7 +169,7 @@ Dokumen Existing  : docs/SRS.md (draft v0.5), docs/RTM.md; prototipe HTML "index
                      desain Figma "DINKES FIX" (file key vvnnzaRdWrTlzN1BGseZzr) SUDAH DIARSIPKAN: docs/DESIGN.md,
                      docs/DESIGN-ADMIN.md, docs/DESIGN-USER.md, docs/design/ (pratinjau, teks, data mentah).
                      JANGAN panggil API Figma: kuota paket Starter habis (429, Retry-After ±4,6 hari) — baca arsip.
-Status            : Iterasi 1 (role User) dan iterasi 2 (role Admin, FR-A01..A06) selesai, 148 test lulus. Nama aplikasi: Si Perkasa. Panel admin sudah dicek visual (desktop dan 390px) lewat screenshot headless. Semua admin setara.
+Status            : Iterasi 1 (role User) dan iterasi 2 (role Admin, FR-A01..A06) selesai, 150 test lulus. Nama aplikasi: SIPERKASA. Panel admin sudah dicek visual (desktop dan 390px) lewat screenshot headless. Semua admin setara.
 Catatan Khusus    : - Jadwal per tanggal tanpa jam; lead time pengajuan 1 hari kerja (BR-02 di SRS).
                     - Banyak keputusan UI sengaja menyimpang dari Figma atas permintaan user: lihat SRS bagian 10.
                     - Pertanyaan terbuka untuk client: SRS bagian 11 (jam layanan, hari libur, ambulans, dll.).

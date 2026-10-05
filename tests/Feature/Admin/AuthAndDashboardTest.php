@@ -119,7 +119,7 @@ it('renders every admin page without errors', function () {
     }
 });
 
-it('shows the Si Perkasa brand on user and admin pages', function () {
-    $this->get('/')->assertSee('Si Perkasa');
-    $this->actingAs(adminUser())->get('/admin')->assertSee('Si Perkasa');
+it('shows the SIPERKASA brand on user and admin pages', function () {
+    $this->get('/')->assertSee('SIPERKASA');
+    $this->actingAs(adminUser())->get('/admin')->assertSee('SIPERKASA');
 });
