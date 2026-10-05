@@ -1,0 +1,55 @@
+# Manajemen Armada Kendaraan
+# 1280x1088
+
+[HEADER]
+  (1095,  14) 14/600  Admin Utama
+  ( 296,  18) 20/900  SI-ARMADA DINKES
+  (1097,  34) 10/400  Dinkes Purbalingga
+
+[KONTEN]
+  ( 296,  96) 32/700  Kelola Armada Kendaraan
+  (1083, 132) 14/600  Tambah Kendaraan
+  ( 296, 140) 16/400  Pantau dan kelola seluruh aset operasional Dinas Kesehatan.
+  ( 896, 221) 14/600  Status: Semua
+  (1058, 221) 14/600  Tipe: Semua Tipe
+  ( 355, 222) 14/400  Cari plat nomor atau tipe kendaraan...
+  ( 333, 315) 12/500  Tersedia
+  ( 656, 315) 12/500  Dalam Tugas
+  ( 978, 315) 12/500  Maintenance
+  ( 426, 459) 12/500  Ambulans Gawat Darurat
+  ( 746, 459) 12/500  Kendaraan Dinas Jabatan
+  (1081, 459) 12/500  Kendaraan Operasional
+  ( 317, 511) 20/600  R 1234 PA
+  ( 640, 511) 20/600  R 4567 ZA
+  ( 962, 511) 20/600  R 8899 BA
+  ( 317, 539) 14/400  Toyota Hiace Premio 2023
+  ( 640, 539) 14/400  Toyota Innova Zenix 2024
+  ( 962, 539) 14/400  Suzuki Ertiga 2021
+  ( 491, 588) 14/600  12 Okt 2024
+  ( 810, 588) 14/600  24 Jan 2025
+  (1093, 588) 14/700  Terlambat (5 Hari)
+  ( 337, 590) 12/500  Masa Pajak:
+  ( 660, 590) 12/500  Masa Pajak:
+  ( 985, 590) 12/500  Masa Pajak:
+  ( 379, 633) 14/600  Detail
+  ( 701, 633) 14/600  Detail
+  (1024, 633) 14/600  Detail
+  ( 385, 831) 14/600  Tambah Slot Baru
+  ( 358, 859) 14/400  Input data kendaraan baru ⏎ ke dalam sistem armada.
+  (1093, 997) 12/500  1
+  (1128, 997) 12/500  2
+  (1164, 997) 12/500  3
+  ( 339, 998) 12/500  Tersedia: 12
+  ( 450, 998) 12/500  Dalam Tugas: 8
+  ( 581, 998) 12/500  Maintenance: 2
+
+[SIDEBAR]
+  (  76,  32) 20/700  Dinkes PPKB
+  (  76,  60) 10/700  PURBALINGGA FLEET
+  (  62, 119) 14/600  Dashboard
+  (  62, 167) 14/600  Kelola Kendaraan
+  (  62, 215) 14/600  Manajemen Reservasi
+  (  64, 263) 14/600  Data Pegawai
+  (  62, 311) 14/600  Laporan
+  (  60, 359) 14/600  Profil Saya
+  (  62, 960) 14/600  Keluar

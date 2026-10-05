@@ -1,0 +1,34 @@
+# Detail & Edit Data Pegawai - Admin
+# 1280x1024
+
+[HEADER]
+  (1108,  20) 16/400  Purbalingga Fleet
+  ( 337,  22) 16/400  Search data...
+
+[KONTEN]
+  ( 296,  64) 16/400  Manajemen Pegawai
+  ( 474,  64) 16/700  Detail Pegawai
+  ( 353, 153) 16/400  Informasi Dasar
+  (1031, 165) 16/400  Simpan Perubahan
+  ( 329, 210) 16/400  Nama Lengkap
+  ( 615, 210) 16/400  NIP
+  (1072, 230) 16/400  Batal
+  ( 346, 251) 16/400  Agus Setiawan
+  ( 632, 251) 16/400  198503122010011005
+  ( 329, 300) 16/400  Jabatan / Pangkat
+  ( 615, 300) 16/400  Bidang / Unit Kerja
+  ( 346, 341) 16/400  Penata / IIIc
+  ( 632, 341) 16/400  Sekretariat
+  ( 329, 390) 16/400  Email Dinas
+  ( 346, 431) 16/400  agus.setiawan@purbalinggakab.go.id
+
+[SIDEBAR]
+  (  24,  32) 20/700  Dinkes PPKB
+  (  24,  60) 12/500  Purbalingga Fleet
+  (  54, 120) 14/600  Dashboard
+  (  54, 168) 14/600  Kelola Kendaraan
+  (  54, 216) 14/600  Manajemen Reservasi
+  (  56, 264) 14/700  Data Pegawai
+  (  54, 312) 14/600  Laporan
+  (  52, 360) 14/600  Profil Saya
+  (  54, 960) 14/600  Keluar

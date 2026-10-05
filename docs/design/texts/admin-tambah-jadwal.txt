@@ -1,0 +1,60 @@
+# Tambah Jadwal Baru - Admin
+# 1280x1097
+
+[HEADER]
+  ( 308,  96) 12/500  Dashboard
+  ( 391,  96) 12/500  Booking
+  ( 458,  96) 12/700  Tambah Jadwal Baru
+  ( 308, 120) 32/700  Penjadwalan Kendaraan Dinas
+  ( 308, 164) 16/400  Silakan lengkapi formulir di bawah ini untuk memesan kendaraan dinas baru.
+
+[KONTEN]
+  ( 341, 253) 16/400  Pilih Kendaraan
+  ( 784, 253) 16/400  Nama Pengemudi
+  ( 358, 298) 16/400  Pilih unit kendaraan...
+  ( 825, 300) 16/400  Masukkan nama pengemudi...
+  ( 341, 384) 16/400  Tanggal Mulai
+  ( 555, 384) 16/400  Jam Mulai
+  ( 784, 384) 16/400  Tanggal Selesai
+  ( 998, 384) 16/400  Jam Selesai
+  ( 359, 429) 16/400  mm
+  ( 388, 429) 16/400  /
+  ( 395, 429) 16/400  dd
+  ( 415, 429) 16/400  /
+  ( 422, 429) 16/400  yyyy
+  ( 573, 429) 16/400  --
+  ( 588, 429) 16/400  :
+  ( 594, 429) 16/400  --
+  ( 613, 429) 16/400  --
+  ( 802, 429) 16/400  mm
+  ( 831, 429) 16/400  /
+  ( 838, 429) 16/400  dd
+  ( 858, 429) 16/400  /
+  ( 865, 429) 16/400  yyyy
+  (1016, 429) 16/400  --
+  (1031, 429) 16/400  :
+  (1037, 429) 16/400  --
+  (1056, 429) 16/400  --
+  ( 341, 515) 16/400  Tujuan Perjalanan
+  ( 784, 515) 16/400  Keperluan Dinas
+  ( 801, 560) 16/400  Deskripsi singkat agenda dinas...
+  ( 382, 562) 16/400  Kota atau lokasi spesifik...
+  ( 341, 652) 16/400  Catatan Tambahan 
+  (1109, 656) 12/500  0/200 karakter
+  ( 488, 658) 12/400  (Opsional)
+  ( 358, 697) 16/400  Informasi tambahan seperti kebutuhan BBM, tol, atau penginapan pengemudi...
+  ( 890, 865) 16/400  Batal
+  (1040, 865) 16/400  Simpan Jadwal
+  ( 361, 984) 14/700  Penting:
+  ( 361,1008) 14/400  Setiap pengajuan jadwal akan melalui sistem verifikasi ketersediaan armada otomatis. Pastikan data yang dimasukkan sudah ⏎ benar sesuai dengan Surat Perintah Tugas (SPT).
+
+[SIDEBAR]
+  (  76,  38) 20/700  Dinkes PPKB
+  (  76,  66) 10/400  PURBALINGGA FLEET
+  (  65, 134) 14/600  Dashboard
+  (  62, 185) 14/600  Kelola Kendaraan
+  (  62, 237) 14/600  Manajemen Reservasi
+  (  64, 289) 14/600  Data Pegawai
+  (  62, 341) 14/600  Laporan
+  (  60, 393) 14/600  Profil Saya
+  (  62,1033) 14/700  Keluar

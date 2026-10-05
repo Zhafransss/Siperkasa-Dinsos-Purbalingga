@@ -1,0 +1,260 @@
+FRAME "Manajemen Pegawai & Verifikasi NIP"  1280x1070  fill=#ffffff  V  pad=64/0/70/256
+  FRAME "Main Content"  1024x936  V gap=32  pad=40/40/40/40
+    FRAME "Page Header & Actions"  944x64  H gap=182
+      FRAME "Container"  411x64  V
+        FRAME "Heading 2"  411x40  V
+          TEXT "Text"  318x40  32px/700  #002a5d  "Manajemen Pegawai"
+        FRAME "Container"  411x24  V
+          TEXT "Text"  411x24  16px/400  #434751  "Kelola basis data staf untuk operasional armada dinas."
+      FRAME "Container"  341x38  H gap=12
+        FRAME "Button"  133x38  stroke=#002a5d 1px  r=8  H gap=7.99  pad=8/16/8/16
+          FRAME "Container"  16x20  V
+            VECTOR "Icon"  16x20  fill=#002a5d
+          TEXT "Text"  75x20  14px/600  #002a5d  "Impor Data"
+        FRAME "Button"  195x36  fill=#002a5d  r=8  H gap=7.99  pad=8/24/8/24
+          RECTANGLE "Button:shadow"  195x36  fill=#ffffff @0.00  r=8  shadow
+          FRAME "Container"  22x16  V
+            VECTOR "Icon"  22x16  fill=#ffffff
+          TEXT "Text"  117x20  14px/600  #ffffff  "Tambah Pegawai"
+    FRAME "Dashboard Stats (Institutional Bento Look)"  944x115  H gap=24
+      FRAME "Overlay+Border+Shadow+OverlayBlur"  218x110  fill=#ffffff @0.85  stroke=#c3c6d2 1px  r=8  V gap=4  pad=16/16/16/16  shadow
+        FRAME "Container"  184x16  H gap=56.14
+          FRAME "Container"  104x16  V
+            TEXT "Text"  104x16  12px/500  #434751  "TOTAL PEGAWAI"
+          FRAME "Container"  24x12  V
+            VECTOR "Icon"  24x12  fill=#002a5d
+        FRAME "Container"  184x36  V  pad=4/0/0/0
+          TEXT "142"  184x32  24px/600  #002a5d  "142"
+        FRAME "Container"  184x16  V
+          TEXT "+3 Bulan ini"  184x16  12px/500  #22c55e  "+3 Bulan ini"
+      FRAME "Overlay+Border+Shadow+OverlayBlur"  218x114  fill=#ffffff @0.85  stroke=#c3c6d2 1px  r=8  V gap=4  pad=16/16/16/16  shadow
+        FRAME "Container"  184x20  H gap=64.68
+          FRAME "Container"  95x16  V
+            TEXT "Text"  95x16  12px/500  #434751  "TERVERIFIKASI"
+          FRAME "Container"  16x20  V
+            VECTOR "Icon"  16x20  fill=#22c55e
+        FRAME "Container"  184x36  V  pad=4/0/0/0
+          TEXT "128"  184x32  24px/600  #002a5d  "128"
+        FRAME "Container"  184x16  V
+          TEXT "90.1% dari total"  184x16  12px/500  #434751  "90.1% dari total"
+      FRAME "Overlay+Border+Shadow+OverlayBlur"  218x115  fill=#ffffff @0.85  stroke=#c3c6d2 1px  r=8  V gap=4  pad=16/16/16/16  shadow
+        FRAME "Container"  184x21  H gap=83.12
+          FRAME "Container"  77x16  V
+            TEXT "Text"  77x16  12px/500  #434751  "MENUNGGU"
+          FRAME "Container"  19x21  V
+            VECTOR "Icon"  19x21  fill=#f59e0b
+        FRAME "Container"  184x36  V  pad=4/0/0/0
+          TEXT "14"  184x32  24px/600  #002a5d  "14"
+        FRAME "Container"  184x16  V
+          TEXT "Butuh validasi NIP"  184x16  12px/500  #f59e0b  "Butuh validasi NIP"
+      FRAME "Overlay+Border+Shadow+OverlayBlur"  218x112  fill=#ffffff @0.85  stroke=#c3c6d2 1px  r=8  V gap=4  pad=16/16/16/16  shadow
+        FRAME "Container"  184x18  H gap=83.28
+          FRAME "Container"  77x16  V
+            TEXT "Text"  77x16  12px/500  #434751  "UNIT KERJA"
+          FRAME "Container"  20x18  V
+            VECTOR "Icon"  20x18  fill=#002a5d
+        FRAME "Container"  184x36  V  pad=4/0/0/0
+          TEXT "8"  184x32  24px/600  #002a5d  "8"
+        FRAME "Container"  184x16  V
+          TEXT "Bidang aktif"  184x16  12px/500  #434751  "Bidang aktif"
+    FRAME "Table Section"  944x483  fill=#ffffff  stroke=#c3c6d2 1px  r=8  V  shadow
+      FRAME "HorizontalBorder"  942x71  stroke=#c3c6d2 1px  H gap=268.53  pad=16/16/16/16
+        FRAME "Container"  528x38  H gap=16
+          FRAME "Container"  320x38  V
+            FRAME "Input"  320x38  fill=#f1f4f9  stroke=#c3c6d2 1px  r=4  H  pad=9/16/10/40
+              FRAME "Container"  262x17  V
+                TEXT "Cari Nama atau NIP..."  262x17  14px/400  #6b7280  "Cari Nama atau NIP..."
+            FRAME "Container"  18x24  V
+              VECTOR "Icon"  18x18  fill=#737782
+          FRAME "Options"  192x38  fill=#f1f4f9  stroke=#c3c6d2 1px  r=4  V  pad=8/16/8/16
+            FRAME "image clip"  192x38  V  pad=8.5/9/8.5/162
+              FRAME "image"  21x21
+                VECTOR "Vector"  8x4  stroke=#6b7280 1.5749999284744263px
+            FRAME "Container"  158x20  V  pad=0/59.19/0/0
+              TEXT "Text"  99x20  14px/600  #181c20  "Semua Bidang"
+        FRAME "Button"  107x20  H gap=8
+          FRAME "Container"  18x12  V
+            VECTOR "Icon"  18x12  fill=#434751
+          TEXT "Text"  81x20  14px/600  #434751  "Filter Lanjut"
+      FRAME "Table"  942x346  V
+        FRAME "Header"  942x73  fill=#f1f4f9  V
+          FRAME "Row"  942x73  H
+            FRAME "Cell"  297x73  stroke=#c3c6d2 1px  V  pad=25.5/24/26/24
+              TEXT "Text"  58x20  14px/600  #434751  "Pegawai"
+            FRAME "Cell"  216x73  stroke=#c3c6d2 1px  V  pad=25.5/24/26/24
+              TEXT "Text"  97x20  14px/600  #434751  "NIP / Identitas"
+            FRAME "Cell"  151x73  stroke=#c3c6d2 1px  V  pad=16/24/16/24
+              TEXT "Text"  89x40  14px/600  #434751  "Bidang / Unit\nKerja"
+            FRAME "Cell"  150x73  stroke=#c3c6d2 1px  V  pad=16/24/16/24
+              TEXT "Text"  65x40  14px/600  #434751  "Status\nVerifikasi"
+            FRAME "Cell"  128x73  stroke=#c3c6d2 1px  V  pad=25.5/24/26/24
+              TEXT "Text"  30x20  14px/600  #434751  "Aksi"
+        FRAME "Body"  942x273  V gap=-1
+          FRAME "Row 1"  942x75  H
+            FRAME "Data"  249x40  H gap=12
+              FRAME "Background"  40x40  fill=#dbe3ed  r=12  H
+                TEXT "Text"  22x24  16px/700  #002a5d  "AS"
+              FRAME "Container"  197x40  V
+                FRAME "Container"  197x20  V
+                  TEXT "Text"  103x20  14px/600  #181c20  "Agus Setiawan"
+                FRAME "Container"  197x20  V
+                  TEXT "Text"  197x20  14px/400  #434751  "agus.s@purbalinggakab.go.id"
+            FRAME "Data"  240x75  V  pad=17.5/24/17.5/48
+              FRAME "Container"  168x24  V
+                TEXT "198503122010011005"  168x24  16px/400  #181c20  "198503122010011005"
+              FRAME "Container"  168x16  V
+                TEXT "Pangkat: Penata / IIIc"  168x16  12px/500  #434751  "Pangkat: Penata / IIIc"
+            FRAME "Data"  151x75  V  pad=26.5/24/24.5/24
+              FRAME "Background"  87x24  fill=#d7e2ff  r=12  H  pad=4/12/4/12
+                TEXT "Text"  63x16  12px/500  #0d458d  "Sekretariat"
+            FRAME "Data"  126x16  H gap=8  pad=0/0/0/24
+              FRAME "Container"  17x16  V
+                VECTOR "Icon"  17x16  fill=#22c55e
+              TEXT "Text"  71x16  12px/500  #22c55e  "Terverifikasi"
+            FRAME "Data"  128x37  H gap=8  pad=0/0/0/47.99
+              FRAME "Button"  31x37  V  pad=8/8/14/8
+                FRAME "Container"  15x15  H
+                  VECTOR "Icon"  15x15  fill=#434751
+              FRAME "Button"  29x37  V  pad=8/8/14/8
+                FRAME "Container"  13x15  H
+                  VECTOR "Icon"  13x15  fill=#434751
+          FRAME "Row 2"  942x100  stroke=#c3c6d2 1px  H
+            FRAME "Data"  249x40  H gap=12
+              FRAME "Background"  40x40  fill=#d7e2ff  r=12  H
+                TEXT "Text"  23x24  16px/700  #002a5d  "BN"
+              FRAME "Container"  195x40  V
+                FRAME "Container"  195x20  V
+                  TEXT "Text"  93x20  14px/600  #181c20  "Budi Nugraha"
+                FRAME "Container"  195x20  V
+                  TEXT "Text"  195x20  14px/400  #434751  "budi.n@purbalinggakab.go.id"
+            FRAME "Data"  240x99  V  pad=17.5/24/17.5/48
+              FRAME "Container"  168x48  V
+                TEXT "199207042018031002"  168x48  16px/400  #181c20  "199207042018031002"
+              FRAME "Container"  168x16  V
+                TEXT "Pangkat: Penata Muda / IIIa"  168x16  12px/500  #434751  "Pangkat: Penata Muda / IIIa"
+            FRAME "Data"  151x75  V  pad=26.5/24/24.5/24
+              FRAME "Background"  69x24  fill=#e0e3e8  r=12  H  pad=4/12/4/12
+                TEXT "Text"  45x16  12px/500  #434751  "Kesmas"
+            FRAME "Data"  126x32  H gap=8  pad=0/0/0/24
+              FRAME "Container"  15x15  V
+                VECTOR "Icon"  15x15  fill=#f59e0b
+              TEXT "Text"  62x32  12px/500  #f59e0b  "Menunggu\nValidasi"
+            FRAME "Data"  128x37  H gap=8  pad=0/0/0/47.99
+              FRAME "Button"  31x37  V  pad=8/8/14/8
+                FRAME "Container"  15x15  H
+                  VECTOR "Icon"  15x15  fill=#434751
+              FRAME "Button"  29x37  V  pad=8/8/14/8
+                FRAME "Container"  13x15  H
+                  VECTOR "Icon"  13x15  fill=#434751
+          FRAME "Row 3"  942x100  stroke=#c3c6d2 1px  H
+            FRAME "Data"  249x40  H gap=12
+              FRAME "Background"  40x40  fill=#dbe3ed  r=12  H
+                TEXT "Text"  22x24  16px/700  #002a5d  "DR"
+              FRAME "Container"  194x40  V
+                FRAME "Container"  194x20  V
+                  TEXT "Text"  89x20  14px/600  #181c20  "Dewi Rahayu"
+                FRAME "Container"  194x20  V
+                  TEXT "Text"  194x20  14px/400  #434751  "dewi.r@purbalinggakab.go.id"
+            FRAME "Data"  240x99  V  pad=17.5/24/17/48
+              FRAME "Container"  168x48  V
+                TEXT "198801252014022001"  168x48  16px/400  #181c20  "198801252014022001"
+              FRAME "Container"  168x16  V
+                TEXT "Pangkat: Penata Tk. I / IIId"  168x16  12px/500  #434751  "Pangkat: Penata Tk. I / IIId"
+            FRAME "Data"  151x75  V  pad=17.5/24/17/24
+              FRAME "Background"  103x40  fill=#d7e2ff  r=12  H  pad=4/19.34/4/12
+                TEXT "Text"  71x32  12px/500  #0d458d  "Pencegahan\nPenyakit"
+            FRAME "Data"  126x16  H gap=8  pad=0/0/0/24
+              FRAME "Container"  17x16  V
+                VECTOR "Icon"  17x16  fill=#22c55e
+              TEXT "Text"  71x16  12px/500  #22c55e  "Terverifikasi"
+            FRAME "Data"  128x37  H gap=8  pad=0/0/0/47.99
+              FRAME "Button"  31x37  V  pad=8/8/14/8
+                FRAME "Container"  15x15  H
+                  VECTOR "Icon"  15x15  fill=#434751
+              FRAME "Button"  29x37  V  pad=8/8/14/8
+                FRAME "Container"  13x15  H
+                  VECTOR "Icon"  13x15  fill=#434751
+      FRAME "Background"  942x64  fill=#f1f4f9  H gap=412.98  pad=16/16/16/16
+        FRAME "Container"  235x20  V
+          TEXT "Text"  235x20  14px/400  #434751  "Menampilkan 1-10 dari 142 pegawai"
+        FRAME "Container"  262x32  H gap=8
+          FRAME "Button"  32x32  stroke=#c3c6d2 1px  r=4  H
+            FRAME "Container"  7x12  V
+              VECTOR "Icon"  7x12  fill=#181c20
+          FRAME "Button"  32x32  fill=#002a5d  r=4  H  pad=5.5/0/6.5/0
+            TEXT "Text"  6x20  14px/600  #ffffff  "1"
+          FRAME "Button"  32x32  stroke=#c3c6d2 1px  r=4  H  pad=4.5/0/5.5/0
+            TEXT "Text"  9x20  14px/600  #181c20  "2"
+          FRAME "Button"  32x32  stroke=#c3c6d2 1px  r=4  H  pad=4.5/0/5.5/0
+            TEXT "Text"  9x20  14px/600  #181c20  "3"
+          FRAME "Container"  22x24  V  pad=0/4/0/4
+            TEXT "Text"  14x24  16px/400  #181c20  "..."
+          FRAME "Button"  32x32  stroke=#c3c6d2 1px  r=4  H  pad=4.5/0/5.5/0
+            TEXT "Text"  15x20  14px/600  #181c20  "15"
+          FRAME "Button"  32x32  stroke=#c3c6d2 1px  r=4  H
+            FRAME "Container"  7x12  V
+              VECTOR "Icon"  7x12  fill=#181c20
+    FRAME "Validation Info (Floating Help)"  944x98  fill=#d7e2ff  stroke=#acc7ff 1px  r=8  H gap=16  pad=16/16/16/16
+      FRAME "Background"  36x36  fill=#002a5d  r=12  V  pad=8/8/8/8
+        VECTOR "Icon"  20x20  fill=#acc7ff
+      FRAME "Container"  841x64  V gap=4
+        FRAME "Heading 4"  841x20  V
+          TEXT "Text"  168x20  14px/600  #001a40  "Validasi NIP Terintegrasi"
+        FRAME "Container"  841x40  V
+          TEXT "Text"  841x40  14px/400  #004591  "Sistem Si-Armada secara otomatis memvalidasi format NIP dan data kepegawaian dengan database internal Dinkes. Jika status\npegawai masih \"Menunggu Validasi\", pastikan NIP yang dimasukkan sudah benar sesuai SK terakhir."
+  FRAME "Header - TopNavBar Anchor"  1024x64  fill=#ffffff @0.80  stroke=#c3c6d2 1px  H gap=370.76  pad=0/40/0/40
+    FRAME "Container"  181x28  V
+      TEXT "Text"  181x28  20px/900  #002a5d  "Si-Armada Dinkes"
+    FRAME "Container"  386x44  H gap=24
+      FRAME "Background"  250x44  fill=#ebeef3  r=12  H gap=16  pad=4/12/4/12
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#737782
+        FRAME "Input"  192x36  V  pad=9/12/10/12
+          FRAME "Container"  168x17  V
+            TEXT "Cari NIP untuk validasi..."  168x17  14px/400  #6b7280  "Cari NIP untuk validasi..."
+      FRAME "Container"  112x32
+        FRAME "Button"  15x25  V  pad=0/0/6/0
+          FRAME "Container"  15x19  H
+            VECTOR "Icon"  15x19  fill=#434751
+        FRAME "Button"  19x25  V  pad=0/0/6/0
+          FRAME "Container"  19x19  H
+            VECTOR "Icon"  19x19  fill=#434751
+        FRAME "Background+Border"  32x32  fill=#d7e2ff  stroke=#c3c6d2 1px  r=12  H
+          FRAME "AB6AXuAPl188VukMqMWtaN7v2PmdU0fW2806RXUCcWTdSADOTpUVL_iMxe0U"  30x30  fill=IMAGE
+  FRAME "Aside - SideNavBar Anchor"  256x1024  fill=#f1f4f9  stroke=#c3c6d2 1px  V  pad=32/0/32/0
+    FRAME "Margin"  255x76  V  pad=0/0/32/0
+      FRAME "Container"  255x44  V  pad=0/24/0/24
+        FRAME "Heading 1"  207x28  V
+          TEXT "Dinkes PPKB"  207x28  20px/700  #002a5d  "Dinkes PPKB"
+        FRAME "Container"  207x16  V
+          TEXT "Purbalingga Fleet"  207x16  12px/500  #434751  "Purbalingga Fleet"
+    FRAME "Nav"  255x840  V gap=4
+      FRAME "Link"  255x44  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#40484f
+        TEXT "Text"  75x20  14px/600  #40484f  "Dashboard"
+      FRAME "Link"  255x44  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x16  V
+          VECTOR "Icon"  18x16  fill=#40484f
+        TEXT "Text"  120x20  14px/600  #40484f  "Kelola Kendaraan"
+      FRAME "Link"  255x44  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x20  V
+          VECTOR "Icon"  18x20  fill=#40484f
+        TEXT "Text"  152x20  14px/600  #40484f  "Manajemen Reservasi"
+      FRAME "Link - ACTIVE TAB: Data Pegawai"  255x44  fill=#dbe3ed  stroke=#002a5d 1px  H gap=12  pad=12/24/12/24
+        FRAME "Container"  20x20  V
+          VECTOR "Icon"  20x20  fill=#002a5d
+        TEXT "Text"  95x20  14px/700  #002a5d  "Data Pegawai"
+      FRAME "Link"  255x44  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#40484f
+        TEXT "Text"  56x20  14px/600  #40484f  "Laporan"
+      FRAME "Link"  255x44  H gap=12  pad=12/24/12/24
+        FRAME "Container"  16x16  V
+          VECTOR "Icon"  16x16  fill=#40484f
+        TEXT "Text"  74x20  14px/600  #40484f  "Profil Saya"
+    FRAME "Container"  255x44  V  pad=0/24/0/24
+      FRAME "Link"  207x44  H gap=12  pad=12/0/12/0
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#ba1a1a
+        TEXT "Text"  44x20  14px/600  #ba1a1a  "Keluar"

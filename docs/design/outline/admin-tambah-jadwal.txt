@@ -1,0 +1,190 @@
+FRAME "Tambah Jadwal Baru - Admin"  1280x1097  fill=#ffffff  V  pad=64/12/0/268
+  FRAME "Main Content Canvas"  1000x1033  V gap=32  pad=32/40/32/40
+    FRAME "Header Section"  920x92  V gap=4
+      FRAME "Nav"  920x16  H gap=8
+        FRAME "Link"  63x16  V
+          TEXT "Text"  63x16  12px/500  #434751  "Dashboard"
+        FRAME "Container"  4x7  V
+          VECTOR "Icon"  4x7  fill=#434751
+        FRAME "Link"  47x16  V
+          TEXT "Text"  47x16  12px/500  #434751  "Booking"
+        FRAME "Container"  4x7  V
+          VECTOR "Icon"  4x7  fill=#434751
+        FRAME "Container"  122x16  V
+          TEXT "Text"  122x16  12px/700  #002a5d  "Tambah Jadwal Baru"
+      FRAME "Heading 3"  920x44  V  pad=4/0/0/0
+        TEXT "Penjadwalan Kendaraan Dinas"  920x40  32px/700  #002a5d  "Penjadwalan Kendaraan Dinas"
+      FRAME "Container"  920x24  V
+        TEXT "Silakan lengkapi formulir di bawah ini untuk memesan kendara"  920x24  16px/400  #434751  "Silakan lengkapi formulir di bawah ini untuk memesan kendaraan dinas baru."
+    FRAME "Main Form Card"  920x715  fill=#ffffff @0.90  stroke=#c2c6d4 1px  r=8  V  shadow
+      FRAME "Container"  918x713  V gap=32  pad=32/32/32/32
+        FRAME "Form Section: Vehicle & Driver"  854x82  H gap=32
+          FRAME "Container"  411x82  V gap=8
+            FRAME "Label"  411x24  V
+              TEXT "Pilih Kendaraan"  411x24  16px/400  #434751  "Pilih Kendaraan"
+            FRAME "Container"  411x50  V
+              FRAME "Options"  411x50  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=12/16/12/16
+                FRAME "image clip"  411x50  V  pad=13/9/13/378
+                  FRAME "image"  24x24
+                    VECTOR "Vector"  10x5  stroke=#6b7280 1.8000000715255737px
+                FRAME "Container"  377x24  V
+                  TEXT "Pilih unit kendaraan..."  377x24  16px/400  #181c20  "Pilih unit kendaraan..."
+              FRAME "Container"  12x24  V
+                VECTOR "Icon"  12x7  fill=#434751
+          FRAME "Container"  411x81  V gap=8
+            FRAME "Label"  411x24  V
+              TEXT "Nama Pengemudi"  411x24  16px/400  #434751  "Nama Pengemudi"
+            FRAME "Container"  411x49  V
+              FRAME "Input"  411x49  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=14/40/14/40
+                FRAME "Container"  329x19  V
+                  TEXT "Masukkan nama pengemudi..."  329x19  16px/400  #6b7280  "Masukkan nama pengemudi..."
+              FRAME "Container"  16x24  V
+                VECTOR "Icon"  16x16  fill=#434751
+        FRAME "Form Section: Schedule Details"  854x99  stroke=#c3c6d2 1px  V  pad=16/0/0/0
+          FRAME "Container"  854x82  H gap=32
+            FRAME "Container"  411x82  H gap=16
+              FRAME "Container"  198x82  V gap=8
+                FRAME "Label"  198x24  V
+                  TEXT "Tanggal Mulai"  198x24  16px/400  #434751  "Tanggal Mulai"
+                FRAME "Input"  198x50  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=12/16/12/16
+                  FRAME "Container"  164x24  H
+                    FRAME "Container"  144x24  H
+                      FRAME "Paragraph"  101x24  H gap=1  pad=0/1/0/1
+                        TEXT "Spinbutton - Month → mm"  28x24  16px/400  #181c20  "mm"
+                        TEXT "Text"  6x24  16px/400  #181c20  "/"
+                        TEXT "Spinbutton - Day → dd"  20x24  16px/400  #181c20  "dd"
+                        TEXT "Text"  6x24  16px/400  #181c20  "/"
+                        TEXT "Spinbutton - Year → yyyy"  36x24  16px/400  #181c20  "yyyy"
+                    FRAME "Button menu"  20x20  V  pad=2/2/2/2
+                      FRAME "image"  16x15
+              FRAME "Container"  198x82  V gap=8
+                FRAME "Label"  198x24  V
+                  TEXT "Jam Mulai"  198x24  16px/400  #434751  "Jam Mulai"
+                FRAME "Input"  198x50  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=12/16/12/16
+                  FRAME "Container"  164x24  H gap=0
+                    FRAME "Container"  133x24  H
+                      FRAME "Paragraph"  57x24
+                        TEXT "Spinbutton - Hours → --"  15x24  16px/400  #181c20  "--"
+                        TEXT "Text"  5x24  16px/400  #181c20  ":"
+                        TEXT "Spinbutton - Minutes → --"  15x24  16px/400  #181c20  "--"
+                        TEXT "Spinbutton - AM/PM → --"  15x24  16px/400  #181c20  "--"
+                    FRAME "Button menu:margin"  31x23  V  pad=0/0/0/8
+                      FRAME "Button menu"  23x23  V  pad=3/3/3/3
+                        FRAME "image"  17x17
+            FRAME "Container"  411x82  H gap=16
+              FRAME "Container"  198x82  V gap=8
+                FRAME "Label"  198x24  V
+                  TEXT "Tanggal Selesai"  198x24  16px/400  #434751  "Tanggal Selesai"
+                FRAME "Input"  198x50  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=12/16/12/16
+                  FRAME "Container"  164x24  H
+                    FRAME "Container"  144x24  H
+                      FRAME "Paragraph"  101x24  H gap=1  pad=0/1/0/1
+                        TEXT "Spinbutton - Month → mm"  28x24  16px/400  #181c20  "mm"
+                        TEXT "Text"  6x24  16px/400  #181c20  "/"
+                        TEXT "Spinbutton - Day → dd"  20x24  16px/400  #181c20  "dd"
+                        TEXT "Text"  6x24  16px/400  #181c20  "/"
+                        TEXT "Spinbutton - Year → yyyy"  36x24  16px/400  #181c20  "yyyy"
+                    FRAME "Button menu"  20x20  V  pad=2/2/2/2
+                      FRAME "image"  16x15
+              FRAME "Container"  198x82  V gap=8
+                FRAME "Label"  198x24  V
+                  TEXT "Jam Selesai"  198x24  16px/400  #434751  "Jam Selesai"
+                FRAME "Input"  198x50  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=12/16/12/16
+                  FRAME "Container"  164x24  H gap=0
+                    FRAME "Container"  133x24  H
+                      FRAME "Paragraph"  57x24
+                        TEXT "Spinbutton - Hours → --"  15x24  16px/400  #181c20  "--"
+                        TEXT "Text"  5x24  16px/400  #181c20  ":"
+                        TEXT "Spinbutton - Minutes → --"  15x24  16px/400  #181c20  "--"
+                        TEXT "Spinbutton - AM/PM → --"  15x24  16px/400  #181c20  "--"
+                    FRAME "Button menu:margin"  31x23  V  pad=0/0/0/8
+                      FRAME "Button menu"  23x23  V  pad=3/3/3/3
+                        FRAME "image"  17x17
+        FRAME "Form Section: Mission Details"  854x105  stroke=#c3c6d2 1px  H gap=32  pad=16/0/0/0
+          FRAME "Container"  411x87  V gap=8  pad=0/0/6/0
+            FRAME "Label"  411x24  V
+              TEXT "Tujuan Perjalanan"  411x24  16px/400  #434751  "Tujuan Perjalanan"
+            FRAME "Container"  411x49  V
+              FRAME "Input"  411x49  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=14/40/14/40
+                FRAME "Container"  329x19  V
+                  TEXT "Kota atau lokasi spesifik..."  329x19  16px/400  #6b7280  "Kota atau lokasi spesifik..."
+              FRAME "Container"  16x24  V
+                VECTOR "Icon"  16x20  fill=#434751
+          FRAME "Container"  411x88  V gap=8  pad=0/0/6/0
+            FRAME "Label"  411x24  V
+              TEXT "Keperluan Dinas"  411x24  16px/400  #434751  "Keperluan Dinas"
+            FRAME "Textarea"  411x50  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=12/16/12/16
+              FRAME "Container"  377x24  V
+                TEXT "Deskripsi singkat agenda dinas..."  377x24  16px/400  #6b7280  "Deskripsi singkat agenda dinas..."
+        FRAME "Form Section: Additional Notes"  854x153  stroke=#c3c6d2 1px  V gap=8  pad=16/0/6/0
+          FRAME "Container"  854x24  H gap=563.27
+            FRAME "Label"  205x24
+              TEXT "Text"  147x24  16px/400  #434751  "Catatan Tambahan "
+              TEXT "Text"  58x16  12px/400  #434751  "(Opsional)"
+            FRAME "Container"  86x16  V
+              TEXT "Text"  86x16  12px/500  #434751  "0/200 karakter"
+          FRAME "Textarea"  854x98  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=12/16/60/16
+            FRAME "Container"  820x24  V
+              TEXT "Informasi tambahan seperti kebutuhan BBM, tol, atau penginap"  820x24  16px/400  #6b7280  "Informasi tambahan seperti kebutuhan BBM, tol, atau penginapan pengemudi..."
+        FRAME "Footer - Form Actions"  854x82  H gap=16  pad=32/0/0/0
+          FRAME "Button"  104x50  stroke=#002a5d 1px  r=4  V  pad=12/32/12/32
+            TEXT "Text"  38x24  16px/400  #002a5d  "Batal"
+          FRAME "Button"  218x48  fill=#002a5d  r=4  H gap=8  pad=12/40/12/40
+            RECTANGLE "Button:shadow"  218x48  fill=#ffffff @0.00  r=4  shadow
+            FRAME "Container"  15x15  V
+              VECTOR "Icon"  15x15  fill=#ffffff
+            TEXT "Text"  115x24  16px/400  #ffffff  "Simpan Jadwal"
+    FRAME "Info Alert"  920x98  fill=#ebeef3  stroke=#c3c6d2 1px  r=8  H gap=16  pad=16/16/16/16
+      FRAME "Container"  20x64  V
+        VECTOR "Icon"  20x20  fill=#002a5d
+      FRAME "Paragraph"  846x64  V gap=3.5  pad=0/23.95/0/0
+        TEXT "Text"  57x20  14px/700  #002a5d  "Penting:"
+        TEXT "Text"  822x40  14px/400  #434751  "Setiap pengajuan jadwal akan melalui sistem verifikasi ketersediaan armada otomatis. Pastikan data yang dimasukkan sudah\nbenar sesuai dengan Surat Perintah Tugas (SPT)."
+  FRAME "Aside - SIDE NAVIGATION"  256x1091  fill=#f7f9ff  stroke=#c3c6d2 1px  V  pad=32/0/32/0
+    FRAME "Margin"  255x83  V  pad=0/0/40/0
+      FRAME "Container"  255x43  H gap=12  pad=0/24/0/24
+        FRAME "Background"  40x40  fill=#003f87  r=8  H
+          FRAME "Container"  20x20  V
+            VECTOR "Icon"  20x20  fill=#0d458d
+        FRAME "Container"  125x43  V
+          FRAME "Heading 1"  125x28  V
+            TEXT "Text"  125x28  20px/700  #002a5d  "Dinkes PPKB"
+          FRAME "Container"  125x15  V
+            TEXT "Text"  113x15  10px/400  #737782  "PURBALINGGA FLEET"
+    FRAME "Nav"  255x900  V gap=8  pad=1.2/16/277/16
+      FRAME "Link - Dashboard Active"  212x42  fill=#dbe3ed  stroke=#002a5d 1px  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  17x17  V
+          VECTOR "Icon"  17x17  fill=#002a5d
+        FRAME "Container"  71x19  V
+          TEXT "Text"  71x19  14px/600  #002a5d  "Dashboard"
+      FRAME "Link"  223x45  r=4  H gap=12  pad=13.2/16/12/16
+        FRAME "Container"  18x16  V
+          VECTOR "Icon"  18x16  fill=#40484f
+        FRAME "Container"  120x20  V
+          TEXT "Text"  120x20  14px/600  #40484f  "Kelola Kendaraan"
+      FRAME "Link"  223x44  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  18x20  V
+          VECTOR "Icon"  18x20  fill=#40484f
+        FRAME "Container"  152x20  V
+          TEXT "Text"  152x20  14px/600  #40484f  "Manajemen Reservasi"
+      FRAME "Link"  223x44  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  20x20  V
+          VECTOR "Icon"  20x20  fill=#40484f
+        FRAME "Container"  94x20  V
+          TEXT "Text"  94x20  14px/600  #40484f  "Data Pegawai"
+      FRAME "Link"  223x44  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#40484f
+        FRAME "Container"  56x20  V
+          TEXT "Text"  56x20  14px/600  #40484f  "Laporan"
+      FRAME "Link"  223x44  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  16x16  V
+          VECTOR "Icon"  16x16  fill=#40484f
+        FRAME "Container"  74x20  V
+          TEXT "Text"  74x20  14px/600  #40484f  "Profil Saya"
+    FRAME "Container"  255x44  V  pad=0/16/0/16
+      FRAME "Button"  223x44  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#ba1a1a
+        FRAME "Container"  45x20  V
+          TEXT "Text"  45x20  14px/700  #ba1a1a  "Keluar"

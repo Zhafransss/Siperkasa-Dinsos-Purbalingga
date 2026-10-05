@@ -1,0 +1,72 @@
+# Manajemen Pegawai & Verifikasi NIP
+# 1280x1070
+
+[HEADER]
+  ( 296,  18) 20/900  Si-Armada Dinkes
+  ( 912,  23) 14/400  Cari NIP untuk validasi...
+  ( 834, 435) 14/600  Bidang / Unit ⏎ Kerja
+  ( 985, 435) 14/600  Status ⏎ Verifikasi
+  ( 321, 445) 14/600  Pegawai
+  ( 618, 445) 14/600  NIP / Identitas
+  (1185, 445) 14/600  Aksi
+
+[KONTEN]
+  ( 296, 104) 32/700  Manajemen Pegawai
+  ( 940, 139) 14/600  Impor Data
+  (1099, 139) 14/600  Tambah Pegawai
+  ( 296, 144) 16/400  Kelola basis data staf untuk operasional armada dinas.
+  ( 313, 217) 12/500  TOTAL PEGAWAI
+  (1039, 218) 12/500  UNIT KERJA
+  ( 555, 219) 12/500  TERVERIFIKASI
+  ( 797, 220) 12/500  MENUNGGU
+  ( 313, 241) 24/600  142
+  (1039, 243) 24/600  8
+  ( 555, 245) 24/600  128
+  ( 797, 246) 24/600  14
+  ( 313, 277) 12/500  +3 Bulan ini
+  (1039, 279) 12/500  Bidang aktif
+  ( 555, 281) 12/500  90.1% dari total
+  ( 797, 282) 12/500  Butuh validasi NIP
+  ( 666, 373) 14/600  Semua Bidang
+  (1142, 373) 14/600  Filter Lanjut
+  ( 354, 374) 14/400  Cari Nama atau NIP...
+  ( 373, 510) 14/600  Agus Setiawan
+  ( 618, 510) 16/400  198503122010011005
+  ( 330, 518) 16/700  AS
+  (1009, 522) 12/500  Terverifikasi
+  ( 846, 523) 12/500  Sekretariat
+  ( 373, 530) 14/400  agus.s@purbalinggakab.go.id
+  ( 618, 534) 12/500  Pangkat: Penata / IIIc
+  ( 618, 585) 16/400  199207042018031002
+  ( 373, 597) 14/600  Budi Nugraha
+  (1008, 601) 12/500  Menunggu ⏎ Validasi
+  ( 330, 605) 16/700  BN
+  ( 846, 610) 12/500  Kesmas
+  ( 373, 617) 14/400  budi.n@purbalinggakab.go.id
+  ( 618, 633) 12/500  Pangkat: Penata Muda / IIIa
+  ( 618, 684) 16/400  198801252014022001
+  ( 373, 695) 14/600  Dewi Rahayu
+  ( 846, 700) 12/500  Pencegahan ⏎ Penyakit
+  ( 330, 703) 16/700  DR
+  (1009, 707) 12/500  Terverifikasi
+  ( 373, 715) 14/400  dewi.r@purbalinggakab.go.id
+  ( 618, 732) 12/500  Pangkat: Penata Tk. I / IIId
+  (1125, 785) 16/400  ...
+  (1014, 786) 14/600  1
+  (1053, 786) 14/600  2
+  (1093, 786) 14/600  3
+  (1160, 786) 14/600  15
+  ( 313, 787) 14/400  Menampilkan 1-10 dari 142 pegawai
+  ( 365, 879) 14/600  Validasi NIP Terintegrasi
+  ( 365, 903) 14/400  Sistem Si-Armada secara otomatis memvalidasi format NIP dan data kepegawaian dengan database internal Dinkes. Jika status ⏎ pegawai masih "Menunggu Validasi", pastikan NIP yang dimasukkan sudah benar sesuai SK terakhir.
+
+[SIDEBAR]
+  (  24,  32) 20/700  Dinkes PPKB
+  (  24,  60) 12/500  Purbalingga Fleet
+  (  54, 120) 14/600  Dashboard
+  (  54, 168) 14/600  Kelola Kendaraan
+  (  54, 216) 14/600  Manajemen Reservasi
+  (  56, 264) 14/700  Data Pegawai
+  (  54, 312) 14/600  Laporan
+  (  52, 360) 14/600  Profil Saya
+  (  54, 960) 14/600  Keluar

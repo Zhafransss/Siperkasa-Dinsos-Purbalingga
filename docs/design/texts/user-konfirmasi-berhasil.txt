@@ -1,0 +1,24 @@
+# Konfirmasi Pengajuan Berhasil - Detail Pemohon & Waktu
+# 1280x1241
+
+[KONTEN]
+  ( 420, 288) 32/700  Pengajuan Berhasil Terkirim!
+  ( 365, 336) 16/400  Terima kasih telah menggunakan layanan peminjaman kendaraan ⏎ operasional. Tim administrasi kami akan segera meninjau permohonan ⏎ Anda. Anda dapat memantau progres pengajuan melalui dashboard akun ⏎ Anda.
+  ( 337, 497) 12/500  BOOKING ID
+  ( 813, 511) 12/500  Menunggu Verifikasi
+  ( 337, 513) 20/600  #BRV-202410-089
+  ( 385, 574) 12/500  Identitas Pemohon
+  ( 385, 590) 16/600  dr. Bambang Sulistyo, Sp.P
+  ( 385, 614) 14/400  NIP: 198811042012021001 • Bidang: P2P
+  ( 387, 650) 12/500  Tipe Kendaraan
+  ( 387, 666) 16/600  Toyota Innova Venturer (Z 1234 XY)
+  ( 387, 706) 12/500  Waktu Peminjaman
+  ( 387, 722) 16/600  2024-12-12 (08:00) s/d 2024-12-12 (16:00)
+  ( 446, 839) 14/600  Lihat Status Peminjaman
+  ( 697, 840) 14/600  Kembali ke Beranda
+  ( 442,1009) 20/600  Butuh Bantuan Cepat?
+  ( 837,1019) 20/600  Panduan Penggunaan
+  ( 442,1045) 14/400  Jika Anda memiliki kebutuhan mendesak atau ⏎ perubahan jadwal mendadak, silakan hubungi ⏎ bagian logistik kami untuk koordinasi prioritas.
+  ( 837,1055) 14/400  Pastikan Anda membawa surat ⏎ tugas dan SIM yang masih ⏎ berlaku saat pengambilan ⏎ kendaraan.
+  ( 462,1121) 14/600  Hubungi Admin Logistik
+  ( 837,1151) 12/500  Baca Selengkapnya

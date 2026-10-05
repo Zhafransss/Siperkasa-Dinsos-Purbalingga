@@ -1,0 +1,50 @@
+FRAME "Masuk Admin - Admin (Bahasa Indonesia)"  1280x811  fill=#ffffff  V
+  FRAME "Main Content Canvas"  1280x811  H  pad=96/0/48/0
+    RECTANGLE "Background Atmospheric Element (Optional CSS pattern)"  1280x808  fill=GRADIENT_RADIAL
+    FRAME "Container"  448x667  V gap=24
+      FRAME "Center Card"  448x639  fill=#ffffff  stroke=#c3c6d2 1px  r=8  V gap=32  pad=40/40/40/40
+        FRAME "Brand Header in Card"  366x184  V
+          FRAME "Img - Logo:margin"  80x104  V  pad=0/0/24/0
+            FRAME "Logo"  80x80  fill=IMAGE  shadow
+          FRAME "Heading 1:margin"  158x40  V  pad=0/0/8/0
+            FRAME "Heading 1"  158x32  V
+              TEXT "Text"  158x32  24px/600  #002a5d  "Masuk Admin"
+          FRAME "Container"  366x40  V  pad=0/8.22/0/8.2
+            TEXT "Text"  350x40  14px/400  #434751  "Silakan masukkan kredensial Anda untuk mengakses\npanel kontrol."
+        FRAME "Form"  366x252  V gap=24  pad=8/0/0/0
+          FRAME "ID Administrator"  366x74  V gap=8
+            FRAME "Label"  366x20  V
+              TEXT "ID Administrator"  366x20  14px/600  #434751  "ID Administrator"
+            FRAME "Container"  366x46  V
+              FRAME "Input"  366x46  fill=#f7f9ff  stroke=#c3c6d2 1px  r=4  H  pad=13/16/14/44
+                FRAME "Container"  304x17  V
+                  TEXT "Masukkan ID Anda"  304x17  14px/400  #6b7280  "Masukkan ID Anda"
+              FRAME "Container"  20x24  V
+                VECTOR "Icon"  20x20  fill=#737782
+          FRAME "Password"  366x74  V gap=8
+            FRAME "Container"  366x20  H gap=192.69
+              FRAME "Label"  74x20  V
+                TEXT "Text"  74x20  14px/600  #434751  "Kata Sandi"
+              FRAME "Link"  99x16  V
+                TEXT "Text"  99x16  12px/500  #002a5d  "Lupa Kata Sandi?"
+            FRAME "Container"  366x46  V
+              FRAME "Input"  366x46  fill=#f7f9ff  stroke=#c3c6d2 1px  r=4  H  pad=13/48/14/44
+                FRAME "Container"  272x17  V
+                  TEXT "••••••••"  272x17  14px/400  #6b7280  "••••••••"
+              FRAME "Container"  16x24  V
+                VECTOR "Icon"  16x21  fill=#737782
+              FRAME "Button"  22x21  V  pad=0/0/6/0
+                FRAME "Container"  22x15  H
+                  VECTOR "Icon"  22x15  fill=#737782
+          FRAME "Submit Button"  366x48  fill=#002a5d  r=4  H gap=8.01  pad=14/0/14/0
+            FRAME "Container"  145x20  V
+              TEXT "Text"  145x20  14px/600  #ffffff  "Masuk ke Dashboard"
+            FRAME "Container"  14x14  V
+              VECTOR "Icon"  14x14  fill=#ffffff
+        FRAME "Additional Security Notice"  366x57  stroke=#c3c6d2 1px  H gap=12  pad=24/0/0/0
+          FRAME "Container"  16x20  V
+            VECTOR "Icon"  16x20  fill=#22c55e
+          FRAME "Container"  330x32  V  pad=0/34.48/0/0
+            TEXT "Text"  296x32  12px/500  #434751  "Sesi masuk Anda dilindungi dengan enkripsi tingkat\nmiliter."
+      FRAME "Language/Back Link"  448x4  H
+        RECTANGLE "Background"  4x4  fill=#c3c6d2  r=12

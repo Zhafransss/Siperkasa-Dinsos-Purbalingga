@@ -1,0 +1,19 @@
+# Daftar Admin - Admin (Bahasa Indonesia)
+# 1280x1029
+
+[KONTEN]
+  ( 542, 233) 24/600  Registrasi Admin
+  ( 448, 273) 14/400  Buat akun administratif baru untuk portal dinas kesehatan.
+  ( 421, 328) 14/600  Nama Lengkap
+  ( 462, 365) 14/400  Nama Lengkap Anda
+  ( 421, 414) 14/600  NIP (Nomor Induk Pegawai)
+  ( 462, 451) 14/400  19920821 202012 1 001
+  ( 421, 500) 14/600  Departemen/Bidang
+  ( 462, 536) 14/400  Pilih Departemen/Bidang
+  ( 421, 586) 14/600  Alamat Email
+  ( 462, 623) 14/400  admin@purbalinggakab.go.id
+  ( 421, 672) 14/600  Kata Sandi
+  ( 462, 709) 14/400  ••••••••
+  ( 421, 747) 12/500  Minimal 8 karakter dengan kombinasi angka dan simbol.
+  ( 606, 791) 14/600  Daftar
+  ( 530, 872) 14/400  Sudah punya akun? Masuk di sini

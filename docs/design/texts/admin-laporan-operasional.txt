@@ -1,0 +1,98 @@
+# Laporan Operasional - Grafik Batang Penggunaan Kendaraan
+# 1280x1457
+
+[HEADER]
+  (1086,   8) 16/400  Admin Utama
+  ( 296,  20) 16/900  Si-Armada Dinkes
+  (1091,  32) 16/400  Dinkes PPKB
+  ( 321, 755) 16/600  Nama & NIP
+  ( 495, 755) 16/600  Tujuan
+  ( 760, 755) 16/600  Kendaraan
+  ( 973, 755) 16/600  Tanggal
+  (1134, 755) 16/600  Status
+
+[KONTEN]
+  ( 760, 105) 16/400  10
+  ( 777, 105) 16/400  /
+  ( 784, 105) 16/400  01
+  ( 802, 105) 16/400  /
+  ( 808, 105) 16/400  2023
+  ( 910, 105) 16/400  ke
+  ( 936, 105) 16/400  10
+  ( 954, 105) 16/400  /
+  ( 961, 105) 16/400  31
+  ( 978, 105) 16/400  /
+  ( 985, 105) 16/400  2023
+  ( 296, 120) 16/400  Laporan Operasional
+  ( 296, 144) 16/400  Analisis utilitas kendaraan dan rekapitulasi ⏎ pengajuan perjalanan dinas.
+  ( 760, 159) 16/400  Ekspor PDF
+  ( 917, 159) 16/400  Ekspor Excel
+  ( 313, 245) 16/400  Kendaraan Paling Sering Digunakan
+  ( 784, 245) 16/400  Oktober 2023
+  ( 966, 249) 16/400  Total Perjalanan
+  ( 966, 273) 16/400  127
+  ( 966, 363) 16/400  Persentase Utilitas
+  ( 966, 387) 16/400  92.4%
+  ( 966, 419) 16/400  Meningkat 5% dari bulan lalu
+  ( 358, 508) 16/400  42
+  ( 479, 508) 16/400  31
+  ( 597, 508) 16/400  24
+  ( 718, 508) 16/400  18
+  ( 837, 508) 16/400  12
+  ( 340, 552) 16/600  Avanza
+  ( 462, 552) 16/600  Innova
+  ( 584, 552) 16/600  HiAce
+  ( 701, 552) 16/600  Pajero
+  ( 806, 552) 16/600  Ambulans
+  ( 347, 576) 10/400  TOYOTA
+  ( 472, 576) 10/400  ZENIX
+  ( 575, 576) 10/400  COMMUTER
+  ( 708, 576) 10/400  SPORT
+  ( 826, 576) 10/400  GAWAT
+  ( 321, 686) 16/400  Rekap Pengajuan Kendaraan
+  (1000, 688) 16/400  Cari NIP atau Nama...
+  ( 321, 811) 16/600  Dr. Budi ⏎ Santoso
+  ( 495, 827) 16/400  Kunjungan Puskesmas ⏎ Bukateja
+  ( 760, 827) 16/400  Toyota Avanza (R ⏎ 1234 PA)
+  ( 973, 827) 16/400  24 Okt 2023, ⏎ 08:30
+  (1144, 845) 12/500  Selesai
+  ( 321, 859) 12/400  NIP. 19850312 201012 ⏎ 1 004
+  ( 321, 940) 16/600  Siti Aminah, ⏎ S.KM
+  ( 495, 956) 16/400  Rapat Koordinasi Dinkes ⏎ Jateng
+  ( 760, 956) 16/400  Innova Zenix (R 8888 ⏎ CC)
+  ( 973, 956) 16/400  23 Okt 2023, ⏎ 07:00
+  (1144, 974) 12/500  Selesai
+  ( 321, 988) 12/400  NIP. 19920105 201502 ⏎ 2 001
+  ( 321,1069) 16/600  Agus Setiawan
+  ( 495,1073) 16/400  Distribusi Logistik ⏎ Kesehatan
+  ( 760,1073) 16/400  HiAce Commuter (R ⏎ 7721 DB)
+  ( 973,1073) 16/400  22 Okt 2023, ⏎ 09:15
+  (1144,1091) 12/500  Selesai
+  ( 321,1093) 12/400  NIP. 19800520 ⏎ 200801 1 003
+  ( 321,1158) 16/600  Endang Sulastri
+  ( 495,1162) 16/400  Monitoring Stunting Desa ⏎ Karangbanjar
+  ( 760,1162) 16/400  Mitsubishi Pajero (R ⏎ 1010 AB)
+  ( 973,1162) 16/400  22 Okt 2023, ⏎ 10:00
+  (1144,1180) 12/500  Dibatalkan
+  ( 321,1182) 12/400  NIP. 19880714 201203 ⏎ 2 005
+  ( 321,1262) 16/600  Dr. Hendra ⏎ Wijaya
+  ( 495,1279) 16/400  Audit Internal Puskesmas ⏎ Kalimanah
+  ( 760,1279) 16/400  Toyota Avanza (R ⏎ 4567 BB)
+  ( 973,1279) 16/400  21 Okt 2023, ⏎ 13:00
+  (1144,1297) 12/500  Selesai
+  ( 321,1310) 12/400  NIP. 19751122 200501 ⏎ 1 002
+  ( 321,1380) 16/400  Menampilkan 1 - 5 dari 127 data
+  (1076,1380) 16/400  1
+  (1114,1380) 16/400  2
+  (1154,1380) 16/400  3
+
+[SIDEBAR]
+  (  24,  32) 16/700  Dinkes PPKB
+  (  24,  56) 16/400  Purbalingga Fleet
+  (  54, 132) 16/400  Dashboard
+  (  54, 184) 16/400  Kelola Kendaraan
+  (  54, 236) 16/400  Manajemen Reservasi
+  (  56, 288) 16/400  Data Pegawai
+  (  54, 340) 16/700  Laporan
+  (  52, 392) 16/400  Profil Saya
+  (  62,1389) 16/400  Keluar

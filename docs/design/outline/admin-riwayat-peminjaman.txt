@@ -1,0 +1,153 @@
+FRAME "Manajemen Booking - Riwayat Peminjaman Admin"  1280x1024  fill=#ffffff  V  pad=0/0/397/256
+  FRAME "Main Content"  1024x627  V gap=32  pad=96/40/48/40
+    FRAME "Header Section"  944x64  H gap=278.41
+      FRAME "Container"  447x64  V
+        FRAME "Heading 3"  447x40  V
+          TEXT "Text"  339x40  32px/700  #002a5d  "Manajemen Reservasi"
+        FRAME "Container"  447x24  V
+          TEXT "Text"  447x24  16px/400  #434751  "Kelola pengajuan peminjaman armada dinas secara efisien."
+      FRAME "Container"  209x36  H  pad=1/5.46/1/5.46
+        FRAME "Button"  198x34  fill=#002a5d  r=8  H gap=8  pad=8/24/8/24
+          RECTANGLE "Button:shadow"  188x32  fill=#ffffff @0.00  r=8  shadow
+          FRAME "Container"  13x13  V
+            VECTOR "Icon"  13x13  fill=#ffffff
+          TEXT "Text"  131x19  14px/600  #ffffff  "Buat Reservasi Baru"
+    FRAME "Tabs Navigation"  944x47  stroke=#c3c6d2 1px  V
+      FRAME "Nav"  944x46  H gap=32
+        FRAME "Button"  174x46  H gap=8  pad=12/16/14/16
+          TEXT "Text"  112x20  14px/600  #181c20  "Pengajuan Baru "
+          FRAME "Background"  23x16  fill=#ba1a1a  r=12
+            TEXT "Text"  7x20  10px/600  #ffffff  "3"
+        FRAME "Button"  118x46  V  pad=12.5/16/13.5/16
+          TEXT "Text"  86x20  14px/600  #434751  "Jadwal Aktif"
+        FRAME "Button"  86x46  stroke=#002a5d 1px  V  pad=12/16/12/16
+          TEXT "Text"  54x20  14px/600  #434751  "Riwayat"
+    FRAME "Tab Content: Riwayat (Hidden by default)"  944x308  fill=#ffffff @0.70  stroke=#c2c6d4 1px  r=8  V
+      FRAME "Table"  942x306  V
+        FRAME "Header"  942x52  fill=#ebeef3  V
+          FRAME "Row"  942x52  H
+            FRAME "Cell"  195x52  V  pad=16/24/16/24
+              TEXT "Text"  67x20  14px/600  #434751  "Peminjam"
+            FRAME "Cell"  196x52  V  pad=16/24/16/24
+              TEXT "Text"  46x20  14px/600  #434751  "Tujuan"
+            FRAME "Cell"  214x52  V  pad=16/24/16/24
+              TEXT "Text"  54x20  14px/600  #434751  "Armada"
+            FRAME "Cell"  200x52  V  pad=16/24/16/24
+              TEXT "Text"  44x20  14px/600  #434751  "Waktu"
+            FRAME "Cell"  136x52  V  pad=16/24/16/24
+              TEXT "Text"  44x20  14px/600  #434751  "Status"
+        FRAME "Body"  942x254  V gap=-1
+          FRAME "Row"  942x85  H
+            FRAME "Data"  195x84  V  pad=16/24/16/24
+              FRAME "Container"  147x20  V
+                TEXT "Bambang Wijaya"  147x20  14px/600  #181c20  "Bambang Wijaya"
+              FRAME "Container"  147x32  V
+                TEXT "NIP: 198005122005011002"  147x32  12px/500  #737782  "NIP:\n198005122005011002"
+            FRAME "Data"  196x85  V  pad=21.5/24/23/24
+              TEXT "Text"  106x40  14px/400  #181c20  "Monitoring PKM\nBukateja"
+            FRAME "Data"  214x85  V  pad=21.5/24/23/24
+              TEXT "Text"  150x40  14px/400  #181c20  "Toyota Avanza (R 1022\nPA)"
+            FRAME "Data"  200x85  V  pad=21.5/24/23/24
+              TEXT "Text"  140x40  14px/400  #181c20  "22 Okt 2023, 08:00 -\n12:00"
+            FRAME "Data"  136x85  V  pad=34/24/30.5/24
+              FRAME "Background"  65x20  fill=#dcfce7  r=12  H  pad=2.5/12/2.5/12
+                TEXT "Text"  41x15  10px/700  #15803d  "SELESAI"
+          FRAME "Row"  942x86  stroke=#c3c6d2 1px  H
+            FRAME "Data"  195x85  V  pad=16.5/24/16.5/24
+              FRAME "Container"  147x20  V
+                TEXT "Maya Puspita"  147x20  14px/600  #181c20  "Maya Puspita"
+              FRAME "Container"  147x32  V
+                TEXT "NIP: 199103152015032001"  147x32  12px/500  #737782  "NIP:\n199103152015032001"
+            FRAME "Data"  196x85  V  pad=32/24/33/24
+              TEXT "Text"  135x20  14px/400  #181c20  "Workshop Labkesda"
+            FRAME "Data"  214x85  V  pad=32/24/33/24
+              TEXT "Text"  164x20  14px/400  #181c20  "Honda CR-V (R 8821 DA)"
+            FRAME "Data"  200x85  V  pad=22/24/23/24
+              TEXT "Text"  137x40  14px/400  #181c20  "21 Okt 2023, 09:00 -\n16:00"
+            FRAME "Data"  136x85  V  pad=34.5/24/30.5/24
+              FRAME "Background"  68x20  fill=#fee2e2  r=12  H  pad=2.5/12/2.5/12
+                TEXT "Text"  44x15  10px/700  #b91c1c  "DITOLAK"
+          FRAME "Row"  942x86  stroke=#c3c6d2 1px  H
+            FRAME "Data"  195x84  V  pad=16/24/16/24
+              FRAME "Container"  147x20  V
+                TEXT "Andi Saputra"  147x20  14px/600  #181c20  "Andi Saputra"
+              FRAME "Container"  147x32  V
+                TEXT "NIP: 198507202010011004"  147x32  12px/500  #737782  "NIP:\n198507202010011004"
+            FRAME "Data"  196x85  V  pad=32/24/32.5/24
+              TEXT "Text"  139x20  14px/400  #181c20  "Kunjungan Lapangan"
+            FRAME "Data"  214x85  V  pad=22/24/22.5/24
+              TEXT "Text"  162x40  14px/400  #181c20  "Mitsubishi Triton (R 5521\nBC)"
+            FRAME "Data"  200x85  V  pad=22/24/22.5/24
+              TEXT "Text"  137x40  14px/400  #181c20  "20 Okt 2023, 10:00 -\n14:00"
+            FRAME "Data"  136x85  V  pad=34.5/24/30/24
+              FRAME "Background"  88x20  fill=#dbe3ed  r=12  H  pad=2.5/12/2.5/12
+                TEXT "Text"  64x15  10px/700  #5d656d  "DIBATALKAN"
+  FRAME "Header - TopNavBar"  1024x64  fill=#ffffff @0.80  stroke=#c3c6d2 1px  H gap=506.17  pad=0/40/0/40
+    FRAME "Heading 2"  181x28  V
+      TEXT "Text"  181x28  20px/900  #002a5d  "Si-Armada Dinkes"
+    FRAME "Container"  245x40  H gap=24
+      FRAME "Container"  16x26  V  pad=0/0/6/0
+        VECTOR "Icon"  16x20  fill=#434751
+        RECTANGLE "Background"  8x8  fill=#ba1a1a  r=12
+      FRAME "Container"  20x20  V
+        VECTOR "Icon"  20x20  fill=#434751
+      FRAME "Margin"  161x40  V  pad=0/0/0/16
+        FRAME "Container"  145x40  H gap=12
+          FRAME "Background+Border"  40x40  fill=#e0e3e8  stroke=#c3c6d2 1px  r=12  V
+            FRAME "AB6AXuAYaLteFRM8D8tJW5uIYhNOo9MiydK1XCUeCxin4bYoXj-0ZPhZOkRy"  38x38  fill=IMAGE
+          FRAME "Container"  93x34  V
+            FRAME "Container"  93x18  V
+              TEXT "Text"  93x18  14px/600  #181c20  "Admin Utama"
+            FRAME "Container"  93x16  V
+              TEXT "Text"  87x16  12px/500  #434751  "Logistik Dinkes"
+  FRAME "Aside - SideNavBar"  256x1024  fill=#f7f9ff  stroke=#c3c6d2 1px  V  pad=32/0/32/0
+    FRAME "Margin"  255x76  V  pad=0/0/32/0
+      FRAME "Container"  255x44  V  pad=0/24/0/24
+        FRAME "Heading 1"  207x28  V
+          TEXT "Dinkes PPKB"  207x28  20px/700  #002a5d  "Dinkes PPKB"
+        FRAME "Container"  207x16  V
+          TEXT "Purbalingga Fleet"  207x16  12px/500  #434751  "Purbalingga Fleet"
+    FRAME "Nav"  255x815  V gap=4
+      FRAME "Link"  255x44  H gap=0  pad=12/24/12/24
+        FRAME "Margin"  30x18  V  pad=0/12/0/0
+          VECTOR "Icon"  18x18  fill=#40484f
+        FRAME "Container"  75x20  V
+          TEXT "Text"  75x20  14px/600  #40484f  "Dashboard"
+      FRAME "Link"  255x44  H gap=0  pad=12/24/12/24
+        FRAME "Margin"  30x16  V  pad=0/12/0/0
+          VECTOR "Icon"  18x16  fill=#40484f
+        FRAME "Container"  120x20  V
+          TEXT "Text"  120x20  14px/600  #40484f  "Kelola Kendaraan"
+      FRAME "Link"  255x44  fill=#dbe3ed  stroke=#002a5d 1px  H gap=0  pad=12/24/12/24
+        FRAME "Margin"  30x20  V  pad=0/12/0/0
+          VECTOR "Icon"  18x20  fill=#002a5d
+        FRAME "Container"  152x20  V
+          TEXT "Text"  152x20  14px/600  #002a5d  "Manajemen Reservasi"
+      FRAME "Link"  255x44  H gap=0  pad=12/24/12/24
+        FRAME "Margin"  32x20  V  pad=0/12/0/0
+          VECTOR "Icon"  20x20  fill=#40484f
+        FRAME "Container"  94x20  V
+          TEXT "Text"  94x20  14px/600  #40484f  "Data Pegawai"
+      FRAME "Link"  255x44  H gap=0  pad=12/24/12/24
+        FRAME "Margin"  30x18  V  pad=0/12/0/0
+          VECTOR "Icon"  18x18  fill=#40484f
+        FRAME "Container"  56x20  V
+          TEXT "Text"  56x20  14px/600  #40484f  "Laporan"
+      FRAME "Link"  255x44  H gap=0  pad=12/24/12/24
+        FRAME "Margin"  28x16  V  pad=0/12/0/0
+          VECTOR "Icon"  16x16  fill=#40484f
+        FRAME "Container"  74x20  V
+          TEXT "Text"  74x20  14px/600  #40484f  "Profil Saya"
+    FRAME "HorizontalBorder"  255x69  stroke=#c3c6d2 1px  V  pad=33/29.17/1/29.18
+      FRAME "Button"  197x34  r=8  H gap=-0.63  pad=8/16/8/16
+        FRAME "Margin"  29x17  V  pad=0/12.63/0/0
+          FRAME "Container"  17x17  V
+            VECTOR "Icon"  17x17  fill=#ba1a1a
+        FRAME "Container"  42x19  V
+          TEXT "Text"  42x19  14px/600  #ba1a1a  "Keluar"
+  FRAME "Toast Notification"  303x52  fill=#2d3135  r=8  H gap=15.99  pad=16/32/16/32
+    RECTANGLE "Toast Notification:shadow"  303x52  fill=#ffffff @0.00  r=8  shadow
+    FRAME "Container"  20x20  V
+      VECTOR "Icon"  20x20  fill=#22c55e
+    FRAME "Container"  199x20  V
+      TEXT "Text"  199x20  14px/600  #eef1f6  "Pengajuan berhasil disetujui!"

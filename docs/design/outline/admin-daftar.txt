@@ -1,0 +1,72 @@
+FRAME "Daftar Admin - Admin (Bahasa Indonesia)"  1280x1029  fill=#ffffff  V
+  FRAME "Main Content: Registration Section"  1280x1029  H  pad=96/0/96/0
+    FRAME "Background decorative element"  1280x1029
+      RECTANGLE "Background+Blur"  384x384  fill=#d7e2ff  r=12
+      RECTANGLE "Background+Blur"  384x384  fill=#dbe3ed  r=12
+    FRAME "Overlay+Border+Shadow+OverlayBlur"  520x837  fill=#ffffff @0.85  stroke=#c3c6d2 1px  r=8  V gap=32  pad=40/40/40/40  shadow
+      FRAME "Container"  438x156  V
+        FRAME "Img - Dinkes Logo:margin"  80x96  V  pad=0/0/16/0
+          FRAME "Dinkes Logo"  80x80  fill=IMAGE
+        TEXT "Heading 1 → Registrasi Admin"  196x32  24px/600  #181c20  "Registrasi Admin"
+        FRAME "Margin"  385x28  V  pad=8/0/0/0
+          FRAME "Container"  385x20  V
+            TEXT "Text"  385x20  14px/400  #575f67  "Buat akun administratif baru untuk portal dinas kesehatan."
+      FRAME "Form"  438x498  V gap=16
+        FRAME "Full Name"  438x70  V gap=5.5  pad=2.5/0/0/0
+          TEXT "Label → Nama Lengkap"  103x20  14px/600  #434751  "Nama Lengkap"
+          FRAME "Container"  438x42  V
+            FRAME "Input"  438x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=11/16/12/40
+              FRAME "Container"  380x17  V
+                TEXT "Nama Lengkap Anda"  380x17  14px/400  #6b7280  "Nama Lengkap Anda"
+            FRAME "Container"  16x24  V
+              VECTOR "Icon"  16x16  fill=#c3c6d2
+        FRAME "NIP (Employee ID)"  438x70  V gap=5.5  pad=2.5/0/0/0
+          TEXT "Label → NIP (Nomor Induk Pegawai)"  189x20  14px/600  #434751  "NIP (Nomor Induk Pegawai)"
+          FRAME "Container"  438x42  V
+            FRAME "Input"  438x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=11/16/12/40
+              FRAME "Container"  380x17  V
+                TEXT "19920821 202012 1 001"  380x17  14px/400  #6b7280  "19920821 202012 1 001"
+            FRAME "Container"  20x24  V
+              VECTOR "Icon"  20x20  fill=#c3c6d2
+        FRAME "Department Selection"  438x70  V gap=5.5  pad=2.5/0/0/0
+          TEXT "Label → Departemen/Bidang"  138x20  14px/600  #434751  "Departemen/Bidang"
+          FRAME "Container"  438x42  V
+            FRAME "Options"  438x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=10/16/10/40
+              FRAME "image clip"  438x42  V  pad=10.5/9/10.5/408
+                FRAME "image"  21x21
+                  VECTOR "Vector"  8x4  stroke=#6b7280 1.5749999284744263px
+              FRAME "Container"  380x20  V
+                TEXT "Pilih Departemen/Bidang"  380x20  14px/400  #181c20  "Pilih Departemen/Bidang"
+            FRAME "Container"  20x24  V
+              VECTOR "Icon"  20x18  fill=#c3c6d2
+            FRAME "Container"  12x24  V
+              VECTOR "Icon"  12x7  fill=#c3c6d2
+        FRAME "Email Address"  438x70  V gap=5.5  pad=2.5/0/0/0
+          TEXT "Label → Alamat Email"  89x20  14px/600  #434751  "Alamat Email"
+          FRAME "Container"  438x42  V
+            FRAME "Input"  438x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=11/16/12/40
+              FRAME "Container"  380x17  V
+                TEXT "admin@purbalinggakab.go.id"  380x17  14px/400  #6b7280  "admin@purbalinggakab.go.id"
+            FRAME "Container"  20x24  V
+              VECTOR "Icon"  20x16  fill=#c3c6d2
+        FRAME "Password"  438x94  V gap=4  pad=2.5/0/0/0
+          TEXT "Label → Kata Sandi"  74x20  14px/600  #434751  "Kata Sandi"
+          FRAME "Container"  438x44  V  pad=1.5/0/0/0
+            FRAME "Input"  438x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=11/48/12/40
+              FRAME "Container"  348x17  V
+                TEXT "••••••••"  348x17  14px/400  #6b7280  "••••••••"
+            FRAME "Container"  16x24  V
+              VECTOR "Icon"  16x21  fill=#c3c6d2
+            FRAME "Button"  22x21  V  pad=0/0/6/0
+              FRAME "Container"  22x15  H
+                VECTOR "Icon"  22x15  fill=#c3c6d2
+          FRAME "Container"  438x20  V  pad=4/0/0/0
+            TEXT "Minimal 8 karakter dengan kombinasi angka dan simbol."  438x16  12px/500  #575f67  "Minimal 8 karakter dengan kombinasi angka dan simbol."
+        FRAME "Submit Button"  438x44  fill=#002a5d  r=4  H gap=8  pad=12/0/12/0  shadow
+          FRAME "Container"  43x20  V
+            TEXT "Text"  43x20  14px/600  #ffffff  "Daftar"
+          FRAME "Container"  17x14  V
+            VECTOR "Icon"  17x14  fill=#ffffff
+      FRAME "Navigation Links"  438x37  stroke=#c3c6d2 1px  V  pad=16/0/0/0
+        FRAME "Container"  438x20  V
+          TEXT "Text"  220x20  14px/400  #575f67  "Sudah punya akun? Masuk di sini"

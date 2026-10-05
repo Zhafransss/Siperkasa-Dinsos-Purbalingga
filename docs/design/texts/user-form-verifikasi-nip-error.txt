@@ -1,0 +1,22 @@
+# Formulir Peminjaman - Verifikasi NIP (Error State)
+# 1280x1146
+
+[KONTEN]
+  ( 256, 128) 32/700  Formulir Peminjaman Kendaraan
+  ( 256, 176) 16/400  Silakan lengkapi detail berikut untuk melakukan reservasi kendaraan dinas.
+  ( 308, 240) 16/700  1
+  ( 653, 240) 16/700  2
+  ( 982, 240) 16/700  3
+  ( 256, 280) 14/600  Detail Peminjam
+  ( 602, 280) 14/600  Jadwal & Tujuan
+  ( 949, 280) 14/600  Konfirmasi
+  ( 519, 510) 24/600  Validasi NIP Pegawai
+  ( 454, 550) 16/400  Masukkan NIP Pegawai Anda untuk verifikasi hak ⏎ peminjaman mobil dinas.
+  ( 465, 655) 16/500  NIP tidak terdaftar dalam Database Pegawai ⏎ Dinas Kesehatan atau status NIP non-aktif. Harap ⏎ hubungi Pengelola Admin Dinkes.
+  ( 416, 768) 14/700  NIP (Nomor Induk Pegawai) 18 Digit *
+  ( 433, 810) 16/400  Contoh: 198811042012021001
+  ( 881, 905) 16/400  Lanjut
+  ( 312,1023) 14/600  Butuh Bantuan?
+  ( 705,1023) 14/600  Syarat & Ketentuan
+  ( 312,1043) 14/400  Hubungi bagian administrasi di (0281) ⏎ 123456 jika mengalami kendala sistem.
+  ( 705,1043) 14/400  Peminjaman harus diajukan minimal 1 hari ⏎ kerja sebelum keberangkatan.

@@ -1,0 +1,18 @@
+# Footer
+# 1280x304
+
+[FOOTER]
+  (  40,  32) 20/700  Dinkes PPKB Purbalingga
+  ( 508,  32) 14/600  Tautan Cepat
+  ( 898,  32) 14/600  Kontak Kami
+  ( 508,  68) 14/400  Website Resmi
+  ( 915,  68) 14/400  Jl. Letjen S Parman No.21, Bancar, Kec. ⏎ Purbalingga, Kabupaten Purbalingga, Jawa ⏎ Tengah 53316
+  (  40,  76) 14/600  Tentang Kami
+  ( 508,  96) 14/400  Portal Purbalingga
+  (  40, 104) 14/400  Sistem Manajemen Transportasi Terpadu untuk menunjang ⏎ mobilitas layanan kesehatan masyarakat di Kabupaten ⏎ Purbalingga.
+  ( 508, 124) 14/400  Katalog Mobil
+  ( 918, 136) 14/400  dinkes@purbalinggakab.go.id
+  ( 508, 152) 14/400  Status Peminjaman
+  ( 916, 164) 14/400  (0281) 891034
+  ( 508, 216) 14/600  Ikuti Kami
+  (  40, 236) 12/500  © 2024 Dinas Kesehatan PPKB Kabupaten Purbalingga. Hak Cipta Dilindungi.

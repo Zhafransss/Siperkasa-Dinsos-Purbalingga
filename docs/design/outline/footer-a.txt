@@ -1,0 +1,62 @@
+FRAME "Footer"  1280x304  fill=#181c20  H  pad=32/40/32/40
+  FRAME "Container"  1200x240  H gap=24
+    FRAME "Container"  248x236  V gap=16
+      FRAME "Container"  248x28  V
+        TEXT "Text"  248x28  20px/700  #f7f9ff  "Dinkes PPKB Purbalingga"
+      FRAME "Container"  248x128  V gap=8
+        FRAME "Container"  248x20  V
+          TEXT "Tentang Kami"  248x20  14px/600  #acc7ff  "Tentang Kami"
+        FRAME "Container"  248x100  V
+          TEXT "Sistem Manajemen Transportasi Terpadu untuk menunjang mobili"  248x100  14px/400  #e0e3e8  "Sistem Manajemen Transportasi Terpadu untuk menunjang\nmobilitas layanan kesehatan masyarakat di Kabupaten\nPurbalingga."
+      FRAME "Margin"  248x48  V  pad=16/0/0/0
+        FRAME "Container"  248x32  V
+          TEXT "© 2024 Dinas Kesehatan PPKB Kabupaten Purbalingga. Hak Cipta"  248x32  12px/500  #e0e3e8  "© 2024 Dinas Kesehatan PPKB Kabupaten Purbalingga. Hak Cipta Dilindungi."
+    FRAME "Container"  732x240  G
+      FRAME "Container"  126x152  V gap=8  pad=0/0/12/0
+        FRAME "Margin"  126x28  V  pad=0/0/8/0
+          FRAME "Container"  126x20  V
+            TEXT "Tautan Cepat"  126x20  14px/600  #acc7ff  "Tautan Cepat"
+        FRAME "Link"  126x20  V
+          TEXT "Text"  97x20  14px/400  #e0e3e8  "Website Resmi"
+        FRAME "Link"  126x20  V
+          TEXT "Text"  122x20  14px/400  #e0e3e8  "Portal Purbalingga"
+        FRAME "Link"  126x20  V
+          TEXT "Text"  90x20  14px/400  #e0e3e8  "Katalog Mobil"
+        FRAME "Link"  126x20  V
+          TEXT "Text"  126x20  14px/400  #e0e3e8  "Status Peminjaman"
+      FRAME "Container"  337x152  V gap=8
+        FRAME "Margin"  337x28  V  pad=0/0/8/0
+          FRAME "Container"  337x20  V
+            TEXT "Kontak Kami"  337x20  14px/600  #acc7ff  "Kontak Kami"
+        FRAME "Container"  337x60  H gap=7.99
+          FRAME "Margin"  9x16  V  pad=4/0/0/0
+            VECTOR "Icon"  9x12  fill=#e0e3e8
+          FRAME "Container"  320x60  V  pad=0/34.66/0/0
+            TEXT "Text"  285x60  14px/400  #e0e3e8  "Jl. Letjen S Parman No.21, Bancar, Kec.\nPurbalingga, Kabupaten Purbalingga, Jawa\nTengah 53316"
+        FRAME "Container"  337x20  H gap=7.99
+          FRAME "Container"  12x9  V
+            VECTOR "Icon"  12x9  fill=#e0e3e8
+          FRAME "Link"  197x20  V
+            TEXT "Text"  197x20  14px/400  #e0e3e8  "dinkes@purbalinggakab.go.id"
+        FRAME "Container"  337x20  H gap=7.99
+          FRAME "Container"  11x11  V
+            VECTOR "Icon"  11x11  fill=#e0e3e8
+          FRAME "Container"  95x20  V
+            TEXT "Text"  95x20  14px/400  #e0e3e8  "(0281) 891034"
+      FRAME "Container"  128x56  V gap=8
+        FRAME "Margin"  128x28  V  pad=0/0/8/0
+          FRAME "Container"  128x20  V
+            TEXT "Ikuti Kami"  128x20  14px/600  #acc7ff  "Ikuti Kami"
+        FRAME "Container"  128x20  H gap=16
+          FRAME "Link - Facebook"  20x20  V
+            FRAME "SVG"  20x20
+              VECTOR "Vector"  20x20  fill=#e0e3e8
+          FRAME "Link - Instagram"  20x20  V
+            FRAME "SVG"  20x20
+              VECTOR "Vector"  20x20  fill=#e0e3e8
+          FRAME "Link - YouTube"  20x20  V
+            FRAME "SVG"  20x20
+              VECTOR "Vector"  20x14  fill=#e0e3e8
+          FRAME "Link - TikTok"  20x20  V
+            FRAME "SVG"  20x20
+              VECTOR "Vector"  16x21  fill=#e0e3e8

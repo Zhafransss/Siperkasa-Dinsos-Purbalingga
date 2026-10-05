@@ -1,0 +1,62 @@
+FRAME "Formulir Peminjaman - Verifikasi NIP (Reference Adjusted)"  1280x1028  fill=#ffffff  V  pad=0/0/45/0
+  FRAME "Main"  1280x898  V gap=32  pad=128/256/32/256
+    FRAME "Stepper"  768x68  H gap=235.1
+      FRAME "Horizontal Divider"  768x2  fill=#c2c6d4
+      FRAME "Container"  111x68  V gap=8
+        FRAME "Background"  40x40  fill=#003f87  r=12  H
+          TEXT "Text"  7x24  16px/700  #ffffff  "1"
+        FRAME "Container"  111x20  V
+          TEXT "Text"  111x20  14px/600  #003f87  "Detail Peminjam"
+      FRAME "Container"  112x68  V gap=8
+        FRAME "Background"  40x40  fill=#e5e8ee  r=12  H
+          TEXT "Text"  10x24  16px/700  #727784  "2"
+        FRAME "Container"  112x20  V
+          TEXT "Text"  112x20  14px/600  #727784  "Jadwal & Tujuan"
+      FRAME "Container"  75x68  V gap=8
+        FRAME "Background"  40x40  fill=#e5e8ee  r=12  H
+          TEXT "Text"  10x24  16px/700  #727784  "3"
+        FRAME "Container"  75x20  V
+          TEXT "Text"  75x20  14px/600  #727784  "Konfirmasi"
+    FRAME "Form Container"  768x512  fill=#ffffff  stroke=#c2c6d4 1px  r=8  V  pad=32/32/32/32
+      FRAME "Form"  702x446  V gap=32
+        FRAME "Step 1: Detail Peminjam"  702x349  V gap=24
+          RECTANGLE "HorizontalBorder"  702x25  stroke=#c2c6d4 1px
+          FRAME "Container"  702x72  H  pad=8/0/0/0
+            FRAME "Background"  64x64  fill=#dcfce7  r=16  H
+              FRAME "Container"  25x31  V
+                VECTOR "Icon"  25x31  fill=#15803d
+          FRAME "Container"  448x204  V gap=24
+            FRAME "Margin"  448x104  V  pad=0/0/16/0
+              FRAME "Container"  448x88  V gap=8
+                FRAME "Heading 2"  448x32  V
+                  TEXT "Text"  242x32  24px/600  #181c20  "Validasi NIP Pegawai"
+                FRAME "Container"  448x48  V
+                  TEXT "Text"  372x48  16px/400  #424752  "Masukkan NIP Pegawai Anda untuk verifikasi hak\npeminjaman mobil dinas."
+            FRAME "Container"  448x76  V gap=8
+              FRAME "Label"  448x20  V
+                TEXT "NIP (Nomor Induk Pegawai) 18 Digit *"  448x20  14px/700  #181c20  "NIP (Nomor Induk Pegawai) 18 Digit *"
+              FRAME "Input"  448x48  fill=#ffffff  stroke=#c2c6d4 1px  r=4  V  pad=13/16/13/16
+                FRAME "Container"  414x19  V
+                  TEXT "Contoh: 198811042012021001"  414x19  16px/400  #6b7280  "Contoh: 198811042012021001"
+        FRAME "Form Controls"  702x65  stroke=#c2c6d4 1px  H  pad=16/0/0/559.92
+          FRAME "Button"  134x48  fill=#003f87  r=4  H gap=8  pad=0/32/0/32
+            TEXT "Text"  46x24  16px/400  #ffffff  "Lanjut"
+            FRAME "Container"  16x16  V
+              VECTOR "Icon"  16x16  fill=#ffffff
+    FRAME "Quick Info / Help"  768x94  H gap=24
+      FRAME "Overlay+Border"  372x94  fill=#dbe4ed @0.30  stroke=#dbe4ed 1px  r=8  H gap=16  pad=16/16/16/16
+        FRAME "Container"  23x60  V
+          VECTOR "Icon"  23x23  fill=#003f87
+        FRAME "Container"  258x60  V
+          FRAME "Heading 4"  258x20  V
+            TEXT "Text"  109x20  14px/600  #141d23  "Butuh Bantuan?"
+          FRAME "Container"  258x40  V
+            TEXT "Text"  258x40  14px/400  #3f484f  "Hubungi bagian administrasi di (0281)\n123456 jika mengalami kendala sistem."
+      FRAME "Overlay+Border"  372x94  fill=#e0e3e6 @0.30  stroke=#e0e3e6 1px  r=8  H gap=16  pad=16/16/16/16
+        FRAME "Container"  20x60  V
+          VECTOR "Icon"  20x25  fill=#3e4244
+        FRAME "Container"  274x60  V
+          FRAME "Heading 4"  274x20  V
+            TEXT "Text"  132x20  14px/600  #181c1e  "Syarat & Ketentuan"
+          FRAME "Container"  274x40  V
+            TEXT "Text"  274x40  14px/400  #43474a  "Peminjaman harus diajukan minimal 1 hari\nkerja sebelum keberangkatan."

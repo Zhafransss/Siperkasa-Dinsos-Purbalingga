@@ -1,0 +1,64 @@
+# Detail & Edit Kendaraan - Admin
+# 1280x1204
+
+[HEADER]
+  ( 296,  20) 16/700  Manajemen Armada
+  ( 492,  20) 16/400  Detail Kendaraan
+  ( 905,  22) 16/400  Cari kendaraan...
+
+[KONTEN]
+  ( 296,  96) 16/400  Toyota Hiace Premio 2023
+  ( 957, 127) 16/400  Batal
+  (1073, 127) 16/400  Simpan Perubahan
+  ( 308, 133) 16/400  R 1234 PA
+  ( 438, 133) 16/400  Tersedia
+  ( 357, 227) 16/400  Informasi Dasar
+  (1003, 227) 16/400  Spesifikasi Teknis
+  ( 329, 275) 16/400  Merk & Model
+  ( 615, 275) 16/400  Nomor Polisi
+  ( 974, 275) 16/400  Jenis Bahan Bakar
+  ( 342, 318) 16/400  Toyota Hiace Premio
+  ( 628, 318) 16/400  R 1234 PA
+  ( 987, 318) 16/400  Diesel (Solar)
+  ( 329, 371) 16/400  Tahun Produksi
+  ( 615, 371) 16/400  Warna Kendaraan
+  ( 974, 371) 16/400  Kapasitas Penumpang
+  ( 342, 414) 16/400  2023
+  ( 628, 414) 16/400  Putih Kristal
+  ( 987, 414) 16/400  12
+  ( 329, 467) 16/400  Status Operasional
+  ( 974, 467) 16/400  Odometer Saat Ini (Km)
+  ( 342, 510) 16/400  Aktif / Tersedia
+  ( 987, 510) 16/400  12,450
+  ( 974, 563) 16/400  Terakhir Servis
+  ( 988, 606) 16/400  11
+  (1002, 606) 16/400  /
+  (1024, 606) 16/400  /
+  (1031, 606) 16/400  2023
+  ( 353, 733) 16/400  Administrasi & Pajak
+  ( 346, 798) 16/700  MASA BERLAKU STNK
+  ( 647, 798) 16/700  PAJAK TAHUNAN ⏎ BERIKUTNYA
+  ( 356, 835) 16/400  05
+  ( 377, 835) 16/400  /
+  ( 383, 835) 16/400  20
+  ( 404, 835) 16/400  /
+  ( 411, 835) 16/400  2028
+  ( 657, 859) 16/400  05
+  ( 677, 859) 16/400  /
+  ( 684, 859) 16/400  20
+  ( 705, 859) 16/400  /
+  ( 712, 859) 16/400  2024
+  ( 357, 999) 16/400  Galeri Foto Kendaraan
+  (1071, 999) 16/400  Unggah Foto Baru
+  (1077,1093) 16/400  Tambah Foto
+
+[SIDEBAR]
+  (  76,  32) 20/700  Dinkes PPKB
+  (  76,  60) 10/700  PURBALINGGA FLEET
+  (  62, 119) 14/600  Dashboard
+  (  62, 167) 14/600  Kelola Kendaraan
+  (  62, 215) 14/600  Manajemen Reservasi
+  (  64, 263) 14/600  Data Pegawai
+  (  62, 311) 14/600  Laporan
+  (  60, 359) 14/600  Profil Saya
+  (  62,1140) 14/600  Keluar

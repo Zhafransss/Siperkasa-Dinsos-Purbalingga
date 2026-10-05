@@ -1,0 +1,18 @@
+# Html → Body
+# 1280x1009
+
+[KONTEN]
+  ( 529, 327) 20/700  Hubungi Administrator
+  ( 441, 366) 15/400  Untuk mereset kata sandi, silakan hubungi administrator ⏎ sistem secara langsung atau melalui saluran berikut:
+  ( 440, 471) 14.5/600  Nama Admin
+  ( 560, 471) 14.5/400  Dr. Hendra Kusuma
+  ( 440, 505) 14.5/600  Jabatan
+  ( 560, 505) 14.5/400  Kepala Dinas Kesehatan
+  ( 440, 539) 14.5/600  Telepon / WA
+  ( 560, 539) 14.5/500  081234567890
+  ( 440, 573) 14.5/600  Email
+  ( 560, 573) 14.5/400  hendra@dinkes-pbg.go.id
+  ( 440, 606) 14.5/600  Lokasi
+  ( 560, 606) 14.5/400  Kantor Dinkes, Lt. 1, Ruang Kepala
+  ( 465, 692) 14/400  Pastikan membawa kartu identitas pegawai saat ⏎ mengajukan reset kata sandi secara langsung.
+  ( 604, 804) 16/700  Mengerti

@@ -1,0 +1,19 @@
+# Formulir Peminjaman - Verifikasi NIP (Reference Adjusted)
+# 1280x1028
+
+[KONTEN]
+  ( 308, 136) 16/700  1
+  ( 653, 136) 16/700  2
+  ( 982, 136) 16/700  3
+  ( 256, 176) 14/600  Detail Peminjam
+  ( 602, 176) 14/600  Jadwal & Tujuan
+  ( 949, 176) 14/600  Konfirmasi
+  ( 519, 406) 24/600  Validasi NIP Pegawai
+  ( 454, 446) 16/400  Masukkan NIP Pegawai Anda untuk verifikasi hak ⏎ peminjaman mobil dinas.
+  ( 416, 534) 14/700  NIP (Nomor Induk Pegawai) 18 Digit *
+  ( 433, 576) 16/400  Contoh: 198811042012021001
+  ( 881, 671) 16/400  Lanjut
+  ( 312, 789) 14/600  Butuh Bantuan?
+  ( 705, 789) 14/600  Syarat & Ketentuan
+  ( 312, 809) 14/400  Hubungi bagian administrasi di (0281) ⏎ 123456 jika mengalami kendala sistem.
+  ( 705, 809) 14/400  Peminjaman harus diajukan minimal 1 hari ⏎ kerja sebelum keberangkatan.

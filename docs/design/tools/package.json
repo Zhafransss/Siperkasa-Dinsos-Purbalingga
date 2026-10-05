@@ -1,0 +1,6 @@
+{
+    "name": "sindis-design-tools",
+    "private": true,
+    "description": "Offline helpers for the Figma design documentation (CommonJS; the project root is ESM)",
+    "type": "commonjs"
+}

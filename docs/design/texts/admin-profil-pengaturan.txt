@@ -1,0 +1,44 @@
+# Profil & Pengaturan Akun Admin - Lengkap
+# 1280x1201
+
+[HEADER]
+  ( 296,  18) 20/900  Si-Armada Dinkes
+
+[KONTEN]
+  ( 296,  96) 32/700  Profil & Pengaturan Akun Admin
+  ( 296, 140) 16/400  Kelola informasi identitas, keamanan, dan preferensi sistem Anda di sini.
+  ( 349, 213) 20/600  Informasi Akun
+  ( 853, 219) 12/500  Aktif
+  ( 321, 282) 14/600  Nama Lengkap
+  ( 619, 282) 14/600  NIP
+  ( 338, 323) 16/400  Drs. Bambang Wijaya
+  ( 636, 323) 16/400  19750824 200003 1 002
+  ( 321, 376) 14/600  Departemen / Bidang
+  ( 619, 376) 14/600  Alamat Email Resmi
+  ( 338, 417) 16/400  Subag Umum & Kepegawaian
+  ( 636, 417) 16/400  bambang.wijaya@dinkes.purbalingga.go.id
+  ( 733, 499) 14/600  Simpan Perubahan
+  ( 349, 596) 20/600  Keamanan & Kata Sandi
+  ( 321, 665) 14/600  Kata Sandi Saat Ini
+  ( 338, 708) 16/400  ••••••••
+  ( 321, 759) 14/600  Kata Sandi Baru
+  ( 615, 759) 14/600  Konfirmasi Kata Sandi
+  ( 338, 802) 16/400  Minimal 8 karakter
+  ( 632, 802) 16/400  Ulangi kata sandi baru
+  ( 727, 874) 14/600  Perbarui Kata Sandi
+  ( 349, 971) 20/600  Pengaturan Notifikasi
+  ( 321,1040) 14/600  Notifikasi Email
+  ( 321,1060) 14/400  Kirim ringkasan reservasi harian dan alert sistem ke email terdaftar.
+  ( 321,1104) 14/600  Pemberitahuan Sistem Browser
+  ( 321,1124) 14/400  Izinkan notifikasi desktop untuk pembaruan status armada real-time.
+
+[SIDEBAR]
+  (  24,  32) 20/700  Dinkes PPKB
+  (  24,  60) 12/500  Purbalingga Fleet
+  (  54, 120) 14/600  Dashboard
+  (  54, 168) 14/600  Kelola Kendaraan
+  (  54, 216) 14/600  Manajemen Reservasi
+  (  56, 264) 14/600  Data Pegawai
+  (  54, 312) 14/600  Laporan
+  (  52, 360) 14/600  Profil Saya
+  (  73,1129) 14/600  Keluar

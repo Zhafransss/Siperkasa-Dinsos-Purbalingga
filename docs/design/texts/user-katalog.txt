@@ -1,0 +1,64 @@
+# Katalog Mobil Dinas
+# 1280x1136
+
+[HEADER]
+  (  96,  26) 20/700  Dinkes PPKB Purbalingga
+  ( 663,  27) 14/600  Katalog Mobil
+  ( 598,  30) 14/600  Home
+  ( 781,  30) 14/600  Status Peminjaman
+  ( 938,  30) 14/600  Kontak
+
+[KONTEN]
+  (  40,  96) 32/700  Katalog Mobil Dinas
+  (  40, 144) 16/400  Pilih kendaraan yang tersedia untuk mendukung operasional layanan kesehatan di Kabupaten Purbalingga.
+  ( 345, 224) 10/700  TERSEDIA
+  ( 660, 224) 10/700  SEDANG DIPAKAI
+  ( 974, 224) 10/700  TERSEDIA
+  ( 337, 409) 20/600  Toyota Innova Zenix
+  ( 652, 409) 20/600  Mitsubishi Pajero
+  ( 966, 409) 20/600  Toyota Hiace Gawat ⏎ Darurat
+  ( 337, 441) 14/400  MPV Premium Operasional
+  ( 652, 441) 14/400  SUV Lapangan Tangguh
+  ( 966, 469) 14/400  Ambulans Medis Intensif
+  ( 355, 477) 12/500  7 Kursi
+  ( 427, 477) 12/500  Otomatis
+  ( 670, 477) 12/500  7 Kursi
+  ( 742, 477) 12/500  Manual/4WD
+  ( 978, 505) 12/500  Lengkap
+  (1062, 505) 12/500  4 Personel
+  ( 412, 565) 14/600  Pilih Kendaraan
+  ( 729, 565) 14/600  Tidak Tersedia
+  (1041, 565) 14/600  Pilih Kendaraan
+  ( 345, 666) 10/700  TERSEDIA
+  ( 660, 666) 10/700  PERAWATAN
+  ( 974, 666) 10/700  TERSEDIA
+  ( 337, 851) 20/600  Suzuki Ertiga Hybrid
+  ( 652, 851) 20/600  Toyota Avanza
+  ( 966, 851) 20/600  Bus Puskesmas Keliling
+  ( 337, 883) 14/400  Kendaraan Dinas Efisien
+  ( 652, 883) 14/400  Transportasi Staf Umum
+  ( 966, 883) 14/400  Layanan Kesehatan Masyarakat
+  ( 355, 919) 12/500  7 Kursi
+  ( 424, 919) 12/500  Hybrid
+  ( 670, 919) 12/500  7 Kursi
+  ( 739, 919) 12/500  Servis Rutin
+  ( 982, 919) 12/500  Klinik Berjalan
+  (1097, 919) 12/500  15 Kapasitas
+  ( 412, 979) 14/600  Pilih Kendaraan
+  ( 730, 979) 14/600  Sedang Servis
+  (1041, 979) 14/600  Pilih Kendaraan
+  ( 729,1072) 16/400  1
+  ( 775,1072) 16/400  2
+  ( 823,1072) 16/400  3
+
+[SIDEBAR]
+  (  57, 217) 14/600  TIPE KENDARAAN
+  (  89, 253) 14/400  MPV / Keluarga
+  (  89, 281) 14/400  SUV / Operasional
+  (  89, 309) 14/400  Ambulans
+  (  89, 337) 14/400  Bus Puskesmas
+  (  57, 423) 14/600  STATUS KETERSEDIAAN
+  (  89, 459) 14/400  Tersedia
+  (  89, 487) 14/400  Sedang Dipakai
+  (  89, 515) 14/400  Dalam Perawatan
+  ( 114, 596) 14/600  Bersihkan Filter

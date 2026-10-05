@@ -1,0 +1,13 @@
+# Masuk Admin - Admin (Bahasa Indonesia)
+# 1280x811
+
+[KONTEN]
+  ( 561, 241) 24/600  Masuk Admin
+  ( 465, 281) 14/400  Silakan masukkan kredensial Anda untuk mengakses ⏎ panel kontrol.
+  ( 457, 361) 14/600  ID Administrator
+  ( 502, 403) 14/400  Masukkan ID Anda
+  ( 457, 459) 14/600  Kata Sandi
+  ( 724, 461) 12/500  Lupa Kata Sandi?
+  ( 502, 501) 14/400  ••••••••
+  ( 557, 571) 14/600  Masuk ke Dashboard
+  ( 485, 662) 12/500  Sesi masuk Anda dilindungi dengan enkripsi tingkat ⏎ militer.

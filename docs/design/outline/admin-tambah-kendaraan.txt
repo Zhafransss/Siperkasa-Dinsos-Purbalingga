@@ -1,0 +1,248 @@
+FRAME "Tambah Kendaraan Baru - Admin"  1280x1526  fill=#ffffff  V  pad=0/0/0/256
+  FRAME "Main Content"  1024x1526  V  pad=64/12/0/12
+    FRAME "Container"  1000x1397  V gap=32  pad=40/40/40/40
+      FRAME "Breadcrumbs & Header"  920x92  V gap=4
+        FRAME "Container"  920x16  H gap=8
+          FRAME "Link"  107x16  V
+            TEXT "Text"  107x16  12px/500  #434751  "Fleet Management"
+          FRAME "Container"  4x6  V
+            VECTOR "Icon"  4x6  fill=#434751
+          FRAME "Container"  113x16  V
+            TEXT "Text"  113x16  12px/700  #002a5d  "Tambah Kendaraan"
+        FRAME "Heading 2"  920x44  V  pad=4/0/0/0
+          TEXT "Tambah Kendaraan Baru"  920x40  32px/700  #181c20  "Tambah Kendaraan Baru"
+        FRAME "Container"  920x24  V
+          TEXT "Lengkapi formulir di bawah ini untuk mendaftarkan unit kenda"  920x24  16px/400  #434751  "Lengkapi formulir di bawah ini untuk mendaftarkan unit kendaraan baru ke dalam sistem operasional."
+      FRAME "Form Content"  920x1193  V gap=32
+        FRAME "Section 1: Informasi Dasar"  920x286  fill=#ffffff  stroke=#c3c6d2 1px  r=8  V gap=16  pad=32/32/32/32
+          FRAME "Container"  854x32  H gap=12
+            FRAME "Background"  32x32  fill=#003f87  r=4  H
+              FRAME "Container"  17x17  V
+                VECTOR "Icon"  17x17  fill=#84adfc
+            FRAME "Heading 3"  152x28  V
+              TEXT "Text"  152x28  20px/600  #181c20  "Informasi Dasar"
+          FRAME "Container"  854x172  G
+            FRAME "Container"  415x74  V gap=9.5  pad=2.5/0/0/0
+              TEXT "Label → Nama Kendaraan"  118x20  14px/600  #434751  "Nama Kendaraan"
+              FRAME "Input"  415x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=11/16/12/16
+                FRAME "Container"  381x17  V
+                  TEXT "Contoh: Avanza Operasional 01"  381x17  14px/400  #6b7280  "Contoh: Avanza Operasional 01"
+            FRAME "Container"  415x74  V gap=9.5  pad=2.5/0/0/0
+              TEXT "Label → Merk / Model"  91x20  14px/600  #434751  "Merk / Model"
+              FRAME "Input"  415x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=11/16/12/16
+                FRAME "Container"  381x17  V
+                  TEXT "Contoh: Toyota Avanza G 2023"  381x17  14px/400  #6b7280  "Contoh: Toyota Avanza G 2023"
+            FRAME "Container"  415x74  V gap=9.5  pad=2.5/0/0/0
+              TEXT "Label → Nomor Plat (Plat Nomor)"  167x20  14px/600  #434751  "Nomor Plat (Plat Nomor)"
+              FRAME "Input"  415x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=11/16/12/16
+                FRAME "Container"  381x17  V
+                  TEXT "Contoh: R 1234 AA"  381x17  14px/400  #6b7280  "Contoh: R 1234 AA"
+            FRAME "Container"  415x74  H gap=16
+              FRAME "Container"  200x74  V gap=9.5  pad=2.5/0/0/0
+                TEXT "Label → Tahun Kendaraan"  121x20  14px/600  #434751  "Tahun Kendaraan"
+                FRAME "Options"  200x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=10/16/10/16
+                  FRAME "image clip"  200x42  V  pad=10.5/17/10.5/161.5
+                    FRAME "image"  21x21
+                      VECTOR "Vector"  8x4  stroke=#6b7280 1.5749999284744263px
+                  FRAME "Container"  166x20  V
+                    TEXT "2024"  166x20  14px/400  #181c20  "2024"
+              FRAME "Container"  200x74  V gap=9.5  pad=2.5/0/0/0
+                TEXT "Label → Tipe Bahan Bakar"  121x20  14px/600  #434751  "Tipe Bahan Bakar"
+                FRAME "Options"  200x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=10/16/10/16
+                  FRAME "image clip"  200x42  V  pad=10.5/9/10.5/169.5
+                    FRAME "image"  21x21
+                      VECTOR "Vector"  8x4  stroke=#6b7280 1.5749999284744263px
+                  FRAME "Container"  166x20  V
+                    TEXT "Pertalite"  166x20  14px/400  #181c20  "Pertalite"
+        FRAME "Section 2: Spesifikasi Teknis"  920x188  fill=#ffffff  stroke=#c3c6d2 1px  r=8  V gap=16  pad=32/32/32/32
+          FRAME "Container"  854x32  H gap=12
+            FRAME "Background"  32x32  fill=#dbe3ed  r=4  H
+              FRAME "Container"  18x17  V
+                VECTOR "Icon"  18x17  fill=#5d656d
+            FRAME "Heading 3"  174x28  V
+              TEXT "Text"  174x28  20px/600  #181c20  "Spesifikasi Teknis"
+          FRAME "Container"  854x74  H gap=24
+            FRAME "Container"  269x74  V gap=9.5  pad=2.5/0/0/0
+              TEXT "Label → Kapasitas Penumpang"  154x20  14px/600  #434751  "Kapasitas Penumpang"
+              FRAME "Container"  269x42  V
+                FRAME "Input"  269x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4
+                  FRAME "Container"  220x17  V
+                    TEXT "Text"  8x17  14px/400  #6b7280  "7"
+                  FRAME "Container"  235x20  H gap=0
+                    FRAME "Container"  220x20
+                    FRAME "Rectangle:align-stretch"  15x20  H
+                      RECTANGLE "Rectangle"  15x20
+                FRAME "Container"  35x16  V
+                  TEXT "Text"  35x16  12px/500  #434751  "Orang"
+            FRAME "Container"  269x74  V gap=9.5  pad=2.5/0/0/0
+              TEXT "Label → Kilometer Awal (Odometer)"  187x20  14px/600  #434751  "Kilometer Awal (Odometer)"
+              FRAME "Container"  269x42  V
+                FRAME "Input"  269x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4
+                  FRAME "Container"  220x17  V
+                    TEXT "Text"  9x17  14px/400  #6b7280  "0"
+                  FRAME "Container"  235x20  H gap=0
+                    FRAME "Container"  220x20
+                    FRAME "Rectangle:align-stretch"  15x20  H
+                      RECTANGLE "Rectangle"  15x20
+                FRAME "Container"  19x16  V
+                  TEXT "Text"  19x16  12px/500  #434751  "KM"
+            FRAME "Container"  269x74  V gap=9.5  pad=2.5/0/0/0
+              TEXT "Label → Warna Kendaraan"  122x20  14px/600  #434751  "Warna Kendaraan"
+              FRAME "Input"  269x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=11/16/12/16
+                FRAME "Container"  235x17  V
+                  TEXT "Contoh: Putih Metalik"  235x17  14px/400  #6b7280  "Contoh: Putih Metalik"
+        FRAME "Section 3: Administrasi & Pajak"  920x188  fill=#ffffff  stroke=#c3c6d2 1px  r=8  V gap=16  pad=32/32/32/32
+          FRAME "Container"  854x32  H gap=12
+            FRAME "Background"  32x32  fill=#d7e2ff  r=4  H
+              FRAME "Container"  13x17  V
+                VECTOR "Icon"  13x17  fill=#004591
+            FRAME "Heading 3"  197x28  V
+              TEXT "Text"  197x28  20px/600  #181c20  "Administrasi & Pajak"
+          FRAME "Container"  854x74  H gap=24
+            FRAME "Container"  415x74  V gap=9.5  pad=2.5/0/0/0
+              TEXT "Label → Tanggal Jatuh Tempo Pajak (1 Tahunan)"  273x20  14px/600  #434751  "Tanggal Jatuh Tempo Pajak (1 Tahunan)"
+              FRAME "Container"  415x42  V
+                FRAME "Input"  415x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=10/16/10/16
+                  FRAME "Container"  381x20  H
+                    FRAME "Container"  363x20  H
+                      FRAME "Paragraph"  89x20  H gap=1  pad=0/1.01/0/1
+                        TEXT "Spinbutton - Month → mm"  25x20  14px/400  #181c20  "mm"
+                        TEXT "Text"  5x20  14px/400  #181c20  "/"
+                        TEXT "Spinbutton - Day → dd"  17x20  14px/400  #181c20  "dd"
+                        TEXT "Text"  5x20  14px/400  #181c20  "/"
+                        TEXT "Spinbutton - Year → yyyy"  31x20  14px/400  #181c20  "yyyy"
+                    FRAME "Button menu"  18x18  V  pad=2/2/2/2
+                      FRAME "image"  14x13
+                FRAME "Container"  18x24  V
+                  VECTOR "Icon"  18x20  fill=#434751
+            FRAME "Container"  415x74  V gap=9.5  pad=2.5/0/0/0
+              TEXT "Label → Masa Berlaku STNK (5 Tahunan)"  223x20  14px/600  #434751  "Masa Berlaku STNK (5 Tahunan)"
+              FRAME "Container"  415x42  V
+                FRAME "Input"  415x42  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=10/16/10/16
+                  FRAME "Container"  381x20  H
+                    FRAME "Container"  363x20  H
+                      FRAME "Paragraph"  89x20  H gap=1  pad=0/1.01/0/1
+                        TEXT "Spinbutton - Month → mm"  25x20  14px/400  #181c20  "mm"
+                        TEXT "Text"  5x20  14px/400  #181c20  "/"
+                        TEXT "Spinbutton - Day → dd"  17x20  14px/400  #181c20  "dd"
+                        TEXT "Text"  5x20  14px/400  #181c20  "/"
+                        TEXT "Spinbutton - Year → yyyy"  31x20  14px/400  #181c20  "yyyy"
+                    FRAME "Button menu"  18x18  V  pad=2/2/2/2
+                      FRAME "image"  14x13
+                FRAME "Container"  21x24  V
+                  VECTOR "Icon"  21x22  fill=#434751
+        FRAME "Section 4: Unggah Foto"  920x345  fill=#ffffff  stroke=#c3c6d2 1px  r=8  V gap=15.5  pad=32/32/32/32
+          FRAME "Container"  854x32  H gap=12
+            FRAME "Background"  32x32  fill=#e5e8ee  r=4  H
+              FRAME "Container"  17x15  V
+                VECTOR "Icon"  17x15  fill=#434751
+            FRAME "Heading 3"  232x28  V
+              TEXT "Text"  232x28  20px/600  #181c20  "Unggah Foto Kendaraan"
+          FRAME "Container"  854x196  H gap=16
+            FRAME "Upload Card 1"  202x196  stroke=#c3c6d2 2px  r=8  V  pad=70.75/16/70.75/16
+              FRAME "Margin"  29x35  V  pad=0/0/8/0
+                FRAME "Container"  29x27  V
+                  VECTOR "Icon"  29x27  fill=#737782
+              FRAME "Container"  61x16  V
+                TEXT "Text"  61x16  12px/500  #434751  "Sisi Depan"
+            FRAME "Upload Card 2"  202x196  stroke=#c3c6d2 2px  r=8  V  pad=70.75/16/70.75/16
+              FRAME "Margin"  29x35  V  pad=0/0/8/0
+                FRAME "Container"  29x27  V
+                  VECTOR "Icon"  29x27  fill=#737782
+              FRAME "Container"  74x16  V
+                TEXT "Text"  74x16  12px/500  #434751  "Sisi Samping"
+            FRAME "Upload Card 3"  202x196  stroke=#c3c6d2 2px  r=8  V  pad=70.75/16/70.75/16
+              FRAME "Margin"  29x35  V  pad=0/0/8/0
+                FRAME "Container"  29x27  V
+                  VECTOR "Icon"  29x27  fill=#737782
+              FRAME "Container"  76x16  V
+                TEXT "Text"  76x16  12px/500  #434751  "Sisi Belakang"
+            FRAME "Upload Card 4"  202x196  stroke=#c3c6d2 2px  r=8  V  pad=70.75/16/70.75/16
+              FRAME "Margin"  29x35  V  pad=0/0/8/0
+                FRAME "Container"  29x27  V
+                  VECTOR "Icon"  29x27  fill=#737782
+              FRAME "Container"  41x16  V
+                TEXT "Text"  41x16  12px/500  #434751  "Interior"
+          FRAME "Container"  854x20  H gap=8
+            FRAME "Container"  12x12  V
+              VECTOR "Icon"  12x12  fill=#434751
+            TEXT "Text"  461x20  14px/400  #434751  "Ukuran foto maksimal 5MB per file. Format yang didukung: JPG, PNG."
+        FRAME "Action Buttons"  920x58  H gap=16  pad=16/0/0/0
+          FRAME "Button"  85x42  stroke=#c3c6d2 1px  r=12  V  pad=10/24/10/24
+            TEXT "Text"  35x20  14px/600  #434751  "Batal"
+          FRAME "Button"  212x40  fill=#002a5d  r=12  H gap=7.99  pad=10/32/10/32
+            RECTANGLE "Button:shadow"  212x40  fill=#ffffff @0.00  r=12  shadow
+            FRAME "Container"  11x11  V
+              VECTOR "Icon"  11x11  fill=#ffffff
+            TEXT "Text"  130x20  14px/600  #ffffff  "Simpan Kendaraan"
+    FRAME "Footer Note"  1000x65  V gap=16  pad=0/40/32/40
+      RECTANGLE "Horizontal Divider"  920x1  fill=#c3c6d2
+      FRAME "Container"  920x16  V
+        TEXT "Text"  598x16  12px/500  #434751  "© 2024 Dinas Kesehatan PPKB Kabupaten Purbalingga. Seluruh data kendaraan dienkripsi secara aman."
+  FRAME "Header - TopNavBar"  1024x64  fill=#ffffff @0.80  stroke=#c3c6d2 1px  V
+    FRAME "Container"  1024x63  H gap=332.98  pad=0/40/0/40
+      FRAME "Background+Border"  384x50  fill=#ebeef3  stroke=#c3c6d2 1px  r=12  H gap=0  pad=6/16/6/16
+        FRAME "Container"  11x11  V
+          VECTOR "Icon"  11x11  fill=#434751
+        FRAME "Input"  340x36  V  pad=9/12/10/12
+          FRAME "Container"  316x17  V
+            TEXT "Cari unit atau plat nomor..."  316x17  14px/400  #434751  "Cari unit atau plat nomor..."
+      FRAME "Container"  227x40  H gap=16
+        FRAME "Button"  40x40  r=12  H
+          FRAME "Container"  16x20  V
+            VECTOR "Icon"  16x20  fill=#434751
+        FRAME "Button"  40x40  r=12  H
+          FRAME "Container"  20x20  V
+            VECTOR "Icon"  20x20  fill=#434751
+        FRAME "Margin"  17x32  V  pad=0/8/0/8
+          RECTANGLE "Vertical Divider"  1x32  fill=#c3c6d2
+        FRAME "Container"  82x20  V
+          TEXT "Text"  82x20  14px/600  #002a5d  "Fleet Admin"
+  FRAME "Aside - SideNavBar Shell"  256x1526  fill=#f7f9ff  stroke=#c3c6d2 1px  V  pad=32/0/32/0
+    FRAME "Margin"  255x75  V  pad=0/24/32/24
+      FRAME "Container"  207x43  H gap=12
+        FRAME "Background"  40x40  fill=#003f87  r=4  H
+          FRAME "Container"  16x20  V
+            VECTOR "Icon"  16x20  fill=#84adfc
+        FRAME "Container"  125x43  V
+          FRAME "Heading 2"  125x28  V
+            TEXT "Text"  125x28  20px/700  #002a5d  "Dinkes PPKB"
+          FRAME "Container"  125x15  V
+            TEXT "Text"  114x15  10px/700  #737782  "PURBALINGGA FLEET"
+    FRAME "Nav"  255x1343  V gap=4  pad=0/16/0/16
+      FRAME "Link"  223x44  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#40484f
+        FRAME "Container"  75x20  V
+          TEXT "Text"  75x20  14px/600  #40484f  "Dashboard"
+      FRAME "Link"  223x44  fill=#dbe3ed  stroke=#002a5d 1px  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  18x16  V
+          VECTOR "Icon"  18x16  fill=#002a5d
+        FRAME "Container"  120x20  V
+          TEXT "Text"  120x20  14px/600  #002a5d  "Kelola Kendaraan"
+      FRAME "Link"  223x44  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  18x20  V
+          VECTOR "Icon"  18x20  fill=#40484f
+        FRAME "Container"  152x20  V
+          TEXT "Text"  152x20  14px/600  #40484f  "Manajemen Reservasi"
+      FRAME "Link"  223x44  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  20x20  V
+          VECTOR "Icon"  20x20  fill=#40484f
+        FRAME "Container"  94x20  V
+          TEXT "Text"  94x20  14px/600  #40484f  "Data Pegawai"
+      FRAME "Link"  223x44  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#40484f
+        FRAME "Container"  56x20  V
+          TEXT "Text"  56x20  14px/600  #40484f  "Laporan"
+      FRAME "Link"  223x44  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  16x16  V
+          VECTOR "Icon"  16x16  fill=#40484f
+        FRAME "Container"  74x20  V
+          TEXT "Text"  74x20  14px/600  #40484f  "Profil Saya"
+    FRAME "Container"  255x44  V  pad=0/16/0/16
+      FRAME "Button"  223x44  r=4  H gap=12  pad=12/16/12/16
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#ba1a1a
+        FRAME "Container"  44x20  V
+          TEXT "Text"  44x20  14px/600  #ba1a1a  "Keluar"

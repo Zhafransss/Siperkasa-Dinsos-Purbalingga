@@ -1,0 +1,52 @@
+# Manajemen Booking Kendaraan
+# 1280x1024
+
+[HEADER]
+  (1147,  15) 14/600  Admin Utama
+  ( 296,  18) 20/900  Si-Armada Dinkes
+  (1153,  33) 12/500  Logistik Dinkes
+  ( 296,  96) 32/700  Manajemen Reservasi
+  (1080, 132) 14/600  Buat Reservasi Baru
+  ( 296, 136) 16/400  Kelola pengajuan peminjaman armada dinas secara efisien.
+
+[KONTEN]
+  ( 312, 204) 14/600  Pengajuan Baru 
+  ( 518, 205) 14/600  Jadwal Aktif
+  ( 668, 205) 14/600  Riwayat
+  ( 440, 206) 10/600  3
+  ( 537, 297) 12/500  PEMINJAM
+  ( 678, 297) 12/500  TUJUAN
+  ( 818, 297) 12/500  ARMADA
+  ( 959, 297) 12/500  WAKTU
+  (1148, 306) 14/600  Setujui
+  ( 537, 317) 14/600  Drs. Ahmad ⏎ Subarjo
+  ( 678, 317) 14/600  Sosialisasi ⏎ Stunting Kec. ⏎ Kejobong
+  ( 818, 317) 14/600  Toyota Innova (R ⏎ 1234 PA)
+  ( 959, 317) 14/600  24 Okt 2023, ⏎ 08:00 - 15:00
+  (1153, 351) 14/600  Tolak
+  ( 537, 357) 14/400  NIP: ⏎ 198204122010011005
+  (1141, 396) 14/600  Detail
+  ( 537, 499) 12/500  PEMINJAM
+  ( 678, 499) 12/500  TUJUAN
+  ( 818, 499) 12/500  ARMADA
+  ( 959, 499) 12/500  WAKTU
+  (1148, 508) 14/600  Setujui
+  ( 537, 519) 14/600  Siti Aminah, M.Si
+  ( 678, 519) 14/600  Distribusi Vaksin ⏎ Puskesmas
+  ( 818, 519) 14/600  Mitsubishi Triton ⏎ (R 5521 BC)
+  ( 959, 519) 14/600  25 Okt 2023, ⏎ 09:00 - 17:00
+  ( 537, 539) 14/400  NIP: ⏎ 197509152002122003
+  (1153, 553) 14/600  Tolak
+  (1141, 598) 14/600  Detail
+  ( 556, 988) 14/600  Pengajuan berhasil disetujui!
+
+[SIDEBAR]
+  (  24,  32) 20/700  Dinkes PPKB
+  (  24,  60) 12/500  Purbalingga Fleet
+  (  54, 120) 14/600  Dashboard
+  (  54, 168) 14/600  Kelola Kendaraan
+  (  54, 216) 14/600  Manajemen Reservasi
+  (  56, 264) 14/600  Data Pegawai
+  (  54, 312) 14/600  Laporan
+  (  52, 360) 14/600  Profil Saya
+  (  73, 964) 14/600  Keluar

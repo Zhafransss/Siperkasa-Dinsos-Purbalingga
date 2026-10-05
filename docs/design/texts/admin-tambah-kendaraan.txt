@@ -1,0 +1,65 @@
+# Tambah Kendaraan Baru - Admin
+# 1280x1526
+
+[HEADER]
+  (1158,  22) 14/600  Fleet Admin
+  ( 336,  23) 14/400  Cari unit atau plat nomor...
+
+[KONTEN]
+  ( 308, 104) 12/500  Fleet Management
+  ( 434, 104) 12/700  Tambah Kendaraan
+  ( 308, 128) 32/700  Tambah Kendaraan Baru
+  ( 308, 172) 16/400  Lengkapi formulir di bawah ini untuk mendaftarkan unit kendaraan baru ke dalam sistem operasional.
+  ( 385, 263) 20/600  Informasi Dasar
+  ( 341, 312) 14/600  Nama Kendaraan
+  ( 780, 312) 14/600  Merk / Model
+  ( 358, 353) 14/400  Contoh: Avanza Operasional 01
+  ( 797, 353) 14/400  Contoh: Toyota Avanza G 2023
+  ( 341, 410) 14/600  Nomor Plat (Plat Nomor)
+  ( 780, 410) 14/600  Tahun Kendaraan
+  ( 996, 410) 14/600  Tipe Bahan Bakar
+  ( 797, 450) 14/400  2024
+  (1013, 450) 14/400  Pertalite
+  ( 358, 451) 14/400  Contoh: R 1234 AA
+  ( 385, 581) 20/600  Spesifikasi Teknis
+  ( 341, 630) 14/600  Kapasitas Penumpang
+  ( 634, 630) 14/600  Kilometer Awal (Odometer)
+  ( 926, 630) 14/600  Warna Kendaraan
+  ( 358, 671) 14/400  7
+  ( 651, 671) 14/400  0
+  ( 943, 671) 14/400  Contoh: Putih Metalik
+  ( 558, 672) 12/500  Orang
+  ( 867, 672) 12/500  KM
+  ( 385, 801) 20/600  Administrasi & Pajak
+  ( 341, 850) 14/600  Tanggal Jatuh Tempo Pajak (1 Tahunan)
+  ( 780, 850) 14/600  Masa Berlaku STNK (5 Tahunan)
+  ( 359, 890) 14/400  mm
+  ( 385, 890) 14/400  /
+  ( 391, 890) 14/400  dd
+  ( 409, 890) 14/400  /
+  ( 415, 890) 14/400  yyyy
+  ( 798, 890) 14/400  mm
+  ( 824, 890) 14/400  /
+  ( 830, 890) 14/400  dd
+  ( 848, 890) 14/400  /
+  ( 854, 890) 14/400  yyyy
+  ( 385,1021) 20/600  Unggah Foto Kendaraan
+  ( 411,1174) 12/500  Sisi Depan
+  ( 622,1174) 12/500  Sisi Samping
+  ( 839,1174) 12/500  Sisi Belakang
+  (1074,1174) 12/500  Interior
+  ( 361,1278) 14/400  Ukuran foto maksimal 5MB per file. Format yang didukung: JPG, PNG.
+  ( 940,1390) 14/600  Batal
+  (1066,1390) 14/600  Simpan Kendaraan
+  ( 469,1478) 12/500  © 2024 Dinas Kesehatan PPKB Kabupaten Purbalingga. Seluruh data kendaraan dienkripsi secara aman.
+
+[SIDEBAR]
+  (  76,  32) 20/700  Dinkes PPKB
+  (  76,  60) 10/700  PURBALINGGA FLEET
+  (  62, 119) 14/600  Dashboard
+  (  62, 167) 14/600  Kelola Kendaraan
+  (  62, 215) 14/600  Manajemen Reservasi
+  (  64, 263) 14/600  Data Pegawai
+  (  62, 311) 14/600  Laporan
+  (  60, 359) 14/600  Profil Saya
+  (  62,1462) 14/600  Keluar

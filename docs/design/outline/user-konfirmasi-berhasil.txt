@@ -1,0 +1,82 @@
+FRAME "Konfirmasi Pengajuan Berhasil - Detail Pemohon & Waktu"  1280x1241  fill=#ffffff  V
+  FRAME "Main Content"  1280x1241  V  pad=128/192/32/192
+    FRAME "Container"  896x1081  V gap=32
+      FRAME "Background"  896x781  fill=GRADIENT_RADIAL  r=8
+        FRAME "Heading 1 - Text Content:margin"  440x48  V  pad=0/0/8/0
+          FRAME "Heading 1 - Text Content"  440x40  V
+            TEXT "Text"  440x40  32px/700  #181c20  "Pengajuan Berhasil Terkirim!"
+        FRAME "Margin"  896x128  V  pad=0/172.92/32/172.91
+          TEXT "Text"  550x96  16px/400  #424752  "Terima kasih telah menggunakan layanan peminjaman kendaraan\noperasional. Tim administrasi kami akan segera meninjau permohonan\nAnda. Anda dapat memantau progres pengajuan melalui dashboard akun\nAnda."
+        FRAME "Booking Summary Card:margin"  672x349  V  pad=0/0/32/0
+          FRAME "Booking Summary Card"  672x317  fill=#ffffff  stroke=#c2c6d4 1px  r=8  V gap=16  pad=32/32/32/32  shadow
+            FRAME "HorizontalBorder"  606x61  stroke=#c2c6d4 1px  H gap=282.55  pad=0/0/16/0
+              FRAME "Container"  181x44  V
+                FRAME "Container"  181x16  V
+                  TEXT "Text"  77x16  12px/500  #424752  "BOOKING ID"
+                FRAME "Container"  181x28  V
+                  TEXT "Text"  181x28  20px/600  #003f87  "#BRV-202410-089"
+              FRAME "Background"  142x24  fill=#d8e1ea  r=12  V  pad=4/12/4/12
+                TEXT "Text"  118x16  12px/500  #5b646b  "Menunggu Verifikasi"
+            FRAME "Container"  606x174  V gap=16
+              FRAME "Container"  606x60  H gap=16
+                FRAME "Background"  32x38  fill=#e5e8ee  r=4  V  pad=8/8/14/8
+                  VECTOR "Icon"  16x16  fill=#003f87
+                FRAME "Container"  266x60  V
+                  FRAME "Container"  266x16  V
+                    TEXT "Text"  107x16  12px/500  #424752  "Identitas Pemohon"
+                  FRAME "Container"  266x24  V
+                    TEXT "Text"  208x24  16px/600  #181c20  "dr. Bambang Sulistyo, Sp.P"
+                  FRAME "Container"  266x20  V
+                    TEXT "Text"  266x20  14px/400  #424752  "NIP: 198811042012021001 • Bidang: P2P"
+              FRAME "Container"  606x40  H gap=16
+                FRAME "Background"  34x38  fill=#e5e8ee  r=4  V  pad=8/8/14/8
+                  VECTOR "Icon"  18x16  fill=#003f87
+                FRAME "Container"  275x40  V
+                  FRAME "Container"  275x16  V
+                    TEXT "Text"  90x16  12px/500  #424752  "Tipe Kendaraan"
+                  FRAME "Container"  275x24  V
+                    TEXT "Text"  275x24  16px/600  #181c20  "Toyota Innova Venturer (Z 1234 XY)"
+              FRAME "Container"  606x42  H gap=16
+                FRAME "Background"  34x42  fill=#e5e8ee  r=4  V  pad=8/8/14/8
+                  VECTOR "Icon"  18x20  fill=#003f87
+                FRAME "Container"  334x40  V
+                  FRAME "Container"  334x16  V
+                    TEXT "Text"  110x16  12px/500  #424752  "Waktu Peminjaman"
+                  FRAME "Container"  334x24  V
+                    TEXT "Text"  334x24  16px/600  #181c20  "2024-12-12 (08:00) s/d 2024-12-12 (16:00)"
+        FRAME "Action Buttons"  896x54  H gap=16  pad=0/16/0/16
+          FRAME "Link"  234x54  fill=#0056b3  r=4  V  pad=16/32/16/32  shadow
+            TEXT "Text"  170x20  14px/600  #ffffff  "Lihat Status Peminjaman"
+          FRAME "Link"  202x54  stroke=#003f87 1px  r=4  V  pad=16/32/16/32
+            TEXT "Text"  136x20  14px/600  #003f87  "Kembali ke Beranda"
+        FRAME "Success Illustration Area:margin"  96x128
+          FRAME "Success Illustration Area"  106x106  V
+            FRAME "Background"  106x106  fill=#003f87  r=12  H
+              RECTANGLE "Overlay+Shadow"  116x116  fill=#ffffff @0.00  r=12  shadow
+              FRAME "Container"  44x44  V
+                VECTOR "Icon"  44x44  fill=#ffffff
+            RECTANGLE "Background+Blur"  48x48  fill=#d7e2ff  r=12
+            RECTANGLE "Background+Blur"  64x64  fill=#dbe4ed  r=12
+      FRAME "Bento Grid Section: Information & Support"  896x268  G
+        FRAME "Background+Border"  589x268  fill=#f1f4f9  stroke=#c2c6d4 1px  r=8  H gap=32  pad=32/32/32/32
+          FRAME "Container"  185x174  r=4  V
+            FRAME "AB6AXuC7o6wDE01kr7T74nUpLlcL5b7BSY6HY6XXt9J6-q8j56M1xbe6EFn7"  185x174  fill=IMAGE
+          FRAME "Container"  306x132  V gap=8
+            FRAME "Heading 3"  306x28  V
+              TEXT "Text"  216x28  20px/600  #181c20  "Butuh Bantuan Cepat?"
+            FRAME "Container"  306x60  V
+              TEXT "Text"  306x60  14px/400  #424752  "Jika Anda memiliki kebutuhan mendesak atau\nperubahan jadwal mendadak, silakan hubungi\nbagian logistik kami untuk koordinasi prioritas."
+            FRAME "Button"  184x28  H gap=7.99  pad=7.5/0/0/0
+              FRAME "Container"  12x11  V
+                VECTOR "Icon"  12x11  fill=#003f87
+              TEXT "Text"  164x20  14px/600  #003f87  "Hubungi Admin Logistik"
+        FRAME "Background"  283x258  fill=#003f87  r=8  V  pad=32/32/32/32
+          FRAME "Container"  219x162  V gap=8
+            VECTOR "Icon"  30x30  fill=#ffffff
+            FRAME "Heading 3"  219x36  V  pad=8/0/0/0
+              TEXT "Panduan Penggunaan"  219x28  20px/600  #ffffff  "Panduan Penggunaan"
+            FRAME "Container"  219x80  V
+              TEXT "Pastikan Anda membawa surat tugas dan SIM yang masih berlaku"  219x80  14px/400  #ffffff  "Pastikan Anda membawa surat\ntugas dan SIM yang masih\nberlaku saat pengambilan\nkendaraan."
+          FRAME "Link:margin"  219x32  V  pad=16/0/0/0
+            FRAME "Link"  219x16  V
+              TEXT "Baca Selengkapnya"  219x16  12px/500  #ffffff  "Baca Selengkapnya"

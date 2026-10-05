@@ -1,0 +1,51 @@
+FRAME "Html → Body"  1280x1009  fill=#ffffff
+  FRAME "Background Login Page (Simulated)"  1280x1009  V
+    FRAME "Modal Overlay"  1280x1009  fill=#000000 @0.85  H  pad=16/16/16/16
+      FRAME "Modal Container"  512x742  fill=#ffffff  r=24  V  shadow
+        FRAME "Modal Header"  512x73  stroke=#f3f4f6 1px  H  pad=24/32/24/32
+          FRAME "Button - Close modal"  24x24  V
+            FRAME "SVG"  24x24
+              VECTOR "Vector"  12x12  stroke=#9ca3af 2px
+        FRAME "Modal Body Content"  512x669  V  pad=32/32/32/32
+          FRAME "Bell Icon Block:margin"  64x88  V  pad=16/16/40/16
+            FRAME "Bell Icon Block → SVG"  32x32
+              VECTOR "Vector"  21x24  stroke=#003f87 2.6666667461395264px
+          FRAME "Heading 3 - Heading Text:margin"  222x40  V  pad=0/0/12/0
+            FRAME "Heading 3 - Heading Text"  222x28  V
+              TEXT "Text"  222x28  20px/700  #111827  "Hubungi Administrator"
+          FRAME "Margin"  448x81
+            FRAME "Container"  448x50  V  pad=0/25.44/0.56/25.42
+              TEXT "Text"  397x49  15px/400  #6b7280  "Untuk mereset kata sandi, silakan hubungi administrator\nsistem secara langsung atau melalui saluran berikut:"
+          FRAME "Section - Admin Details Table-like Box:margin"  448x229  V  pad=24/24/48/24
+            FRAME "Section - Admin Details Table-like Box"  400x157  G
+              FRAME "Container"  120x22  V
+                TEXT "Text"  89x22  14.5px/600  #003f87  "Nama Admin"
+              FRAME "Container"  280x22  V
+                TEXT "Text"  133x22  14.5px/400  #1f2937  "Dr. Hendra Kusuma"
+              FRAME "Container"  120x22  V
+                TEXT "Text"  57x22  14.5px/600  #003f87  "Jabatan"
+              FRAME "Container"  280x22  V
+                TEXT "Text"  165x22  14.5px/400  #1f2937  "Kepala Dinas Kesehatan"
+              FRAME "Container"  120x22  V
+                TEXT "Text"  93x22  14.5px/600  #003f87  "Telepon / WA"
+              FRAME "Container"  280x22  V
+                TEXT "Text"  106x22  14.5px/500  #1f2937  "081234567890"
+              FRAME "Container"  120x22  V
+                TEXT "Text"  38x22  14.5px/600  #003f87  "Email"
+              FRAME "Container"  280x22  V
+                TEXT "Text"  178x22  14.5px/400  #1f2937  "hendra@dinkes-pbg.go.id"
+              FRAME "Container"  120x22  V
+                TEXT "Text"  45x22  14.5px/600  #003f87  "Lokasi"
+              FRAME "Container"  280x22  V
+                TEXT "Text"  233x22  14.5px/400  #1f2937  "Kantor Dinkes, Lt. 1, Ruang Kepala"
+          FRAME "Warning Info Box:margin"  448x112  V  pad=0/0/32/0
+            FRAME "Warning Info Box"  448x80  fill=#fff9e2  stroke=#fef9c3 1px  r=16  H gap=12  pad=16/16/16/16
+              FRAME "Margin"  20x22  V  pad=2/0/0/0
+                FRAME "SVG"  20x20
+                  VECTOR "Vector"  15x13  stroke=#ca8a04 1.6666666269302368px
+              FRAME "Container"  382x46
+                TEXT "Text"  318x46  14px/400  #115e59 @0.80  "Pastikan membawa kartu identitas pegawai saat\nmengajukan reset kata sandi secara langsung."
+          FRAME "Action Button"  448x56  fill=#003f87  r=12  V  pad=16/0/16/0
+            RECTANGLE "Action Button:shadow"  448x56  fill=#ffffff @0.00  r=12  shadow
+            TEXT "Text"  71x24  16px/700  #ffffff  "Mengerti"
+    FRAME "Main Content Simulation"  1280x1  H  pad=24/24/24/24

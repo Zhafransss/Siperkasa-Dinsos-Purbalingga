@@ -1,0 +1,112 @@
+FRAME "Detail & Edit Data Pegawai - Admin"  1280x1024  fill=#ffffff  V  pad=64/40/527/296
+  FRAME "Main Content Canvas"  944x433  V gap=32
+    FRAME "Nav - Breadcrumb"  944x24  H gap=8
+      FRAME "Link"  157x24  V
+        TEXT "Text"  157x24  16px/400  #434751  "Manajemen Pegawai"
+      FRAME "Container"  6x9  V
+        VECTOR "Icon"  6x9  fill=#434751
+      FRAME "Container"  115x24  V
+        TEXT "Text"  115x24  16px/700  #002a5d  "Detail Pegawai"
+    FRAME "Form - Profile Header"  944x377  G
+      FRAME "Left Column: Basic Info"  621x377  fill=#ffffff  stroke=#c3c6d2 1px  r=8  V gap=16  pad=32/32/32/32
+        FRAME "HorizontalBorder"  555x41  stroke=#c3c6d2 1px  H gap=8  pad=0/0/16/0
+          FRAME "Container"  16x16  V
+            VECTOR "Icon"  16x16  fill=#002a5d
+          FRAME "Heading 3"  119x24  V
+            TEXT "Text"  119x24  16px/400  #181c20  "Informasi Dasar"
+        FRAME "Container"  555x254  G
+          FRAME "Container"  270x74  V gap=8
+            TEXT "Label → Nama Lengkap"  114x24  16px/400  #434751  "Nama Lengkap"
+            FRAME "Input"  270x42  fill=#f1f4f9  stroke=#c3c6d2 1px  r=4  H  pad=8/16/8/16
+              FRAME "Container"  236x24  V
+                TEXT "Agus Setiawan"  236x24  16px/400  #181c20  "Agus Setiawan"
+          FRAME "Container"  270x74  V gap=8
+            TEXT "Label → NIP"  27x24  16px/400  #434751  "NIP"
+            FRAME "Input"  270x42  fill=#f1f4f9  stroke=#c3c6d2 1px  r=4  H  pad=8/16/8/16
+              FRAME "Container"  236x24  V
+                TEXT "198503122010011005"  236x24  16px/400  #181c20  "198503122010011005"
+          FRAME "Container"  270x74  V gap=8
+            TEXT "Label → Jabatan / Pangkat"  137x24  16px/400  #434751  "Jabatan / Pangkat"
+            FRAME "Options"  270x42  fill=#f1f4f9  stroke=#c3c6d2 1px  r=4  H  pad=8/16/8/16
+              FRAME "image clip"  270x42  V  pad=9/9/9/236.66
+                FRAME "image"  24x24
+                  VECTOR "Vector"  10x5  stroke=#6b7280 1.8000000715255737px
+              FRAME "Container"  236x24  V
+                TEXT "Penata / IIIc"  236x24  16px/400  #181c20  "Penata / IIIc"
+          FRAME "Container"  270x74  V gap=8
+            TEXT "Label → Bidang / Unit Kerja"  141x24  16px/400  #434751  "Bidang / Unit Kerja"
+            FRAME "Options"  270x42  fill=#f1f4f9  stroke=#c3c6d2 1px  r=4  H  pad=8/16/8/16
+              FRAME "image clip"  270x42  V  pad=9/9/9/236.67
+                FRAME "image"  24x24
+                  VECTOR "Vector"  10x5  stroke=#6b7280 1.8000000715255737px
+              FRAME "Container"  236x24  V
+                TEXT "Sekretariat"  236x24  16px/400  #181c20  "Sekretariat"
+          FRAME "Container"  555x74  V gap=8
+            TEXT "Label → Email Dinas"  87x24  16px/400  #434751  "Email Dinas"
+            FRAME "Input"  555x42  fill=#f1f4f9  stroke=#c3c6d2 1px  r=4  H  pad=8/16/8/16
+              FRAME "Container"  521x24  V
+                TEXT "agus.setiawan@purbalinggakab.go.id"  521x24  16px/400  #181c20  "agus.setiawan@purbalinggakab.go.id"
+      FRAME "Right Column: Account Info & Actions"  299x377  V  pad=0/0/197/0
+        FRAME "Sticky Action Bar Placeholder for Mobile / Normal on Desktop"  299x180  fill=#ffffff  stroke=#c3c6d2 1px  r=8  V gap=16  pad=32/32/32/32  shadow
+          FRAME "Button"  233x48  fill=#002a5d  r=4  H gap=8  pad=12/0/12/0
+            FRAME "Container"  15x15  V
+              VECTOR "Icon"  15x15  fill=#ffffff
+            TEXT "Text"  143x24  16px/400  #ffffff  "Simpan Perubahan"
+          FRAME "Button"  233x50  fill=#ffffff  stroke=#c3c6d2 1px  r=4  H  pad=12/0/12/0
+            TEXT "Text"  38x24  16px/400  #434751  "Batal"
+  FRAME "Header - TopNavBar"  1024x64  fill=#ffffff @0.80  stroke=#c3c6d2 1px  H gap=418.55  pad=0/40/0/40
+    FRAME "Container"  256x41  V
+      FRAME "Input"  256x41  fill=#ffffff  stroke=#c3c6d2 1px  r=12  H  pad=10/16/10/40
+        FRAME "Container"  198x19  V
+          TEXT "Search data..."  198x19  16px/400  #6b7280  "Search data..."
+      FRAME "Container"  18x23  V
+        VECTOR "Icon"  18x18  fill=#434751
+    FRAME "Container"  257x32  H gap=24
+      FRAME "Button"  16x26  V  pad=0/0/6/0
+        FRAME "Container"  16x20  H
+          VECTOR "Icon"  16x20  fill=#434751
+        RECTANGLE "Background+Border"  8x8  fill=#ba1a1a  stroke=#ffffff 2px  r=12
+      FRAME "Button"  20x26  V  pad=0/0/6/0
+        FRAME "Container"  20x20  H
+          VECTOR "Icon"  20x20  fill=#434751
+      FRAME "Margin"  17x32  V  pad=0/8/0/8
+        RECTANGLE "Vertical Divider"  1x32  fill=#c3c6d2
+      FRAME "Container"  132x24  V
+        TEXT "Text"  132x24  16px/400  #002a5d  "Purbalingga Fleet"
+  FRAME "Aside - SideNavBar Anchor"  256x1024  fill=#f1f4f9  stroke=#c3c6d2 1px  V  pad=32/0/32/0
+    FRAME "Margin"  255x76  V  pad=0/0/32/0
+      FRAME "Container"  255x44  V  pad=0/24/0/24
+        FRAME "Heading 1"  207x28  V
+          TEXT "Dinkes PPKB"  207x28  20px/700  #002a5d  "Dinkes PPKB"
+        FRAME "Container"  207x16  V
+          TEXT "Purbalingga Fleet"  207x16  12px/500  #434751  "Purbalingga Fleet"
+    FRAME "Nav"  255x840  V gap=4
+      FRAME "Link"  255x44  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#40484f
+        TEXT "Text"  75x20  14px/600  #40484f  "Dashboard"
+      FRAME "Link"  255x44  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x16  V
+          VECTOR "Icon"  18x16  fill=#40484f
+        TEXT "Text"  120x20  14px/600  #40484f  "Kelola Kendaraan"
+      FRAME "Link"  255x44  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x20  V
+          VECTOR "Icon"  18x20  fill=#40484f
+        TEXT "Text"  152x20  14px/600  #40484f  "Manajemen Reservasi"
+      FRAME "Link - ACTIVE TAB: Data Pegawai"  255x44  fill=#dbe3ed  stroke=#002a5d 1px  H gap=12  pad=12/24/12/24
+        FRAME "Container"  20x20  V
+          VECTOR "Icon"  20x20  fill=#002a5d
+        TEXT "Text"  95x20  14px/700  #002a5d  "Data Pegawai"
+      FRAME "Link"  255x44  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#40484f
+        TEXT "Text"  56x20  14px/600  #40484f  "Laporan"
+      FRAME "Link"  255x44  H gap=12  pad=12/24/12/24
+        FRAME "Container"  16x16  V
+          VECTOR "Icon"  16x16  fill=#40484f
+        TEXT "Text"  74x20  14px/600  #40484f  "Profil Saya"
+    FRAME "Container"  255x44  V  pad=0/24/0/24
+      FRAME "Link"  207x44  H gap=12  pad=12/0/12/0
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#ba1a1a
+        TEXT "Text"  44x20  14px/600  #ba1a1a  "Keluar"

@@ -1,0 +1,292 @@
+FRAME "Laporan Operasional - Grafik Batang Penggunaan Kendaraan"  1280x1457  fill=#ffffff  H  pad=0/0/0/256
+  FRAME "Main Content Canvas"  1024x1457  V  pad=96/40/32/40
+    FRAME "Container"  944x1329  V gap=32
+      FRAME "Section - Page Header & Filters"  944x96  H gap=24
+        FRAME "Container"  319x72  V
+          FRAME "Heading 3"  319x24  V
+            TEXT "Text"  157x24  16px/400  #002a5d  "Laporan Operasional"
+          FRAME "Container"  319x48  V
+            TEXT "Text"  319x48  16px/400  #434751  "Analisis utilitas kendaraan dan rekapitulasi\npengajuan perjalanan dinas."
+        FRAME "Container"  521x96  V gap=12  pad=0/144.67/0/0
+          FRAME "Background+Border"  377x42  fill=#ffffff  stroke=#c3c6d2 1px  r=8  H gap=8  pad=8/16/8/16
+            FRAME "Container"  15x17  V
+              VECTOR "Icon"  15x17  fill=#737782
+            FRAME "Input"  143x24  V
+              FRAME "Container"  143x24  H
+                FRAME "Container"  123x24  H  pad=0/32.75/0/0
+                  FRAME "Paragraph"  90x24  H gap=1  pad=0/1/0/1
+                    TEXT "Spinbutton - Month → 10"  17x24  16px/400  #181c20  "10"
+                    TEXT "Text"  6x24  16px/400  #181c20  "/"
+                    TEXT "Spinbutton - Day → 01"  17x24  16px/400  #181c20  "01"
+                    TEXT "Text"  6x24  16px/400  #181c20  "/"
+                    TEXT "Spinbutton - Year → 2023"  40x24  16px/400  #181c20  "2023"
+                FRAME "Button menu"  20x20  V  pad=2/2/2/2
+                  FRAME "image"  16x15
+            FRAME "Container"  18x24  V
+              TEXT "Text"  18x24  16px/400  #737782  "ke"
+            FRAME "Input"  143x24  V
+              FRAME "Container"  143x24  H gap=0
+                FRAME "Container"  123x24  H  pad=0/32.97/0/0
+                  FRAME "Paragraph"  90x24  H gap=1  pad=0/1/0/1
+                    TEXT "Spinbutton - Month → 10"  17x24  16px/400  #181c20  "10"
+                    TEXT "Text"  6x24  16px/400  #181c20  "/"
+                    TEXT "Spinbutton - Day → 31"  16x24  16px/400  #181c20  "31"
+                    TEXT "Text"  6x24  16px/400  #181c20  "/"
+                    TEXT "Spinbutton - Year → 2023"  40x24  16px/400  #181c20  "2023"
+                FRAME "Button menu"  20x20  V  pad=2/2/2/2
+                  FRAME "image"  16x15
+          FRAME "Container"  311x42  H gap=8
+            FRAME "Button"  146x42  stroke=#002a5d 1px  r=8  H gap=7.99  pad=8/16/8/16
+              FRAME "Container"  16x16  V
+                VECTOR "Icon"  16x16  fill=#002a5d
+              TEXT "Text"  88x24  16px/400  #002a5d  "Ekspor PDF"
+            FRAME "Button"  157x42  fill=#002a5d  r=8  H gap=8  pad=9/16/9/16  shadow
+              FRAME "Container"  20x20  V
+                VECTOR "Icon"  20x20  fill=#ffffff
+              TEXT "Text"  97x24  16px/400  #ffffff  "Ekspor Excel"
+      FRAME "Visualization Section: Bento Grid Layout"  944x400  G
+        FRAME "Most Used Vehicles Chart"  621x400  fill=#ffffff @0.70  stroke=#c3c6d2 1px  r=8  V  pad=16/16/16/16
+          FRAME "Margin"  587x64  V  pad=0/0/32/0
+            FRAME "Container"  587x32  H gap=188.39
+              FRAME "Heading 4"  270x24  V
+                TEXT "Text"  270x24  16px/400  #002a5d  "Kendaraan Paling Sering Digunakan"
+              FRAME "Background"  129x32  fill=#ebeef3  r=12  V  pad=4/12/4/12
+                TEXT "Text"  105x24  16px/400  #434751  "Oktober 2023"
+          FRAME "Container"  587x302  H  pad=16/0/8/0
+            FRAME "Background Grid Lines"  619x398  V gap=82  pad=80/16/68/16
+              RECTANGLE "Horizontal Divider"  587x1  stroke=#c3c6d2 1px
+              RECTANGLE "Horizontal Divider"  587x1  stroke=#c3c6d2 1px
+              RECTANGLE "Horizontal Divider"  587x1  stroke=#c3c6d2 1px
+              RECTANGLE "Horizontal Divider"  587x1  stroke=#c3c6d2 1px
+            FRAME "Container"  587x107  H gap=55.1  pad=16/0/8/0
+              FRAME "Chart Bar 1: Toyota Avanza"  64x83  V gap=12
+                FRAME "Background+Shadow"  64x32  fill=#002a5d  V  pad=0/0/8/0  shadow
+                  FRAME "Container"  20x24  V
+                    TEXT "Text"  20x24  16px/400  #ffffff  "42"
+                FRAME "Container"  57x39  V
+                  FRAME "Container"  57x24  V
+                    TEXT "Text"  57x24  16px/600  #181c20  "Avanza"
+                  FRAME "Container"  57x15  V
+                    TEXT "Text"  43x15  10px/400  #434751  "TOYOTA"
+              FRAME "Chart Bar 2: Innova Zenix"  64x83  V gap=12
+                FRAME "Background+Shadow"  64x32  fill=#002a5d  V  pad=0/0/8/0  shadow
+                  FRAME "Container"  16x24  V
+                    TEXT "Text"  16x24  16px/400  #ffffff  "31"
+                FRAME "Container"  52x39  V
+                  FRAME "Container"  52x24  V
+                    TEXT "Text"  52x24  16px/600  #181c20  "Innova"
+                  FRAME "Container"  52x15  V
+                    TEXT "Text"  32x15  10px/400  #434751  "ZENIX"
+              FRAME "Chart Bar 3: HiAce"  64x83  V gap=12
+                FRAME "Background+Shadow"  64x32  fill=#002a5d  V  pad=0/0/8/0  shadow
+                  FRAME "Container"  20x24  V
+                    TEXT "Text"  20x24  16px/400  #ffffff  "24"
+                FRAME "Container"  63x39  V
+                  FRAME "Container"  63x24  V
+                    TEXT "Text"  46x24  16px/600  #181c20  "HiAce"
+                  FRAME "Container"  63x15  V
+                    TEXT "Text"  63x15  10px/400  #434751  "COMMUTER"
+              FRAME "Chart Bar 4: Mitsubishi Pajero"  64x83  V gap=12
+                FRAME "Background+Shadow"  64x32  fill=#002a5d  V  pad=0/0/8/0  shadow
+                  FRAME "Container"  16x24  V
+                    TEXT "Text"  16x24  16px/400  #ffffff  "18"
+                FRAME "Container"  49x39  V
+                  FRAME "Container"  49x24  V
+                    TEXT "Text"  49x24  16px/600  #181c20  "Pajero"
+                  FRAME "Container"  49x15  V
+                    TEXT "Text"  36x15  10px/400  #434751  "SPORT"
+              FRAME "Chart Bar 5: Ambulans"  64x83  V gap=12
+                FRAME "Background+Shadow"  64x32  fill=#002a5d  V  pad=0/0/8/0  shadow
+                  FRAME "Container"  16x24  V
+                    TEXT "Text"  16x24  16px/400  #ffffff  "12"
+                FRAME "Container"  78x39  V
+                  FRAME "Container"  78x24  V
+                    TEXT "Text"  78x24  16px/600  #181c20  "Ambulans"
+                  FRAME "Container"  78x15  V
+                    TEXT "Text"  38x15  10px/400  #434751  "GAWAT"
+        FRAME "Stats Summary Column"  299x400  V gap=16
+          FRAME "Overlay+Border+OverlayBlur"  299x98  fill=#ffffff @0.70  stroke=#c3c6d2 1px  r=8  H gap=79.96  pad=24/24.01/24/24
+            FRAME "Container"  121x48  V
+              FRAME "Container"  121x24  V
+                TEXT "Text"  121x24  16px/400  #434751  "Total Perjalanan"
+              FRAME "Heading 5"  121x24  V
+                TEXT "Text"  25x24  16px/400  #002a5d  "127"
+            FRAME "Background"  48x48  fill=#003f87  r=12  H
+              FRAME "Container"  18x18  V
+                VECTOR "Icon"  18x18  fill=#ffffff
+          FRAME "Overlay+Border+OverlayBlur"  299x286  fill=#ffffff @0.70  stroke=#c3c6d2 1px  r=8  V  pad=24/24/180/24
+            FRAME "Container"  249x80  V
+              FRAME "Container"  249x24  V
+                TEXT "Persentase Utilitas"  249x24  16px/400  #434751  "Persentase Utilitas"
+              FRAME "Heading 5"  249x24  V
+                TEXT "92.4%"  249x24  16px/400  #22c55e  "92.4%"
+              FRAME "Container"  249x32  V  pad=8/0/0/0
+                TEXT "Meningkat 5% dari bulan lalu"  249x24  16px/400  #434751  "Meningkat 5% dari bulan lalu"
+      FRAME "Table Section: Recap of Submissions"  944x769  fill=#ffffff @0.70  stroke=#c3c6d2 1px  r=8  V
+        FRAME "HorizontalBorder"  942x82  stroke=#c3c6d2 1px  H gap=421.44  pad=20/24/20/24
+          FRAME "Heading 4"  217x24  V
+            TEXT "Text"  217x24  16px/400  #002a5d  "Rekap Pengajuan Kendaraan"
+          FRAME "Container"  256x41  V
+            FRAME "Input"  256x41  fill=#f1f4f9  stroke=#c3c6d2 1px  r=4  H  pad=10/16/10/40
+              FRAME "Container"  198x19  V
+                TEXT "Cari NIP atau Nama..."  198x19  16px/400  #6b7280  "Cari NIP atau Nama..."
+            FRAME "Container"  14x18  V
+              VECTOR "Icon"  14x14  fill=#737782
+        FRAME "Table"  942x620  V
+          FRAME "Header → Row"  942x56  fill=#ebeef3  H
+            FRAME "Cell"  174x56  V  pad=16/24/16/24
+              TEXT "Text"  91x24  16px/600  #434751  "Nama & NIP"
+            FRAME "Cell"  266x56  V  pad=16/24/16/24
+              TEXT "Text"  52x24  16px/600  #434751  "Tujuan"
+            FRAME "Cell"  213x56  V  pad=16/24/16/24
+              TEXT "Text"  83x24  16px/600  #434751  "Kendaraan"
+            FRAME "Cell"  161x56  V  pad=16/24/16/24
+              TEXT "Text"  62x24  16px/600  #434751  "Tanggal"
+            FRAME "Cell"  129x56  V  pad=16/24/16/24
+              TEXT "Text"  50x24  16px/600  #434751  "Status"
+          FRAME "Body"  942x564  V gap=-1
+            FRAME "Row"  942x128  H
+              FRAME "Data"  174x128  V  pad=16/24/16/24
+                FRAME "Container"  126x48  V
+                  TEXT "Dr. Budi Santoso"  126x48  16px/600  #002a5d  "Dr. Budi\nSantoso"
+                FRAME "Container"  126x48  V
+                  TEXT "NIP. 19850312 201012 1 004"  126x48  12px/400  #434751  "NIP. 19850312 201012\n1 004"
+              FRAME "Data"  266x113  V  pad=32/24/32.5/24
+                TEXT "Text"  170x48  16px/400  #181c20  "Kunjungan Puskesmas\nBukateja"
+              FRAME "Data"  213x113  V  pad=32/24/32.5/24
+                TEXT "Text"  131x48  16px/400  #181c20  "Toyota Avanza (R\n1234 PA)"
+              FRAME "Data"  161x113  V  pad=32/24/32.5/24
+                TEXT "Text"  99x48  16px/400  #434751  "24 Okt 2023,\n08:30"
+              FRAME "Data"  129x113  V  pad=48/24/44.5/24
+                FRAME "Background"  61x20  fill=#dcfce7  r=12  H  pad=2/10/2/10
+                  TEXT "Text"  41x16  12px/500  #166534  "Selesai"
+            FRAME "Row"  942x130  stroke=#c3c6d2 1px  H
+              FRAME "Data"  174x129  V  pad=16.5/24/16.5/24
+                FRAME "Container"  126x48  V
+                  TEXT "Siti Aminah, S.KM"  126x48  16px/600  #002a5d  "Siti Aminah,\nS.KM"
+                FRAME "Container"  126x48  V
+                  TEXT "NIP. 19920105 201502 2 001"  126x48  12px/400  #434751  "NIP. 19920105 201502\n2 001"
+              FRAME "Data"  266x113  V  pad=32.5/24/32.5/24
+                TEXT "Text"  183x48  16px/400  #181c20  "Rapat Koordinasi Dinkes\nJateng"
+              FRAME "Data"  213x113  V  pad=32.5/24/32.5/24
+                TEXT "Text"  161x48  16px/400  #181c20  "Innova Zenix (R 8888\nCC)"
+              FRAME "Data"  161x113  V  pad=32.5/24/32.5/24
+                TEXT "Text"  99x48  16px/400  #434751  "23 Okt 2023,\n07:00"
+              FRAME "Data"  129x113  V  pad=48.5/24/44.5/24
+                FRAME "Background"  61x20  fill=#dcfce7  r=12  H  pad=2/10/2/10
+                  TEXT "Text"  41x16  12px/500  #166534  "Selesai"
+            FRAME "Row"  942x90  stroke=#c3c6d2 1px  H
+              FRAME "Data"  174x89  V  pad=16.5/24/16.5/24
+                FRAME "Container"  126x24  V
+                  TEXT "Agus Setiawan"  126x24  16px/600  #002a5d  "Agus Setiawan"
+                FRAME "Container"  126x32  V
+                  TEXT "NIP. 19800520 200801 1 003"  126x32  12px/400  #434751  "NIP. 19800520\n200801 1 003"
+              FRAME "Data"  266x89  V  pad=20.5/24/20.5/24
+                TEXT "Text"  134x48  16px/400  #181c20  "Distribusi Logistik\nKesehatan"
+              FRAME "Data"  213x89  V  pad=20.5/24/20.5/24
+                TEXT "Text"  150x48  16px/400  #181c20  "HiAce Commuter (R\n7721 DB)"
+              FRAME "Data"  161x89  V  pad=20.5/24/20.5/24
+                TEXT "Text"  99x48  16px/400  #434751  "22 Okt 2023,\n09:15"
+              FRAME "Data"  129x89  V  pad=36.5/24/32.5/24
+                FRAME "Background"  61x20  fill=#dcfce7  r=12  H  pad=2/10/2/10
+                  TEXT "Text"  41x16  12px/500  #166534  "Selesai"
+            FRAME "Row"  942x106  stroke=#c3c6d2 1px  H
+              FRAME "Data"  174x105  V  pad=16.5/24/16.5/24
+                FRAME "Container"  126x24  V
+                  TEXT "Endang Sulastri"  126x24  16px/600  #002a5d  "Endang Sulastri"
+                FRAME "Container"  126x48  V
+                  TEXT "NIP. 19880714 201203 2 005"  126x48  12px/400  #434751  "NIP. 19880714 201203\n2 005"
+              FRAME "Data"  266x89  V  pad=20.5/24/20.5/24
+                TEXT "Text"  191x48  16px/400  #181c20  "Monitoring Stunting Desa\nKarangbanjar"
+              FRAME "Data"  213x89  V  pad=20.5/24/20.5/24
+                TEXT "Text"  150x48  16px/400  #181c20  "Mitsubishi Pajero (R\n1010 AB)"
+              FRAME "Data"  161x89  V  pad=20.5/24/20.5/24
+                TEXT "Text"  99x48  16px/400  #434751  "22 Okt 2023,\n10:00"
+              FRAME "Data"  129x89  V  pad=36.5/24/32.5/24
+                FRAME "Background"  81x20  fill=#fef3c7  r=12  H  pad=2/10/2/10
+                  TEXT "Text"  61x16  12px/500  #92400e  "Dibatalkan"
+            FRAME "Row"  942x114  stroke=#c3c6d2 1px  H
+              FRAME "Data"  174x112  V  pad=16/24/16/24
+                FRAME "Container"  126x48  V
+                  TEXT "Dr. Hendra Wijaya"  126x48  16px/600  #002a5d  "Dr. Hendra\nWijaya"
+                FRAME "Container"  126x32  V
+                  TEXT "NIP. 19751122 200501 1 002"  126x32  12px/400  #434751  "NIP. 19751122 200501\n1 002"
+              FRAME "Data"  266x113  V  pad=32.5/24/32/24
+                TEXT "Text"  191x48  16px/400  #181c20  "Audit Internal Puskesmas\nKalimanah"
+              FRAME "Data"  213x113  V  pad=32.5/24/32/24
+                TEXT "Text"  131x48  16px/400  #181c20  "Toyota Avanza (R\n4567 BB)"
+              FRAME "Data"  161x113  V  pad=32.5/24/32/24
+                TEXT "Text"  95x48  16px/400  #434751  "21 Okt 2023,\n13:00"
+              FRAME "Data"  129x113  V  pad=48.5/24/44/24
+                FRAME "Background"  61x20  fill=#dcfce7  r=12  H  pad=2/10/2/10
+                  TEXT "Text"  41x16  12px/500  #166534  "Selesai"
+        FRAME "Pagination"  942x65  stroke=#c3c6d2 1px  H gap=463.41  pad=16/24/16/24
+          FRAME "Container"  239x24  V
+            TEXT "Text"  239x24  16px/400  #434751  "Menampilkan 1 - 5 dari 127 data"
+          FRAME "Container"  192x32  H gap=8
+            FRAME "Button"  32x32  stroke=#c3c6d2 1px  r=4  H
+              FRAME "Container"  6x9  V
+                VECTOR "Icon"  6x9  fill=#181c20
+            FRAME "Button"  32x32  fill=#002a5d  r=4  H
+              TEXT "Text"  7x24  16px/400  #ffffff  "1"
+            FRAME "Button"  32x32  stroke=#c3c6d2 1px  r=4  H
+              TEXT "Text"  10x24  16px/400  #181c20  "2"
+            FRAME "Button"  32x32  stroke=#c3c6d2 1px  r=4  H
+              TEXT "Text"  10x24  16px/400  #181c20  "3"
+            FRAME "Button"  32x32  stroke=#c3c6d2 1px  r=4  H
+              FRAME "Container"  6x9  V
+                VECTOR "Icon"  6x9  fill=#181c20
+  FRAME "Header - TopNavBar Anchor"  1024x64  fill=#ffffff @0.80  stroke=#c3c6d2 1px  H gap=532.13  pad=0/40/0/40
+    FRAME "Heading 2"  145x24  V
+      TEXT "Text"  145x24  16px/900  #002a5d  "Si-Armada Dinkes"
+    FRAME "Container"  255x48  H gap=24
+      FRAME "Container"  52x20  H gap=15.99
+        FRAME "Button"  16x20  V
+          VECTOR "Icon"  16x20  fill=#434751
+        FRAME "Button"  20x20  V
+          VECTOR "Icon"  20x20  fill=#434751
+      FRAME "VerticalBorder"  179x48  stroke=#c3c6d2 1px  H gap=12  pad=0/0/0/24
+        FRAME "Container"  102x48  V
+          FRAME "Container"  102x24  V
+            TEXT "Text"  102x24  16px/400  #181c20  "Admin Utama"
+          FRAME "Container"  102x24  V
+            TEXT "Text"  97x24  16px/400  #434751  "Dinkes PPKB"
+        FRAME "Background+Border"  40x40  fill=#003f87  stroke=#c3c6d2 1px  r=12  V
+          FRAME "AB6AXuAUbrBIqfYqS173NDAZWk1LR4MHwT4wgA6Jm9M7LSdBH_VRilOkWIEs"  38x38  fill=IMAGE
+  FRAME "Aside - SideNavBar Anchor"  256x1457  fill=#f7f9ff  stroke=#c3c6d2 1px  V  pad=32/0/32/0
+    FRAME "Margin"  255x88  V  pad=0/0/40/0
+      FRAME "Container"  255x48  V  pad=0/24/0/24
+        FRAME "Heading 1"  207x24  V
+          TEXT "Dinkes PPKB"  207x24  16px/700  #002a5d  "Dinkes PPKB"
+        FRAME "Container"  207x24  V
+          TEXT "Purbalingga Fleet"  207x24  16px/400  #434751  "Purbalingga Fleet"
+    FRAME "Nav"  255x1257  V gap=4
+      FRAME "Link - Navigation Items Mapping"  255x48  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#40484f
+        TEXT "Text"  83x24  16px/400  #40484f  "Dashboard"
+      FRAME "Link"  255x48  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x16  V
+          VECTOR "Icon"  18x16  fill=#40484f
+        TEXT "Text"  131x24  16px/400  #40484f  "Kelola Kendaraan"
+      FRAME "Link"  255x48  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x20  V
+          VECTOR "Icon"  18x20  fill=#40484f
+        TEXT "Text"  166x24  16px/400  #40484f  "Manajemen Reservasi"
+      FRAME "Link"  255x48  H gap=12  pad=12/24/12/24
+        FRAME "Container"  20x20  V
+          VECTOR "Icon"  20x20  fill=#40484f
+        TEXT "Text"  104x24  16px/400  #40484f  "Data Pegawai"
+      FRAME "Link"  255x48  fill=#dbe3ed  stroke=#002a5d 1px  H gap=12  pad=12/24/12/24
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#002a5d
+        TEXT "Text"  64x24  16px/700  #002a5d  "Laporan"
+      FRAME "Link"  255x48  H gap=12  pad=12/24/12/24
+        FRAME "Container"  16x16  V
+          VECTOR "Icon"  16x16  fill=#40484f
+        TEXT "Text"  81x24  16px/400  #40484f  "Profil Saya"
+    FRAME "Container"  255x48  V  pad=0/24/0/24
+      FRAME "Link"  207x48  r=4  H gap=12  pad=12/8/12/8
+        FRAME "Container"  18x18  V
+          VECTOR "Icon"  18x18  fill=#ba1a1a
+        TEXT "Text"  48x24  16px/400  #ba1a1a  "Keluar"

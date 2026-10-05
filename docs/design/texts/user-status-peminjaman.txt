@@ -1,0 +1,86 @@
+# Status Peminjaman - Updated Layout
+# 1280x1811
+
+[FOOTER]
+  (  40,1539) 20/700  Dinkes PPKB Purbalingga
+  ( 508,1539) 14/600  Tautan Cepat
+  ( 898,1539) 14/600  Kontak Kami
+  ( 508,1575) 14/400  Website Resmi
+  ( 915,1575) 14/400  Jl. Letjen S Parman No.21, Bancar, Kec. ⏎ Purbalingga, Kabupaten Purbalingga, Jawa ⏎ Tengah 53316
+  (  40,1583) 14/600  Tentang Kami
+  ( 508,1603) 14/400  Portal Purbalingga
+  (  40,1611) 14/400  Sistem Manajemen Transportasi Terpadu untuk menunjang ⏎ mobilitas layanan kesehatan masyarakat di Kabupaten ⏎ Purbalingga.
+  ( 508,1631) 14/400  Katalog Mobil
+  ( 918,1643) 14/400  dinkes@purbalinggakab.go.id
+  ( 508,1659) 14/400  Status Peminjaman
+  ( 916,1671) 14/400  (0281) 891034
+  ( 508,1723) 14/600  Ikuti Kami
+  (  40,1743) 12/500  © 2024 Dinas Kesehatan PPKB Kabupaten Purbalingga. Hak Cipta Dilindungi.
+
+[HEADER]
+  (  96,  26) 20/700  Dinkes PPKB Purbalingga
+  (1028,  27) 14/600  Status Peminjaman
+  ( 828,  30) 14/600  Home
+  ( 901,  30) 14/600  Katalog Mobil
+  (1192,  30) 14/600  Kontak
+
+[KONTEN]
+  (  40, 112) 32/700  Daftar Peminjaman Saya
+  (  40, 160) 16/400  Pantau status pengajuan kendaraan dinas Anda secara real-time.
+  ( 121, 235) 12/500  Total Booking
+  ( 529, 235) 12/500  Disetujui
+  ( 937, 235) 12/500  Menunggu Konfirmasi
+  ( 121, 251) 20/600  12
+  ( 529, 251) 20/600  8
+  ( 937, 251) 20/600  3
+  ( 867, 339) 14/400  Menampilkan 12 Pengajuan Peminjaman
+  (1188, 339) 14/600  Filter
+  (  81, 340) 14/400  Cari Booking ID atau Mobil...
+  ( 176, 410) 16/400  Kode: DKS-20260801-001
+  ( 961, 410) 16/400  Diajukan pada: 2026-07-30 09:15
+  (  96, 413) 12/700  Disetujui
+  (  65, 476) 12/500  KENDARAAN
+  ( 459, 476) 12/500  PEMOHON (PEGAWAI)
+  ( 853, 476) 12/500  WAKTU & TUJUAN
+  (  95, 499) 18/400  Toyota Innova Zenix (Operasional ⏎ Bidang P2P)
+  ( 459, 499) 18/400  dr. Bambang Sulistyo, Sp.P
+  ( 853, 499) 18/400  Puskesmas Mrebet & Karangmoncol
+  ( 459, 526) 14/700  NIP: 198811042012021001
+  ( 875, 530) 14/400  2024-12-12 (08:00) s/d 2024-12-12 (16:00)
+  ( 459, 549) 14/400  Bidang P2P
+  ( 103, 555) 13/400  Plat No: R 1234 PA
+  (  82, 618) 16/400  Catatan Pengelola Dinkes:
+  (  82, 646) 16/400  Pengajuan disetujui, harap menjaga protokol berkendara dan mengembalikan unit tepat waktu.
+  ( 261, 762) 16/400  Kode: DKS-20260801-228
+  ( 966, 762) 16/400  Diajukan pada: 2026-08-01 12:14
+  (  96, 765) 12/700  Menunggu Persetujuan
+  (  65, 828) 12/500  KENDARAAN
+  ( 459, 828) 12/500  PEMOHON (PEGAWAI)
+  ( 853, 828) 12/500  WAKTU & TUJUAN
+  (  95, 851) 18/400  Mitsubishi Triton 4x4 (Operasional ⏎ Lapangan)
+  ( 459, 851) 18/400  Apt. Hendra Setiawan, S.Farm
+  ( 853, 851) 18/400  Rumah Sakit Margono
+  ( 459, 878) 14/700  NIP: 198501102009021002
+  ( 875, 882) 14/400  2024-12-15 (08:00) s/d 2024-12-15 (16:00)
+  ( 459, 901) 14/400  Bidang SDK
+  ( 103, 907) 13/400  Plat No: R 4321 PB
+  (  81, 968) 14/700  Batalkan Peminjaman
+  ( 165,1071) 16/400  Kode: DKS-20260802-389
+  ( 961,1071) 16/400  Diajukan pada: 2026-08-02 07:01
+  (  96,1074) 12/700  Ditolak
+  (  65,1137) 12/500  KENDARAAN
+  ( 459,1137) 12/500  PEMOHON (PEGAWAI)
+  ( 853,1137) 12/500  WAKTU & TUJUAN
+  ( 459,1160) 18/400  dr. Jatmiko Yudo, M.Kes
+  ( 853,1160) 18/400  Dinkes Provinsi Jateng
+  (  95,1161) 18/400  Toyota Avanza 1.5 G (Dinas Harian)
+  ( 459,1187) 14/700  NIP: 197508122002121003
+  ( 875,1191) 14/400  2024-12-08 (08:00) s/d 2024-12-08 (16:00)
+  ( 103,1194) 13/400  Plat No: R 5566 PC
+  ( 459,1210) 14/400  Sekretariat
+  ( 105,1272) 16/400  Alasan Penolakan Pengelola Admin:
+  (  82,1300) 16/400  Mobil sudah dipinjam untuk tanggal tersebut oleh Bidang Kesmas untuk agenda prioritas.
+  (1084,1425) 16/400  1
+  (1124,1425) 16/400  2
+  (1168,1425) 16/400  3
+  (  56,1427) 14/400  Menampilkan 1-3 dari 12 peminjaman

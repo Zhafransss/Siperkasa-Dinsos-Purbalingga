@@ -1,0 +1,126 @@
+# Beranda - Foto Mobil Proporsional
+# 1290x2873
+
+[HEADER]
+  (  96,  26) 20/700  Dinkes PPKB Purbalingga
+  ( 780,  27) 14/600  Home
+  ( 869,  30) 14/600  Katalog Mobil
+  (1012,  30) 14/600  Status Peminjaman
+  (1192,  30) 14/600  Kontak
+
+[KONTEN]
+  (  52, 211) 12/500  LAYANAN INTERNAL
+  (  40, 239) 48/700  Peminjaman Kendaraan ⏎ Dinas Jadi Lebih Mudah.
+  (  40, 479) 18/400  Optimalkan mobilitas operasional Anda dengan sistem ⏎ pemesanan armada yang terintegrasi, transparan, dan ⏎ efisien untuk staf Dinas Kesehatan PPKB Purbalingga.
+  (  72, 611) 20/600  Pinjam Sekarang
+  (  73, 688) 20/600  Cek Status Peminjaman
+  ( 407, 779) 32/700  Proses Peminjaman Sederhana
+  ( 384, 819) 16/400  Hanya butuh 3 langkah mudah untuk mendapatkan akses kendaraan.
+  ( 344, 892) 60/700  01
+  ( 743, 892) 60/700  02
+  (1154, 892) 60/700  03
+  (  81, 996) 20/600  1. Pilih Armada
+  ( 492, 996) 20/600  2. Isi Jadwal
+  ( 904, 996) 20/600  3. Ambil Kunci
+  (  81,1032) 16/400  Telusuri katalog kendaraan dinas yang ⏎ tersedia sesuai dengan kebutuhan ⏎ operasional Anda.
+  ( 492,1032) 16/400  Tentukan tanggal pemakaian dan tujuan ⏎ perjalanan dinas melalui formulir digital ⏎ yang ringkas.
+  ( 904,1032) 16/400  Dapatkan verifikasi admin dan ambil ⏎ kunci kendaraan di bagian logistik ⏎ kantor Dinkes PPKB.
+  ( 403,1177) 32/700  Jadwal Penggunaan Kendaraan
+  ( 273,1217) 16/400  Pantau ketersediaan seluruh armada secara real-time untuk merencanakan perjalanan dinas Anda.
+  (  65,1298) 20/600  Oktober 2024
+  ( 116,1363) 12/500  MIN
+  ( 288,1363) 12/500  SEN
+  ( 462,1363) 12/500  SEL
+  ( 633,1363) 12/500  RAB
+  ( 804,1363) 12/500  KAM
+  ( 977,1363) 12/500  JUM
+  (1151,1363) 12/500  SAB
+  ( 394,1400) 12/500  1
+  ( 567,1400) 12/500  2
+  ( 912,1400) 12/500  4
+  (1084,1400) 12/500  5
+  (  49,1406) 12/500  29
+  ( 222,1406) 12/500  30
+  ( 746,1407) 10/400  3
+  ( 400,1424) 10/700  8 Tersedia
+  ( 573,1424) 10/700  5 Dipesan
+  ( 918,1424) 10/700  Tersedia
+  (1090,1424) 10/700  Tersedia
+  ( 745,1433) 10/700  Rapat Prov
+  ( 745,1460) 10/700  Dinas Luar
+  (  49,1500) 12/500  6
+  ( 222,1500) 12/500  7
+  ( 394,1500) 12/500  8
+  ( 567,1500) 12/500  9
+  ( 739,1500) 12/500  10
+  ( 912,1500) 12/500  11
+  (1084,1500) 12/500  12
+  ( 228,1524) 10/700  3 Dipesan
+  ( 745,1524) 10/700  Tersedia
+  (  49,1600) 12/500  13
+  ( 222,1600) 12/500  14
+  ( 394,1600) 12/500  15
+  ( 567,1600) 12/500  16
+  ( 739,1600) 12/500  17
+  ( 912,1600) 12/500  18
+  (1084,1600) 12/500  19
+  ( 400,1624) 10/700  Maintenance
+  (  49,1700) 12/500  20
+  ( 222,1700) 12/500  21
+  ( 394,1700) 12/500  22
+  ( 567,1700) 12/500  23
+  ( 739,1700) 12/500  24
+  ( 912,1700) 12/500  25
+  (1084,1700) 12/500  26
+  (  49,1800) 12/500  27
+  ( 222,1800) 12/500  28
+  ( 394,1800) 12/500  29
+  ( 567,1800) 12/500  30
+  ( 739,1800) 12/500  31
+  ( 912,1806) 12/500  1
+  (1084,1806) 12/500  2
+  (  71,1908) 10/400  Tersedia
+  ( 142,1908) 10/400  Dipesan
+  ( 210,1908) 10/400  Perawatan
+  (  72,1972) 20/600  Detail & Edit Penggunaan Armada
+  ( 411,1974) 16/400  Tanggal: 2024-10-03
+  (  71,2041) 20/600  Toyota Fortuner 2.8 VRZ (Mobil Dinas Kepala ⏎ Dinas)
+  ( 683,2041) 20/600  Toyota Innova Zenix 2.0 V (Operasional ⏎ Sekretariat)
+  ( 544,2045) 10/700  DISETUJUI
+  (1156,2045) 10/700  DISETUJUI
+  (  71,2097) 12/500  PLAT NO: R 1 DKS
+  ( 683,2097) 12/500  PLAT NO: R 1024 DKS
+  (  95,2146) 14/600  dr. Bambang Sulistyo, Sp.P 
+  ( 289,2146) 14/700  NIP: 198811042012021001
+  ( 707,2146) 14/600  Siti Rahmawati, S.ST, M.Si 
+  ( 895,2146) 14/700  NIP: 198203152008012004
+  (  95,2166) 14/400  Bidang: Bidang P2P
+  ( 707,2166) 14/400  Bidang: Sekretariat
+  (  98,2198) 14/400  2024-10-03 (08:00) s/d 2024-10-03 (16:00)
+  ( 710,2198) 14/400  2024-10-03 (07:30) s/d 2024-10-03 (17:00)
+  (  95,2230) 14/600  puskesmas kaligondang
+  ( 707,2230) 14/600  Dinas Kesehatan Provinsi Jawa Tengah (Semarang)
+  (  95,2250) 14/400  "distribusi obat parafetamol"
+  ( 707,2250) 14/400  "Rapat Koordinasi Evaluasi Anggaran & DAK Kesehatan 2024"
+  ( 696,2307) 14/700  Catatan Admin: Silahkan ambil kunci ke bagian umum
+  (  40,2403) 32/700  Katalog Armada
+  (  40,2443) 16/400  Daftar kendaraan operasional dalam kondisi prima.
+  (1154,2447) 14/600  Lihat Semua
+  (  57,2708) 20/600  Toyota Avanza 2022
+  ( 468,2708) 20/600  Mitsubishi Pajero
+  ( 880,2708) 20/600  Toyota Innova Zenix
+  ( 353,2712) 10/700  TERSEDIA
+  ( 767,2712) 10/700  BOOKING
+  (1176,2712) 10/700  TERSEDIA
+  (  57,2739) 14/400  MPV • R 1234 PA
+  ( 468,2739) 14/400  SUV • R 5678 QB
+  ( 880,2739) 14/400  MPV • R 9012 PC
+  (  70,2777) 12/500  7 Kursi
+  ( 141,2777) 12/500  Manual
+  ( 482,2777) 12/500  7 Kursi
+  ( 553,2777) 12/500  Automatic
+  ( 893,2777) 12/500  8 Kursi
+  ( 965,2777) 12/500  Automatic
+  ( 180,2827) 14/600  Pilih Kendaraan
+  ( 580,2827) 14/600  Sedang Digunakan
+  (1003,2827) 14/600  Pilih Kendaraan

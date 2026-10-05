@@ -1,0 +1,122 @@
+# Admin Dashboard - Full Month Calendar Overview
+# 1280x1381
+
+[HEADER]
+  (1046,  14) 14/600  Administrator Utama
+  ( 337,  23) 14/400  Cari data armada, jadwal, atau pegawai...
+  (1071,  34) 10/500  UPTD PPKB Purbalingga
+
+[KONTEN]
+  ( 296,  96) 32/700  Ringkasan Sistem
+  (1113, 131) 14/600  Reservasi Baru
+  ( 934, 132) 14/600  Ekspor Laporan
+  ( 296, 136) 16/400  Selamat datang kembali, Admin. Berikut adalah status armada hari ini.
+  ( 382, 217) 16/400  TOTAL ⏎ ARMADA
+  (1105, 217) 16/400  JADWAL ⏎ HARI INI
+  ( 635, 229) 16/400  TERSEDIA
+  ( 871, 229) 16/400  MENUNGGU
+  ( 635, 257) 24/600  18
+  ( 871, 257) 24/600  5
+  ( 382, 269) 24/600  24
+  (1105, 269) 24/600  12
+  ( 992, 383) 20/600  Peringatan Mendesak
+  ( 321, 386) 20/600  Kalender Pemakaian
+  ( 753, 390) 14/600  Oktober 2023
+  ( 552, 392) 12/500  Bulan
+  ( 612, 392) 12/500  Minggu
+  ( 979, 440) 14/600  Pajak STNK - R 4412 DA
+  ( 979, 460) 12/700  Jatuh tempo dalam 2 hari
+  ( 340, 466) 16/400  MIN
+  ( 423, 466) 16/400  SEN
+  ( 508, 466) 16/400  SEL
+  ( 591, 466) 16/400  RAB
+  ( 672, 466) 16/400  KAM
+  ( 757, 466) 16/400  JUM
+  ( 842, 466) 16/400  SAB
+  ( 321, 515) 12/500  24
+  ( 405, 515) 12/500  25
+  ( 489, 515) 12/500  26
+  ( 573, 515) 12/500  27
+  ( 657, 515) 12/500  28
+  ( 741, 515) 12/500  29
+  ( 825, 515) 12/500  30
+  ( 979, 516) 14/600  Servis Berkala - R 8891 CB
+  ( 979, 536) 12/700  Lewat 500 KM
+  ( 405, 606) 12/500  2
+  ( 489, 606) 12/500  3
+  ( 573, 606) 12/500  4
+  ( 657, 606) 12/700  5
+  ( 741, 606) 12/500  6
+  ( 825, 606) 12/500  7
+  ( 323, 608) 12/700  1
+  ( 499, 628) 10/400  Puskesmas Kel.
+  ( 667, 628) 10/400  Servis Rutin
+  ( 333, 630) 10/400  Dinas Luar (3)
+  ( 966, 641) 20/600  Editor Jadwal Cepat
+  ( 966, 685) 12/500  PILIH ARMADA
+  ( 321, 697) 12/500  8
+  ( 405, 697) 12/500  9
+  ( 489, 697) 12/500  10
+  ( 573, 697) 12/500  11
+  ( 657, 697) 12/500  12
+  ( 741, 697) 12/500  13
+  ( 825, 697) 12/500  14
+  ( 979, 714) 14/400  Toyota Avanza - R 1234 AB
+  ( 415, 719) 10/400  Rapat Koordinasi
+  ( 751, 719) 10/400  Drop Vaksin
+  ( 966, 759) 12/500  MULAI
+  (1097, 759) 12/500  SELESAI
+  ( 321, 788) 12/500  15
+  ( 405, 788) 12/500  16
+  ( 489, 788) 12/500  17
+  ( 573, 788) 12/500  18
+  ( 657, 788) 12/500  19
+  ( 741, 788) 12/500  20
+  ( 825, 788) 12/500  21
+  ( 980, 788) 14/400  mm
+  (1006, 788) 14/400  /
+  (1012, 788) 14/400  dd
+  (1030, 788) 14/400  /
+  (1036, 788) 14/400  yyyy
+  (1111, 788) 14/400  mm
+  (1136, 788) 14/400  /
+  (1142, 788) 14/400  dd
+  (1160, 788) 14/400  /
+  (1166, 788) 14/400  yyyy
+  ( 667, 810) 10/400  Dinas Luar (1)
+  ( 966, 833) 12/500  KEPERLUAN
+  ( 979, 862) 14/400  Tujuan perjalanan...
+  ( 321, 879) 12/500  22
+  ( 405, 879) 12/500  23
+  ( 489, 879) 12/500  24
+  ( 573, 879) 12/500  25
+  ( 657, 879) 12/500  26
+  ( 741, 879) 12/500  27
+  ( 825, 879) 12/500  28
+  ( 667, 901) 10/400  Ganti Ban
+  ( 990, 961) 14/400  Tandai sebagai prioritas
+  ( 321, 970) 12/500  29
+  ( 405, 970) 12/500  30
+  ( 489, 970) 12/500  31
+  ( 573, 970) 12/500  1
+  ( 657, 970) 12/500  2
+  ( 741, 970) 12/500  3
+  ( 825, 970) 12/500  4
+  (1038,1017) 14/600  Simpan Jadwal
+  ( 321,1118) 20/600  Aktivitas Terbaru
+  ( 808,1122) 14/600  Lihat Semua
+  ( 389,1174) 14/700  Budi Santoso baru saja mengembalikan Avanza G (R 1234 AB)
+  ( 389,1194) 12/400  10 menit yang lalu • KM Terakhir: 12.450
+  ( 389,1254) 14/700  Sistem mendeteksi keterlambatan pengembalian armada Innova (R ⏎ 5567 BB)
+  ( 389,1294) 12/400  45 menit yang lalu • Supir: Ahmad Dani
+
+[SIDEBAR]
+  (  76,  32) 20/700  Dinkes PPKB
+  (  76,  60) 10/400  PURBALINGGA FLEET
+  (  65, 128) 14/600  Dashboard
+  (  62, 179) 14/600  Kelola Kendaraan
+  (  62, 231) 14/600  Manajemen Reservasi
+  (  64, 283) 14/600  Data Pegawai
+  (  62, 335) 14/600  Laporan
+  (  60, 387) 14/600  Profil Saya
+  (  62,1317) 14/700  Keluar

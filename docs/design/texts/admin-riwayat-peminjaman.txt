@@ -1,0 +1,51 @@
+# Manajemen Booking - Riwayat Peminjaman Admin
+# 1280x1024
+
+[HEADER]
+  (1147,  15) 14/600  Admin Utama
+  ( 296,  18) 20/900  Si-Armada Dinkes
+  (1153,  33) 12/500  Logistik Dinkes
+  ( 296,  96) 32/700  Manajemen Reservasi
+  (1080, 132) 14/600  Buat Reservasi Baru
+  ( 296, 136) 16/400  Kelola pengajuan peminjaman armada dinas secara efisien.
+  ( 321, 288) 14/600  Peminjam
+  ( 516, 288) 14/600  Tujuan
+  ( 712, 288) 14/600  Armada
+  ( 926, 288) 14/600  Waktu
+  (1127, 288) 14/600  Status
+
+[KONTEN]
+  ( 312, 204) 14/600  Pengajuan Baru 
+  ( 668, 204) 14/600  Riwayat
+  ( 518, 205) 14/600  Jadwal Aktif
+  ( 440, 206) 10/600  3
+  ( 321, 340) 14/600  Bambang Wijaya
+  ( 516, 346) 14/400  Monitoring PKM ⏎ Bukateja
+  ( 712, 346) 14/400  Toyota Avanza (R 1022 ⏎ PA)
+  ( 926, 346) 14/400  22 Okt 2023, 08:00 - ⏎ 12:00
+  ( 321, 360) 12/500  NIP: ⏎ 198005122005011002
+  (1139, 361) 10/700  SELESAI
+  ( 321, 425) 14/600  Maya Puspita
+  ( 926, 431) 14/400  21 Okt 2023, 09:00 - ⏎ 16:00
+  ( 516, 441) 14/400  Workshop Labkesda
+  ( 712, 441) 14/400  Honda CR-V (R 8821 DA)
+  ( 321, 445) 12/500  NIP: ⏎ 199103152015032001
+  (1139, 446) 10/700  DITOLAK
+  ( 321, 510) 14/600  Andi Saputra
+  ( 712, 516) 14/400  Mitsubishi Triton (R 5521 ⏎ BC)
+  ( 926, 516) 14/400  20 Okt 2023, 10:00 - ⏎ 14:00
+  ( 516, 526) 14/400  Kunjungan Lapangan
+  ( 321, 530) 12/500  NIP: ⏎ 198507202010011004
+  (1139, 531) 10/700  DIBATALKAN
+  ( 556, 988) 14/600  Pengajuan berhasil disetujui!
+
+[SIDEBAR]
+  (  24,  32) 20/700  Dinkes PPKB
+  (  24,  60) 12/500  Purbalingga Fleet
+  (  54, 120) 14/600  Dashboard
+  (  54, 168) 14/600  Kelola Kendaraan
+  (  54, 216) 14/600  Manajemen Reservasi
+  (  56, 264) 14/600  Data Pegawai
+  (  54, 312) 14/600  Laporan
+  (  52, 360) 14/600  Profil Saya
+  (  73, 964) 14/600  Keluar
