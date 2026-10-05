@@ -4,7 +4,6 @@ use App\Enums\BookingStatus;
 use App\Enums\VehicleStatus;
 use App\Models\Booking;
 use App\Models\User;
-use App\Models\Vehicle;
 use App\Models\VehicleMaintenance;
 
 beforeEach(fn () => $this->actingAs(User::factory()->create()));

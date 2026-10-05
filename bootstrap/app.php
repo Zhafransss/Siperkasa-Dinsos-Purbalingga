@@ -12,7 +12,15 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
-        $middleware->alias(['admin.active' => EnsureActiveAdmin::class]);
+        $middleware->alias([
+            'admin.active' => EnsureActiveAdmin::class,
+            'admin.enabled' => \App\Http\Middleware\EnsureAdminPanelEnabled::class,
+        ]);
+
+        $middleware->prependToPriorityList(
+            \Illuminate\Contracts\Auth\Middleware\AuthenticatesRequests::class,
+            \App\Http\Middleware\EnsureAdminPanelEnabled::class
+        );
 
         // Only administrators authenticate (employees are identified by NIP in the session, not by a login).
         $middleware->redirectGuestsTo(fn () => route('admin.login'));

@@ -123,4 +123,16 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Administrator Panel Availability
+    |--------------------------------------------------------------------------
+    |
+    | When disabled, all routes under /admin return HTTP 404 Not Found.
+    | Useful for staging, academic review, or initial rollout phases.
+    |
+    */
+
+    'admin_panel_enabled' => (bool) env('ENABLE_ADMIN_PANEL', true),
+
 ];

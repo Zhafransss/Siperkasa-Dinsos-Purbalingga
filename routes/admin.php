@@ -6,10 +6,11 @@ use App\Http\Controllers\Admin\BookingController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\EmployeeController;
 use App\Http\Controllers\Admin\VehicleController;
+use App\Http\Middleware\EnsureAdminPanelEnabled;
 use Illuminate\Support\Facades\Route;
 
 // Administrator panel. There is no sign-up page: accounts are created in "Manajemen Admin".
-Route::prefix('admin')->name('admin.')->group(function () {
+Route::prefix('admin')->name('admin.')->middleware(EnsureAdminPanelEnabled::class)->group(function () {
     Route::middleware('guest')->group(function () {
         Route::get('/masuk', [AuthController::class, 'create'])->name('login');
         Route::post('/masuk', [AuthController::class, 'store'])->middleware('throttle:30,1')->name('login.store');
