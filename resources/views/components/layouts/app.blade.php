@@ -86,14 +86,17 @@
                 <a href="#" class="text-slate-300 transition-colors hover:text-white" aria-label="Facebook">
                     <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M14 8h-1.5A2.5 2.5 0 0 0 10 10.5V12H8v3h2v6h3v-6h2.2l.3-3H13v-1.2c0-.4.3-.8.8-.8H15V8z" fill="currentColor" stroke="none"/></svg>
                 </a>
-                <a href="#" class="text-slate-300 transition-colors hover:text-white" aria-label="Twitter">
-                    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M23 4.9c-.8.4-1.7.6-2.6.8 1-.6 1.7-1.5 2-2.6-.9.5-1.9.9-3 1.1-.9-.9-2.1-1.5-3.4-1.5-2.6 0-4.7 2.1-4.7 4.7 0 .4 0 .7.1 1-3.9-.2-7.4-2.1-9.7-4.9-.4.7-.6 1.5-.6 2.3 0 1.6.8 3.1 2.1 3.9-.7 0-1.4-.2-2-.6v.1c0 2.3 1.6 4.2 3.8 4.6-.4.1-.8.2-1.2.2-.3 0-.6 0-.8-.1.6 1.9 2.3 3.2 4.4 3.3-1.6 1.3-3.6 2-5.8 2-.4 0-.7 0-1.1-.1 2.1 1.3 4.5 2.1 7.1 2.1 8.6 0 13.3-7.1 13.3-13.3v-.6c.9-.7 1.7-1.5 2.3-2.5z"/></svg>
+                <a href="#" class="text-slate-300 transition-colors hover:text-white" aria-label="X">
+                    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
                 </a>
                 <a href="#" class="text-slate-300 transition-colors hover:text-white" aria-label="Instagram">
                     <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="3.7"/><circle cx="17.2" cy="6.8" r="1"/></svg>
                 </a>
                 <a href="#" class="text-slate-300 transition-colors hover:text-white" aria-label="YouTube">
                     <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="2.5" y="5.5" width="19" height="13" rx="3.5"/><path d="M10.5 9.5l5 2.5-5 2.5v-5z" fill="currentColor" stroke="none"/></svg>
+                </a>
+                <a href="#" class="text-slate-300 transition-colors hover:text-white" aria-label="TikTok">
+                    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M19.6 6.7a4.9 4.9 0 0 1-3.8-4.2V2h-3.4v13.3a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .8.1V9a6.3 6.3 0 1 0 5.5 6.3V8.9a8.2 8.2 0 0 0 4.800 1.500V7a4.900 4.900 0 0 1-1-.3z"/></svg>
                 </a>
             </div>
         </div>
