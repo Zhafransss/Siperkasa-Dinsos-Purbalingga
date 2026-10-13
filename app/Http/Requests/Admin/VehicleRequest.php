@@ -25,6 +25,10 @@ class VehicleRequest extends FormRequest
         if (is_string($this->plate)) {
             $this->merge(['plate' => preg_replace('/\s+/', ' ', mb_strtoupper(trim($this->plate)))]);
         }
+
+        if (! $this->filled('brand_model') && $this->filled('name')) {
+            $this->merge(['brand_model' => $this->input('name')]);
+        }
     }
 
     public function rules(): array
@@ -35,7 +39,7 @@ class VehicleRequest extends FormRequest
         $rules = [
             'name' => ['required', 'string', 'max:255'],
             'description' => ['nullable', 'string', 'max:255'],
-            'brand_model' => ['required', 'string', 'max:255'],
+            'brand_model' => ['nullable', 'string', 'max:255'],
             'plate' => ['required', 'string', 'max:20', Rule::unique('vehicles', 'plate')->ignore($vehicle?->id)],
             'year' => ['required', 'integer', 'between:1990,'.(now()->year + 1)],
             'fuel_type' => ['required', Rule::enum(FuelType::class)],

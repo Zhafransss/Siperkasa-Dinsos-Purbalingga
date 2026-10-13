@@ -1,4 +1,13 @@
 <x-layouts.app>
+    {{-- Info Bar: Hari, Tanggal, dan Jam Realtime (Sticky di bawah Navbar) --}}
+    <div class="sticky top-20 z-40 border-b border-outline-variant bg-surface/95 px-margin-mobile py-2.5 shadow-xs backdrop-blur md:px-margin-desktop">
+        <div class="mx-auto flex max-w-container-max items-center justify-center text-label-md">
+            <span id="realtime-clock" class="font-semibold tabular-nums text-on-background" aria-label="Waktu saat ini">
+                {{ \Carbon\Carbon::now('Asia/Jakarta')->translatedFormat('l, d F Y') }} • {{ \Carbon\Carbon::now('Asia/Jakarta')->format('H:i:s') }} WIB
+            </span>
+        </div>
+    </div>
+
     {{-- Hero --}}
     <section class="relative flex min-h-[70vh] items-center overflow-hidden">
         <div class="absolute inset-0 z-0">
@@ -11,7 +20,7 @@
                     <span class="mb-stack-sm inline-block rounded-sm bg-secondary-container px-3 py-1 text-label-sm text-on-secondary-container">LAYANAN INTERNAL</span>
                     <h1 class="mb-4 text-headline-xl text-on-background">Peminjaman Kendaraan Dinas Jadi Lebih Mudah.</h1>
                     <p class="max-w-lg text-body-lg text-on-surface-variant">
-                        Optimalkan mobilitas operasional Anda dengan sistem pemesanan armada yang terintegrasi, transparan, dan efisien untuk staf Dinas Kesehatan PPKB Purbalingga.
+                        Optimalkan mobilitas operasional Anda dengan sistem pemesanan armada yang terintegrasi, transparan, dan efisien untuk staf DINKESPPKB Purbalingga.
                     </p>
                 </div>
                 <div class="flex flex-wrap gap-4">
@@ -36,7 +45,7 @@
             <div class="grid gap-gutter md:grid-cols-3">
                 @foreach ([
                     ['search', '1. Pilih Armada', 'Telusuri katalog kendaraan dinas yang tersedia sesuai dengan kebutuhan operasional Anda.', '01'],
-                    ['event_available', '2. Isi Jadwal', 'Tentukan tanggal pemakaian dan tujuan perjalanan dinas melalui formulir digital yang ringkas.', '02'],
+                    ['event_available', '2. Isi Formulir', 'Tentukan tanggal pemakaian dan tujuan perjalanan dinas melalui formulir digital yang ringkas.', '02'],
                     ['key', '3. Ambil Kunci', 'Dapatkan verifikasi admin dan ambil kunci kendaraan di bagian logistik kantor Dinkes PPKB.', '03'],
                 ] as [$icon, $title, $text, $number])
                     <div class="group relative border border-outline-variant bg-surface p-10 transition-all duration-300 hover:border-primary">
@@ -122,4 +131,34 @@
             </div>
         </div>
     </section>
+
+    <script>
+        (function () {
+            const clockEl = document.getElementById('realtime-clock');
+            if (!clockEl) return;
+
+            const days = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+            const months = [
+                'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni',
+                'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'
+            ];
+
+            function updateClock() {
+                const now = new Date();
+                const dayName = days[now.getDay()];
+                const day = String(now.getDate()).padStart(2, '0');
+                const monthName = months[now.getMonth()];
+                const year = now.getFullYear();
+
+                const hours = String(now.getHours()).padStart(2, '0');
+                const minutes = String(now.getMinutes()).padStart(2, '0');
+                const seconds = String(now.getSeconds()).padStart(2, '0');
+
+                clockEl.textContent = `${dayName}, ${day} ${monthName} ${year} • ${hours}:${minutes}:${seconds} WIB`;
+            }
+
+            updateClock();
+            setInterval(updateClock, 1000);
+        })();
+    </script>
 </x-layouts.app>

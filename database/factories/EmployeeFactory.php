@@ -15,7 +15,7 @@ class EmployeeFactory extends Factory
         return [
             'nip' => $this->faker->unique()->numerify('##################'),
             'name' => $this->faker->name(),
-            'bidang' => $this->faker->randomElement(['Sekretariat', 'Bidang P2P', 'Bidang SDK', 'Bidang Kesmas']),
+            'bidang' => $this->faker->randomElement(\App\Models\Employee::BIDANG_OPTIONS),
             'is_active' => true,
         ];
     }

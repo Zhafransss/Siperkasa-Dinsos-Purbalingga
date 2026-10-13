@@ -36,7 +36,6 @@
                         <th scope="col" class="px-5 py-3">Pegawai</th>
                         <th scope="col" class="px-5 py-3">NIP</th>
                         <th scope="col" class="px-5 py-3">Bidang / Jabatan</th>
-                        <th scope="col" class="px-5 py-3">Status</th>
                         <th scope="col" class="px-5 py-3 text-right">Aksi</th>
                     </tr>
                 </thead>
@@ -58,26 +57,10 @@
                                 <p class="text-label-sm text-on-surface-variant">{{ $employee->jabatan ?: '-' }}</p>
                             </td>
                             <td class="max-md:block max-md:px-0 max-md:py-1.5 px-5 py-4">
-                                <span @class(['inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-label-sm', 'bg-[#e6f4ea] text-green-700' => $employee->is_active, 'bg-surface-container text-on-surface-variant' => ! $employee->is_active])>
-                                    <span class="h-1.5 w-1.5 rounded-full bg-current"></span>{{ $employee->is_active ? 'Aktif' : 'Nonaktif' }}
-                                </span>
-                            </td>
-                            <td class="max-md:block max-md:px-0 max-md:py-1.5 px-5 py-4">
                                 <div class="flex items-center justify-end gap-1">
                                     <a href="{{ route('admin.employees.edit', $employee) }}" aria-label="Ubah {{ $employee->name }}" class="rounded-lg p-2 text-on-surface-variant transition-colors hover:bg-surface-container-high hover:text-navy">
                                         <span class="material-symbols-outlined text-[20px]">edit</span>
                                     </a>
-                                    <form method="POST" action="{{ route('admin.employees.toggle', $employee) }}"
-                                          data-confirm-title="{{ $employee->is_active ? 'Nonaktifkan Pegawai' : 'Aktifkan Pegawai' }}"
-                                          data-confirm-ok="{{ $employee->is_active ? 'Ya, Nonaktifkan' : 'Ya, Aktifkan' }}"
-                                          @unless ($employee->is_active) data-confirm-tone="primary" @endunless
-                                          data-confirm-message="{{ $employee->is_active ? 'Pegawai ini tidak akan bisa mengajukan peminjaman baru.' : 'Pegawai ini bisa kembali mengajukan peminjaman.' }}">
-                                        @csrf
-                                        @method('PATCH')
-                                        <button type="submit" aria-label="{{ $employee->is_active ? 'Nonaktifkan' : 'Aktifkan' }} {{ $employee->name }}" class="rounded-lg p-2 text-on-surface-variant transition-colors hover:bg-surface-container-high hover:text-navy">
-                                            <span class="material-symbols-outlined text-[20px]">{{ $employee->is_active ? 'person_off' : 'person_check' }}</span>
-                                        </button>
-                                    </form>
                                     <form method="POST" action="{{ route('admin.employees.destroy', $employee) }}"
                                           data-confirm-title="Hapus Pegawai" data-confirm-ok="Ya, Hapus"
                                           data-confirm-message="Hapus {{ $employee->name }}? Tindakan ini tidak dapat dibatalkan.">
@@ -91,7 +74,7 @@
                             </td>
                         </tr>
                     @empty
-                        <tr><td colspan="5" class="px-5 py-stack-lg text-center text-body-sm text-on-surface-variant">Tidak ada pegawai yang cocok.</td></tr>
+                        <tr><td colspan="4" class="px-5 py-stack-lg text-center text-body-sm text-on-surface-variant">Tidak ada pegawai yang cocok.</td></tr>
                     @endforelse
                 </tbody>
             </table>

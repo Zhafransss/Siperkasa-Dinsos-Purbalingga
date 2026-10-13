@@ -19,15 +19,9 @@
         <x-admin.form-section title="Data Pegawai" icon="badge">
             <x-admin.field name="nip" label="NIP" :value="$employee->nip" placeholder="18 digit angka" maxlength="22" inputmode="numeric" required />
             <x-admin.field name="name" label="Nama Lengkap" :value="$employee->name" maxlength="255" required />
-            <x-admin.field name="email" label="Email" type="email" :value="$employee->email" placeholder="nama@purbalinggakab.go.id" maxlength="255" />
-            <x-admin.field name="bidang" label="Bidang / Unit Kerja" :value="$employee->bidang" list="bidang-options" placeholder="Contoh: Sekretariat" maxlength="100" required />
+            <x-admin.dropdown name="bidang" label="Bidang / Unit Kerja" :options="array_combine($bidangOptions, $bidangOptions)" :value="$employee->bidang" placeholder="Pilih Bidang / Unit Kerja" required />
             <x-admin.field name="jabatan" label="Jabatan" :value="$employee->jabatan" maxlength="150" />
             <x-admin.field name="pangkat" label="Pangkat / Golongan" :value="$employee->pangkat" placeholder="Contoh: Penata / IIIc" maxlength="100" />
-            <datalist id="bidang-options">
-                @foreach ($bidangOptions as $bidang)
-                    <option value="{{ $bidang }}"></option>
-                @endforeach
-            </datalist>
 
             @if ($editing)
                 <label class="flex items-center gap-3 md:col-span-2">

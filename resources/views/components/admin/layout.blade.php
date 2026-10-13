@@ -34,7 +34,7 @@
             <img class="h-10 w-10 object-contain" alt="Logo Kabupaten Purbalingga" src="{{ asset('images/logo-dinkes.png') }}">
             <span>
                 <span class="block text-headline-sm font-bold leading-6 text-navy">{{ config('app.name') }}</span>
-                <span class="block text-[10px] font-bold uppercase tracking-wider text-outline">Dinkes PPKB Purbalingga</span>
+                <span class="block text-[10px] font-bold uppercase tracking-wider text-outline">DinkesPPKB Purbalingga</span>
             </span>
         </a>
 

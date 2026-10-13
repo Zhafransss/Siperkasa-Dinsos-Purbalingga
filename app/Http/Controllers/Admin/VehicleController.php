@@ -79,9 +79,9 @@ class VehicleController extends Controller
 
     public function destroy(Vehicle $vehicle, VehiclePhotoStore $photos): RedirectResponse
     {
-        // A vehicle that has been requested keeps its history: it can be set to "Maintenance" instead of deleted.
+        // A vehicle that has been requested keeps its history: it can be set to "Servis" instead of deleted.
         if ($vehicle->bookings()->exists()) {
-            return back()->with('toast', 'Kendaraan memiliki riwayat peminjaman dan tidak dapat dihapus. Ubah statusnya menjadi Maintenance bila tidak digunakan.');
+            return back()->with('toast', 'Kendaraan memiliki riwayat peminjaman dan tidak dapat dihapus. Ubah statusnya menjadi Servis bila tidak digunakan.');
         }
 
         $photos->deleteAll($vehicle);

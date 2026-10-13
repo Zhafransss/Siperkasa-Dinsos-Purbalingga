@@ -29,8 +29,7 @@ class EmployeeRequest extends FormRequest
         return [
             'nip' => ['required', 'digits:18', Rule::unique('employees', 'nip')->ignore($employee?->id)],
             'name' => ['required', 'string', 'max:255'],
-            'email' => ['nullable', 'email:rfc', 'max:255', Rule::unique('employees', 'email')->ignore($employee?->id)],
-            'bidang' => ['required', 'string', 'max:100'],
+            'bidang' => ['required', 'string', Rule::in([...Employee::BIDANG_OPTIONS, $employee?->bidang])],
             'jabatan' => ['nullable', 'string', 'max:150'],
             'pangkat' => ['nullable', 'string', 'max:100'],
             'is_active' => ['sometimes', 'boolean'],
@@ -42,7 +41,6 @@ class EmployeeRequest extends FormRequest
         return [
             'nip' => 'NIP',
             'name' => 'Nama Lengkap',
-            'email' => 'Email',
             'bidang' => 'Bidang / Unit Kerja',
             'jabatan' => 'Jabatan',
             'pangkat' => 'Pangkat / Golongan',
@@ -55,8 +53,7 @@ class EmployeeRequest extends FormRequest
             'required' => ':attribute wajib diisi.',
             'nip.digits' => 'NIP harus terdiri dari 18 digit angka.',
             'nip.unique' => 'NIP ini sudah terdaftar.',
-            'email.unique' => 'Email ini sudah dipakai pegawai lain.',
-            'email.email' => 'Format email tidak valid.',
+            'bidang.in' => 'Pilih Bidang / Unit Kerja dari daftar yang tersedia.',
         ];
     }
 }

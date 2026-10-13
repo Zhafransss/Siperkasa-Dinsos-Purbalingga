@@ -1,4 +1,4 @@
-@props(['name', 'label', 'type' => 'text', 'value' => null, 'hint' => null, 'suffix' => null, 'placeholder' => null, 'required' => false, 'readonly' => false, 'inputmode' => null, 'maxlength' => null, 'min' => null, 'max' => null, 'list' => null, 'span' => null])
+@props(['name', 'label', 'type' => 'text', 'value' => null, 'hint' => null, 'suffix' => null, 'placeholder' => null, 'required' => false, 'readonly' => false, 'inputmode' => null, 'maxlength' => null, 'min' => null, 'max' => null, 'list' => null, 'span' => null, 'filled' => false])
 
 {{-- Labelled text input with error + hint. Old input wins over $value after a failed submit. --}}
 @php
@@ -19,10 +19,11 @@
                @if ($readonly) readonly @endif
                @if ($error) aria-invalid="true" aria-describedby="{{ $id }}-error" @endif
                @class([
-                   'h-12 w-full rounded-lg border bg-white px-4 text-body-sm transition-all focus:border-navy focus:ring-2 focus:ring-navy/20',
+                   'h-12 w-full rounded-lg border px-4 text-body-sm transition-all focus:border-navy focus:ring-2 focus:ring-navy/20',
                    'border-outline-variant' => ! $error,
                    'border-error ring-2 ring-error/30' => $error,
-                   'bg-surface-container-low' => $readonly,
+                   'bg-white' => ! $filled && ! $readonly,
+                   'bg-surface-container-low' => $filled || $readonly,
                    'pr-14' => $suffix,
                ])>
         @if ($suffix)

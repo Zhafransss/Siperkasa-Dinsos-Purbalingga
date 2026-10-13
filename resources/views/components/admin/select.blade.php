@@ -1,4 +1,4 @@
-@props(['name', 'label', 'options', 'value' => null, 'required' => false, 'placeholder' => null, 'span' => null])
+@props(['name', 'label', 'options', 'value' => null, 'required' => false, 'placeholder' => null, 'span' => null, 'filled' => false])
 
 {{-- Labelled <select>. $options is [value => label]. --}}
 @php
@@ -12,7 +12,9 @@
     <select id="{{ $id }}" name="{{ $name }}"
             @if ($error) aria-invalid="true" aria-describedby="{{ $id }}-error" @endif
             @class([
-                'h-12 w-full rounded-lg border bg-white px-4 text-body-sm transition-all focus:border-navy focus:ring-2 focus:ring-navy/20',
+                'h-12 w-full rounded-lg border px-4 text-body-sm transition-all focus:border-navy focus:ring-2 focus:ring-navy/20',
+                'bg-white' => ! $filled,
+                'bg-surface-container-low' => $filled,
                 'border-outline-variant' => ! $error,
                 'border-error ring-2 ring-error/30' => $error,
             ])>

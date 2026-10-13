@@ -3,7 +3,7 @@
 @php
     $nav = [
         ['label' => 'Beranda', 'href' => route('home'), 'active' => request()->routeIs('home')],
-        ['label' => 'Katalog Mobil', 'href' => route('katalog'), 'active' => request()->routeIs('katalog')],
+        ['label' => 'Katalog Kendaraan', 'href' => route('katalog'), 'active' => request()->routeIs('katalog')],
         ['label' => 'Status Peminjaman', 'href' => route('status.index'), 'active' => request()->routeIs('status.*')],
         ['label' => 'Kontak', 'href' => '#kontak', 'active' => false],
     ];
@@ -15,7 +15,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ $title ? $title.' — ' : '' }}{{ config('app.name') }} · Peminjaman Kendaraan Dinas Dinkes PPKB Purbalingga</title>
+    <title>{{ $title ? $title.' — ' : '' }}{{ config('app.name') }} · Peminjaman Kendaraan Dinas DinkesPPKB Purbalingga</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@
             <img class="h-10 w-10 object-contain" alt="Logo Kabupaten Purbalingga" src="{{ asset('images/logo-dinkes.png') }}">
             <span>
                 <span class="block text-headline-sm font-bold leading-6 text-primary">{{ config('app.name') }}</span>
-                <span class="block text-[10px] font-bold uppercase tracking-wider text-outline">Dinkes PPKB Purbalingga</span>
+                <span class="block text-[10px] font-bold uppercase tracking-wider text-outline">DinkesPPKB Purbalingga</span>
             </span>
         </a>
 
@@ -63,7 +63,7 @@
 <footer id="kontak" class="mt-stack-md w-full scroll-mt-20 bg-[#0b0f1e] px-margin-mobile py-8 text-white md:px-margin-desktop">
     <div class="mx-auto grid max-w-container-max grid-cols-1 gap-8 md:grid-cols-3">
         <div>
-            <h3 class="mb-3 text-headline-sm font-bold text-white">{{ config('app.name') }} · Dinkes PPKB Purbalingga</h3>
+            <h3 class="mb-3 text-headline-sm font-bold text-white">{{ config('app.name') }} · DinkesPPKB Purbalingga</h3>
             <p class="mb-1 text-label-md font-bold text-slate-200">Tentang Kami</p>
             <p class="max-w-xs text-body-sm text-slate-400">Sistem Manajemen Transportasi Terpadu untuk menunjang mobilitas layanan kesehatan masyarakat di Kabupaten Purbalingga.</p>
         </div>
@@ -76,10 +76,6 @@
             <div class="mb-2 flex items-center gap-2.5 text-slate-300">
                 <span class="material-symbols-outlined text-[20px] text-emerald-400">mail</span>
                 <a class="text-body-sm transition-colors hover:text-white" href="mailto:dinkes@purbalinggakab.go.id">dinkes@purbalinggakab.go.id</a>
-            </div>
-            <div class="mb-4 flex items-center gap-2.5 text-slate-300">
-                <span class="material-symbols-outlined text-[20px] text-emerald-400">call</span>
-                <p class="text-body-sm">(0281) 891034</p>
             </div>
             <p class="mb-2 text-label-md font-bold text-slate-200">Ikuti Kami</p>
             <div class="flex gap-4">
@@ -108,7 +104,7 @@
                     <dt class="text-slate-400">Senin – Kamis</dt>
                     <dd>07.30 – 16.00 WIB</dd>
                     <dt class="text-slate-400">Jumat</dt>
-                    <dd>07.30 – 16.30 WIB</dd>
+                    <dd>07.30 – 14.30 WIB</dd>
                     <dt class="text-slate-400">Sabtu – Minggu</dt>
                     <dd>Tutup</dd>
                     <dt class="text-slate-400">Hari libur nasional</dt>

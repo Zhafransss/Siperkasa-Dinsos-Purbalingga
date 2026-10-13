@@ -87,8 +87,8 @@ class EmployeeController extends Controller
     {
         return [
             'employee' => $employee,
-            // Existing units are suggested in a datalist; a new unit can still be typed.
-            'bidangOptions' => Employee::query()->distinct()->orderBy('bidang')->pluck('bidang'),
+            // Fixed list; a legacy unit already stored on this employee stays selectable so editing never loses it.
+            'bidangOptions' => collect(Employee::BIDANG_OPTIONS)->when($employee->bidang, fn ($c, $current) => $c->push($current))->unique()->values()->all(),
         ];
     }
 }

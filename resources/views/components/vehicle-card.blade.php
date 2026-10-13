@@ -7,8 +7,9 @@
 --}}
 @php
     $status = $vehicle->status;
-    $badgeLabel = $compact && $status === \App\Enums\VehicleStatus::Dipakai ? 'Booking' : $status->label();
-    $subtitle = $compact ? strtoupper($vehicle->category->label()).' • '.$vehicle->plate : ($vehicle->description ?: $vehicle->modelLine());
+    $badgeLabel = $status->label();
+    $categoryLabel = $vehicle->category ? strtoupper($vehicle->category->label()) : 'OPERASIONAL';
+    $subtitle = $categoryLabel.' • '.$vehicle->plate;
 @endphp
 
 <div class="flex flex-col overflow-hidden rounded-xl border border-outline-variant bg-white shadow-sm">

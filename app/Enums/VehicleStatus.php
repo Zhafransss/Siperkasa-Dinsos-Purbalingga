@@ -12,18 +12,18 @@ enum VehicleStatus: string
     {
         return match ($this) {
             self::Tersedia => 'Tersedia',
-            self::Dipakai => 'Sedang Dipakai',
+            self::Dipakai => 'Sedang Digunakan',
             self::Perawatan => 'Perawatan',
         };
     }
 
-    /** Wording used on the admin side ("Dalam Tugas" / "Maintenance"). */
+    /** Wording used on the admin side ("Dalam Tugas" / "Servis"). */
     public function adminLabel(): string
     {
         return match ($this) {
             self::Tersedia => 'Tersedia',
             self::Dipakai => 'Dalam Tugas',
-            self::Perawatan => 'Maintenance',
+            self::Perawatan => 'Servis',
         };
     }
 

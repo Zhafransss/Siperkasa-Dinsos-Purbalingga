@@ -14,8 +14,7 @@ function employeePayload(array $overrides = []): array
     return $overrides + [
         'nip' => '198811042012021001',
         'name' => 'Bambang Sulistyo',
-        'email' => 'bambang@example.test',
-        'bidang' => 'Bidang P2P',
+        'bidang' => 'Bidang Pembinaan Sekolah Dasar',
         'jabatan' => 'Kepala Seksi',
         'pangkat' => 'Penata / IIIc',
     ];
@@ -25,12 +24,12 @@ function employeePayload(array $overrides = []): array
 
 it('lists employees with stats, search and bidang filter', function () {
     Employee::factory()->create(['name' => 'Siti Aminah', 'bidang' => 'Sekretariat']);
-    Employee::factory()->create(['name' => 'Joko Widodo', 'bidang' => 'Bidang P2P']);
+    Employee::factory()->create(['name' => 'Joko Widodo', 'bidang' => 'Bidang Pembinaan Sekolah Dasar']);
     Employee::factory()->inactive()->create();
 
     $this->get('/admin/pegawai')->assertOk()->assertViewHas('stats', fn ($s) => $s['total'] === 3 && $s['active'] === 2 && $s['inactive'] === 1);
     $this->get('/admin/pegawai?q=siti')->assertSee('Siti Aminah')->assertDontSee('Joko Widodo');
-    $this->get('/admin/pegawai?bidang='.urlencode('Bidang P2P'))->assertSee('Joko Widodo')->assertDontSee('Siti Aminah');
+    $this->get('/admin/pegawai?bidang='.urlencode('Bidang Pembinaan Sekolah Dasar'))->assertSee('Joko Widodo')->assertDontSee('Siti Aminah');
 });
 
 it('creates an employee and strips spaces from the NIP', function () {
@@ -39,11 +38,20 @@ it('creates an employee and strips spaces from the NIP', function () {
     expect(Employee::firstWhere('nip', '198811042012021001'))->not->toBeNull();
 });
 
-it('validates employee NIP, uniqueness and e-mail', function () {
-    Employee::factory()->create(['nip' => '198811042012021001', 'email' => 'bambang@example.test']);
+it('validates employee NIP, uniqueness and the bidang list', function () {
+    Employee::factory()->create(['nip' => '198811042012021001']);
 
-    $this->post('/admin/pegawai', employeePayload())->assertSessionHasErrors(['nip', 'email']);
-    $this->post('/admin/pegawai', employeePayload(['nip' => '123', 'email' => 'bukan-email', 'bidang' => '']))->assertSessionHasErrors(['nip', 'email', 'bidang']);
+    $this->post('/admin/pegawai', employeePayload())->assertSessionHasErrors('nip');
+    $this->post('/admin/pegawai', employeePayload(['nip' => '123', 'bidang' => '']))->assertSessionHasErrors(['nip', 'bidang']);
+    $this->post('/admin/pegawai', employeePayload(['nip' => '198811042012021999', 'bidang' => 'Unit Karangan']))->assertSessionHasErrors('bidang');
+});
+
+it('offers the fixed bidang list in a dropdown and keeps a legacy unit selectable when editing', function () {
+    $this->get('/admin/pegawai/baru')->assertOk()->assertSee('Kepala Dinas')->assertSee('Sub Bagian Umum dan Kepegawaian')->assertDontSee('name="email"', false);
+
+    $employee = Employee::factory()->create(['bidang' => 'Bidang P2P']);
+    $this->get("/admin/pegawai/{$employee->id}")->assertSee('Bidang P2P');
+    $this->put("/admin/pegawai/{$employee->id}", employeePayload(['nip' => $employee->nip, 'bidang' => 'Bidang P2P']))->assertSessionHasNoErrors();
 });
 
 it('updates an employee, toggling active through the form checkbox', function () {

@@ -74,15 +74,6 @@
                 Tidak ada kendaraan yang cocok. <a href="{{ route('admin.vehicles.index') }}" class="text-navy hover:underline">Hapus filter</a>
             </p>
         @endforelse
-
-        {{-- Tile "Tambah Slot Baru": shown after the last card --}}
-        @unless ($vehicles->hasMorePages())
-            <a href="{{ route('admin.vehicles.create') }}" class="flex min-h-[16rem] flex-col items-center justify-center rounded-xl border-2 border-dashed border-outline-variant bg-surface-container p-8 text-center transition-colors hover:bg-surface-container-high">
-                <span class="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-surface-variant text-outline"><span class="material-symbols-outlined text-[28px]">add</span></span>
-                <span class="text-label-md text-on-surface">Tambah Slot Baru</span>
-                <span class="mt-2 max-w-[14rem] text-body-sm text-outline">Input data kendaraan baru ke dalam sistem armada.</span>
-            </a>
-        @endunless
     </div>
 
     {{-- Legenda jumlah per status + pager --}}

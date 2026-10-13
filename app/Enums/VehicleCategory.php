@@ -12,7 +12,7 @@ enum VehicleCategory: string
     public function label(): string
     {
         return match ($this) {
-            self::GawatDarurat => 'Gawat Darurat',
+            self::GawatDarurat => 'Fungsional',
             self::Jabatan => 'Jabatan',
             self::Operasional => 'Operasional',
         };
@@ -22,7 +22,7 @@ enum VehicleCategory: string
     public function pillLabel(): string
     {
         return match ($this) {
-            self::GawatDarurat => 'Kendaraan Gawat Darurat',
+            self::GawatDarurat => 'Kendaraan Fungsional',
             self::Jabatan => 'Kendaraan Dinas Jabatan',
             self::Operasional => 'Kendaraan Operasional',
         };
